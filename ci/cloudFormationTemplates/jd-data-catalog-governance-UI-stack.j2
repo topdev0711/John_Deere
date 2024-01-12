@@ -1,0 +1,226 @@
+Description: infra, UI, and REST api's for EDL Data Catalog
+Parameters:
+  DeereNetworkSSH:
+    Default: "{{DeereNetworkSSH}}"
+    ConstraintDescription: ''
+    Type: String
+    Description: Deere SSH security group
+  PrivateSubnets:
+    Default: "{{PrivateSubnets}}"
+    ConstraintDescription: ''
+    Type: String
+    Description: Subnet Ids for PrivateSubnets
+  PublicSubnets:
+    Default: "{{PublicSubnets}}"
+    ConstraintDescription: ''
+    Type: String
+    Description: Subnet Ids for PublicSubnets
+  Vpc:
+    Default: "{{VpcId}}"
+    ConstraintDescription: ''
+    Type: String
+    Description: VPC Id
+Resources:
+  {{ApplicationName}}1:
+    Type: "AWS::ElasticBeanstalk::Application"
+    Properties:
+        ApplicationName: {{ApplicationName}}1
+        ResourceLifecycleConfig:
+            ServiceRole: arn:aws:iam::{{account}}:role/aws-elasticbeanstalk-service-role
+            VersionLifecycleConfig:
+                MaxCountRule:
+                    DeleteSourceFromS3: true
+                    Enabled: true
+                    MaxCount: 4
+                MaxAgeRule:
+                    Enabled: false
+                    MaxAgeInDays: 180
+                    DeleteSourceFromS3: false
+    Metadata:
+      version: 1
+
+  edgGovernanceCenterTemplate1:
+    Type: "AWS::ElasticBeanstalk::ConfigurationTemplate"
+    Properties:
+        ApplicationName:
+          Ref: {{ApplicationName}}1
+        SolutionStackName: 64bit Amazon Linux 2 v5.4.7 running Node.js 14
+        OptionSettings:
+          - Namespace: aws:elasticbeanstalk:cloudwatch:logs
+            OptionName: StreamLogs
+            Value: true
+          - Namespace: aws:elasticbeanstalk:cloudwatch:logs
+            OptionName: DeleteOnTerminate
+            Value: false
+          - Namespace: aws:autoscaling:asg
+            OptionName: MinSize
+            Value: 1
+          - Namespace: aws:autoscaling:asg
+            OptionName: MaxSize
+            Value: 1
+          - Namespace: aws:elasticbeanstalk:environment
+            OptionName: EnvironmentType
+            Value: LoadBalanced
+          - Namespace: aws:elasticbeanstalk:command
+            OptionName: DeploymentPolicy
+            Value: Rolling
+          - Namespace: aws:elasticbeanstalk:command
+            OptionName: BatchSizeType
+            Value: Percentage
+          - Namespace: aws:elasticbeanstalk:command
+            OptionName: BatchSize
+            Value: 50
+          - Namespace: aws:ec2:vpc
+            OptionName: VPCId
+            Value:
+              Ref: Vpc
+          - Namespace: aws:ec2:vpc
+            OptionName: Subnets
+            Value:
+              Ref: PrivateSubnets
+          - Namespace: aws:ec2:vpc
+            OptionName: ELBScheme
+            Value: external
+          - Namespace: aws:ec2:vpc
+            OptionName: AssociatePublicIpAddress
+            Value: 'false'
+          - Namespace: aws:ec2:vpc
+            OptionName: ELBSubnets
+            Value:
+              Ref: PublicSubnets
+          - Namespace: aws:autoscaling:launchconfiguration
+            OptionName: InstanceType
+            Value: "{{EC2InstanceType}}"
+          - Namespace: aws:autoscaling:launchconfiguration
+            OptionName: SecurityGroups
+            Value:
+              Ref: DeereNetworkSSH
+          - Namespace: aws:autoscaling:launchconfiguration
+            OptionName: RootVolumeType
+            Value: gp2
+          - Namespace: aws:autoscaling:launchconfiguration
+            OptionName: RootVolumeSize
+            Value: 10
+          - Namespace: aws:elasticbeanstalk:application
+            OptionName: Application Healthcheck URL
+            Value: HTTP:80/api/health
+          - Namespace: aws:elasticbeanstalk:healthreporting:system
+            OptionName: SystemType
+            Value: enhanced
+          - Namespace: aws:elb:policies
+            OptionName: ConnectionSettingIdleTimeout
+            Value: 600
+          - Namespace: aws:elb:loadbalancer
+            OptionName: CrossZone
+            Value: "true"
+          - Namespace: aws:elb:policies
+            OptionName: LoadBalancerPorts
+            Value: "80,443"
+          - Namespace: aws:autoscaling:launchconfiguration
+            OptionName: IamInstanceProfile
+            Value: arn:aws:iam::{{account}}:instance-profile/enterprise-data-governance/data-catalog-app-role
+          - Namespace: aws:elb:listener:80
+            OptionName: ListenerProtocol
+            Value: "HTTP"
+          - Namespace: aws:elb:listener:80
+            OptionName: InstancePort
+            Value: "80"
+          - Namespace: aws:elb:listener:80
+            OptionName: InstanceProtocol
+            Value: "HTTP"
+          - Namespace: aws:elb:listener:80
+            OptionName: ListenerEnabled
+            Value: "true"
+          - Namespace: aws:elb:listener:443
+            OptionName: ListenerProtocol
+            Value: "HTTPS"
+          - Namespace: aws:elb:listener:443
+            OptionName: InstancePort
+            Value: "80"
+          - Namespace: aws:elb:listener:443
+            OptionName: InstanceProtocol
+            Value: "HTTP"
+          - Namespace: aws:elb:listener:443
+            OptionName: ListenerEnabled
+            Value: "true"
+          - Namespace: aws:elb:listener:443
+            OptionName: SSLCertificateId
+            Value: arn:aws:acm:{{region}}:{{account}}:certificate/{{certificateID}}
+          - Namespace: aws:elasticbeanstalk:application:environment
+            OptionName: region
+            Value: "{{region}}"
+          - Namespace: aws:elasticbeanstalk:application:environment
+            OptionName: account
+            Value: "{{account}}"
+          - Namespace: aws:elasticbeanstalk:application:environment
+            OptionName: NODE_ENV
+            Value: "{{node_env}}"
+          - Namespace: aws:elasticbeanstalk:application:environment
+            OptionName: APP_ENV
+            Value: "{{env}}"
+          - Namespace: aws:elasticbeanstalk:application:environment
+            OptionName: LAKERS
+            Value: "true"
+          - Namespace:  aws:elasticbeanstalk:application:environment
+            OptionName:  PORT
+            Value: "8080"
+          - Namespace:  aws:elasticbeanstalk:application:environment
+            OptionName:  BASE_URL
+            Value: "https://{{BaseURL}}"
+          - Namespace: aws:autoscaling:trigger
+            OptionName: MeasureName
+            Value: CPUUtilization
+          - Namespace: aws:autoscaling:trigger
+            OptionName: LowerThreshold
+            Value: 30
+          - Namespace: aws:autoscaling:trigger
+            OptionName: UpperThreshold
+            Value: 70
+          - Namespace: aws:autoscaling:trigger
+            OptionName: Unit
+            Value: Percent
+          - Namespace: aws:autoscaling:trigger
+            OptionName: BreachDuration
+            Value: 3
+          - Namespace: aws:autoscaling:trigger
+            OptionName: LowerBreachScaleIncrement
+            Value: -1
+          - Namespace: aws:autoscaling:trigger
+            OptionName: UpperBreachScaleIncrement
+            Value: 1
+          - Namespace: aws:autoscaling:trigger
+            OptionName: Statistic
+            Value: Average
+          - Namespace: aws:autoscaling:trigger
+            OptionName: Period
+            Value: 5
+  {{ApplicationName}}Environment1:
+    Type: AWS::ElasticBeanstalk::Environment
+    Properties:
+      EnvironmentName: {{ApplicationName}}-{{env}}-lakers
+      ApplicationName:
+        Ref: {{ApplicationName}}1
+      Description: Enterprise Data Governance Center
+      TemplateName:
+        Ref: edgGovernanceCenterTemplate1
+      Tier:
+        Version: '1.0'
+        Type: Standard
+        Name: WebServer
+      Tags:
+        - Value: "{{env}}:edg:governanceCenter"
+          Key: functionalArea
+        - Key: component
+          Value: {{ deereTaggingComponent }}
+  lakersGovernanceCenterRoute53:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: "{{HostedZoneId}}"
+      ResourceRecords:
+        - Fn::GetAtt:
+          - {{ApplicationName}}Environment1
+          - EndpointURL
+      Type: CNAME
+      Name: "{{URLPrefix}}.{{URLSuffix}}"
+      TTL: '900'
+    DependsOn: {{ApplicationName}}Environment1

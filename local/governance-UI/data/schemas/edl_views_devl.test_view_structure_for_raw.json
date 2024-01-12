@@ -1,0 +1,21 @@
+{
+  "id": "edl_views_devl.test_view_structure_for_raw",
+  "name": "edl_views_devl.test_view_structure_for_raw",
+  "isDynamic": true,
+  "version": "0",
+  "partitionedBy": [],
+  "testing": true,
+  "discovered": "2019-11-12T02:56:10.710Z",
+  "description": "edl_views_devl.test_view_structure_for_raw description",
+  "documentation": "edl_views_devl.test_view_structure_for_raw documentation",
+  "fields": [
+    {
+      "name": "field1",
+      "datatype": "int",
+      "nullable": true,
+      "attribute": "None",
+      "description": "edl_views_devl.test_view_structure_for_raw field description"
+    }
+  ],
+  "datasetId": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+}

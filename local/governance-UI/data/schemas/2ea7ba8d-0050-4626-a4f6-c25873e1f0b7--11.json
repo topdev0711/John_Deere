@@ -1,0 +1,96 @@
+{
+  "id": "2ea7ba8d-0050-4626-a4f6-c25873e1f0b7--11",
+  "name": "eats.tableau_customized_views",
+  "version": "0.0.2",
+  "description": "Metadata about custom views on Tableau Server",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "customized_view_id",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "env",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "loc",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "owner_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "created_ts",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "hidden",
+      "attribute": "None",
+      "datatype": "boolean",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "public",
+      "attribute": "None",
+      "datatype": "boolean",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "base_view_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "change_size_in_bytes",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "load_time",
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "del_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.eats_tableau_customized_views"
+}

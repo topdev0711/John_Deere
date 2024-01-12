@@ -1,0 +1,82 @@
+{
+  "id": "e8a968dd-a39e-327f-88fe-2cb6ae97efc4--9",
+  "name": "Databricks Instances",
+  "version": "1.0.0",
+  "description": "None",
+  "documentation": "None",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "category",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "description",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "instance_type",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "is_deprecated",
+      "attribute": "None",
+      "datatype": "boolean",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "is_io_cache_enabled",
+      "attribute": "None",
+      "datatype": "boolean",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "memory_mb",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "num_cores",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "num_gpus",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "dbus_per_hour",
+      "attribute": "None",
+      "datatype": "double",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "extract_time",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.core.databricks.Instances"
+}

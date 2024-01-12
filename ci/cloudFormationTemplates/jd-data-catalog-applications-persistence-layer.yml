@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Persistence layer for enterprise data governance center applications
+Resources:
+  applicationsPersistence:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+      KeySchema:
+        -
+          AttributeName: "applicationName"
+          KeyType: "HASH"
+      AttributeDefinitions:
+        -
+          AttributeName: "applicationName"
+          AttributeType: "S"
+      BillingMode: PAY_PER_REQUEST
+      TableName: "jd-data-catalog-applications"
+      SSESpecification:
+          SSEEnabled: true
+      Tags:
+        -
+          Key: Name
+          Value: "enterprise-data-governance-center-applicationsPersistence"
+        -
+          Key: component
+          Value: "enterprise-data-governance-center"
+      StreamSpecification:
+        StreamViewType: NEW_AND_OLD_IMAGES

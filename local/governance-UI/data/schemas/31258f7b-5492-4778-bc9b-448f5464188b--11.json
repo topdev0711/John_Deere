@@ -1,0 +1,47 @@
+{
+  "id": "31258f7b-5492-4778-bc9b-448f5464188b--11",
+  "name": "eats.rstudio_connect_usage",
+  "version": "0.0.3",
+  "description": "User interactions with content on RStudio Connect",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "content_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "env",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "loc",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "access_start_ts",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "access_end_ts",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": true
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.eats_rstudio_connect_usage"
+}

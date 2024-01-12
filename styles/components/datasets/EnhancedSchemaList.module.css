@@ -1,0 +1,65 @@
+.listGroup {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.enhancedSchemaListButton {
+    background-color: 'white';
+    border: 'none';
+    display: 'inline-block';
+    border-color: 'white';
+}
+
+.toogleButtonGroup {
+    height: 30px;
+}
+
+.schemaText {
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    white-space: nowrap;
+}
+
+.schemaSearchBarRow {
+    padding: 16px;
+    height: 100%;
+    line-height: 24px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.schemaSearchBar {
+    padding: 0px 0px 0px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex: 10
+}
+
+.schemaSortButton {
+    padding: 0px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.schemaListCol {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.schemaListName {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1B1B1B;
+}
+
+.schemaListVersion {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+}

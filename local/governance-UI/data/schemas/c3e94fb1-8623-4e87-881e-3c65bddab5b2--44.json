@@ -1,0 +1,103 @@
+{
+  "id": "c3e94fb1-8623-4e87-881e-3c65bddab5b2--44",
+  "name": "ISG_Tractors_Test",
+  "version": "1.0.0",
+  "description": "ISG_Tractors_Test",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "ID",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "NATIVE_PIN",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "TEST_TYPE",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "BUILD",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "TIER_LEVEL",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "TEST_SITE",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "MODEL_YEAR",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "TEST_START_DATE",
+      "attribute": "None",
+      "datatype": "date",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "TEST_END_DATE",
+      "attribute": "None",
+      "datatype": "date",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "PROJECT_NUMBER",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "PROJECT_NAME",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "Extract_Time",
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "Delete_Indicator",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.isg_tractors_test"
+}

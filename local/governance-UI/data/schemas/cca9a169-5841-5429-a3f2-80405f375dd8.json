@@ -1,0 +1,58 @@
+{
+  "id": "cca9a169-5841-5429-a3f2-80405f375dd8",
+  "name": "d68d46ad_6a10_420c_8f1b_6c9ba4116eb2",
+  "version": "1",
+  "discovered": "2020-09-26T18:01:21.000Z",
+  "testing": true,
+  "partitionedBy": [],
+  "documentation": "None",
+  "description": "Discovered schema",
+  "glueTables": [
+    {
+      "Name": "d68d46ad_6a10_420c_8f1b_6c9ba4116eb2",
+      "DatabaseName": "devl_raw_asgardian_raw_dataset",
+      "Owner": "owner",
+      "CreateTime": "2020-09-26T18:01:21.000Z",
+      "UpdateTime": "2020-09-26T18:01:21.000Z",
+      "LastAccessTime": "2020-09-26T18:01:21.000Z",
+      "Retention": 0,
+      "StorageDescriptor": {
+        "Location": "s3://jd-us01-edl-devl-raw-a4e4acfa925044d1f4a36b0eb5e20125/Root/New/d68d46ad-6a10-420c-8f1b-6c9ba4116eb2",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": {
+          "Parameters": {}
+        },
+        "BucketColumns": [],
+        "SortColumns": [],
+        "StoredAsSubDirectories": false
+      },
+      "TableType": "EXTERNAL_TABLE",
+      "Parameters": {
+        "CrawlerSchemaDeserializerVersion": "1.0",
+        "CrawlerSchemaSerializerVersion": "1.0",
+        "UPDATED_BY_CRAWLER": "devl_raw_asgardian_raw_dataset",
+        "averageRecordSize": "2",
+        "classification": "ion",
+        "compressionType": "none",
+        "exclusions": "[\"s3://jd-us01-edl-devl-raw-a4e4acfa925044d1f4a36b0eb5e20125/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-a4e4acfa925044d1f4a36b0eb5e20125/[_.*]*\",\"s3://jd-us01-edl-devl-raw-a4e4acfa925044d1f4a36b0eb5e20125/[_.*]**\",\"s3://jd-us01-edl-devl-raw-a4e4acfa925044d1f4a36b0eb5e20125/**/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-a4e4acfa925044d1f4a36b0eb5e20125/**/[_.*]*\",\"s3://jd-us01-edl-devl-raw-a4e4acfa925044d1f4a36b0eb5e20125/**/[_.*]**\"]",
+        "recordCount": "2",
+        "sizeKey": "5",
+        "typeOfData": "file"
+      },
+      "CreatedBy": "arn:aws:sts::078228365593:assumed-role/edl-glue-role/AWS-Crawler",
+      "IsRegisteredWithLakeFormation": false,
+      "CatalogId": "078228365593"
+    }
+  ],
+  "fields": [
+    {
+      "name": "choice",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    }
+  ],
+  "datasetId": "ab490705-932f-470b-a434-e98fed64dfe9"
+}

@@ -1,0 +1,27 @@
+{
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "tableName",
+      "AttributeType": "S"
+    },
+    {
+      "AttributeName": "version",
+      "AttributeType": "N"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "tableName",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "version",
+      "KeyType": "RANGE"
+    }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 5,
+    "WriteCapacityUnits": 5
+  },
+  "TableName": "edlDatasetMetricsVersioned"
+}

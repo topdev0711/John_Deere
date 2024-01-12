@@ -1,0 +1,82 @@
+[
+  {
+    "id": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "name": "Channel",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL"
+  },
+  {
+    "id": "41f48207-a2ac-4be9-9db9-32f270bd8324",
+    "name": "Customer",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER"
+  },
+  {
+    "id": "fea98a5e-a74d-4723-890d-fce912497b8b",
+    "name": "Customer Production and Machine",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PRODUCTION_AND_MACHINE"
+  },
+  {
+    "id": "184641cb-776c-425d-93de-5a739421d63a",
+    "name": "Engineering",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING"
+  },
+  {
+    "id": "9ad1ea58-b5f0-4c6e-ac6a-f45f56a431f1",
+    "name": "Environmental and Safety",
+    "approver": "G90_COLLIBRA_APPROVER_HEALTH_SAFETY"
+  },
+  {
+    "id": "5da8a31f-6c9b-41e9-879f-6948e65e2430",
+    "name": "Finance",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCE"
+  },
+  {
+    "id": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "name": "Financial Services",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES"
+  },
+  {
+    "id": "df367411-effd-4c26-87bd-b71548b88a79",
+    "name": "Legal",
+    "approver": "G90_COLLIBRA_APPROVER_LEGAL"
+  },
+  {
+    "id": "fd60bc2c-0cdc-4aae-941e-0245e84a76db",
+    "name": "Human Resources Labor Relations and Health",
+    "approver": "G90_COLLIBRA_APPROVER_HUMAN_RESOURCE"
+  },
+  {
+    "id": "40580770-1a17-4210-950c-0c52e75641a5",
+    "name": "Manufacturing",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "88888c4d-2ab6-4c76-a8dd-83af2cbb6dc7",
+    "name": "Production Systems",
+    "approver": "G90_COLLIBRA_APPROVER_PRODUCTION_SYSTEMS"
+  },
+  {
+    "id": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "name": "Parts",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS"
+  },
+  {
+    "id": "8eeeabc3-f0ad-444f-89ad-71cb2c7c9208",
+    "name": "Quality",
+    "approver": "G90_COLLIBRA_APPROVER_QUALITY"
+  },
+  {
+    "id": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "name": "Sales and Marketing",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING"
+  },
+  {
+    "id": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "name": "Supplier",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+    "name": "Information Technology",
+    "approver": "G90_COLLIBRA_APPROVER_SYSTEMS"
+  }
+]

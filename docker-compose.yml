@@ -1,0 +1,89 @@
+version: '3.8'
+
+services:
+  mongo:
+    container_name: mongo
+    image: mongo:4.0
+    command: --serviceExecutor adaptive
+  redis:
+    image: "bitnami/redis:latest"
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+  opensearch:
+    container_name: opensearch
+    image: opensearchproject/opensearch:1.1.0
+    environment:
+      - node.name=opensearch
+      - cluster.name=opensearch-docker-cluster
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "DISABLE_SECURITY_PLUGIN=true"
+    ports:
+      - "9200:9200"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - data01:/usr/share/opensearch/data
+  localstack:
+    image: localstack/localstack:1.4.0
+    container_name: gov-ui-localstack
+    environment:
+      SERVICES: dynamodb,iam,lambda,s3,sns,sqs
+      EDGE_PORT: 4566
+      DEBUG: 1
+      DOCKER_HOST: unix:///var/run/docker.sock
+      LAMBDA_EXECUTOR: docker-reuse
+      OKTA_SECRET: ${OKTA_SECRET}
+      EDL_OKTA_SECRET: ${EDL_OKTA_SECRET}
+      LAMBDA_DOCKER_NETWORK: governance-ui_default
+    ports:
+      - "127.0.0.1:4566:4566"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./local/governance-UI/init-aws.sh:/etc/localstack/init/ready.d/init-aws.sh"
+      - "./local/governance-UI:/local/governance-UI"
+      - "./local/governance-UI/data:/usr/test-data"
+    links:
+      - opensearch
+  app:
+    image: node:14.17.4
+    depends_on:
+      - redis
+      - localstack
+      - opensearch
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - 3000:3000
+    command: bash -c "sleep 10 && npm run dev"
+    environment:
+      DD_TRACE_AGENT_URL: "http://host.docker.internal:8126"
+      DD_ENV: "Local"
+      DD_PROFILING_ENABLED: "true"
+      ONECLOUD_OKTA_SECRET: '${ONECLOUD_OKTA_SECRET}'
+      OKTA_SECRET: '${OKTA_SECRET}'
+      FT_OKTA_SECRET: '${FT_OKTA_SECRET}'
+      LDAP_USERNAME: '${LDAP_USERNAME}'
+      LDAP_PASSWORD: '${LDAP_PASSWORD}'
+      COOKIE_SALT: '${COOKIE_SALT}'
+      API_EXTERNAL_TOKEN: '${API_EXTERNAL_TOKEN}'
+      OKTA_TOKEN: '${OKTA_TOKEN}'
+      LOAD_LOCAL_DATA: '${LOAD_LOCAL_DATA}'
+      DATABRICKS_TOKEN: '${DATABRICKS_TOKEN}'
+      AWS_DEFAULT_REGION: us-east-1
+      AWS_ACCESS_KEY_ID: foo
+      AWS_SECRET_ACCESS_KEY: bar
+      NODE_ENV: development
+      APP_ENV: local
+      IS_DOCKER: "true"
+      OKTA_API_PRIVATE_KEY: ${OKTA_API_PRIVATE_KEY}
+    links:
+      - opensearch
+
+volumes:
+  data01:
+    driver: local

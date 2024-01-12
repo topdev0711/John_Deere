@@ -1,0 +1,106 @@
+{
+  "id": "aadabab8-d938-3399-abdf-0a78d578dfdc--9",
+  "name": "Databricks Usage",
+  "version": "1.0.6",
+  "description": "None",
+  "documentation": "None",
+  "partitionedBy": [
+    "year",
+    "month"
+  ],
+  "testing": true,
+  "fields": [
+    {
+      "name": "start_time",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "end_time",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "total_hours",
+      "attribute": "None",
+      "datatype": "double",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "cluster_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "cluster_name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "node_type",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "created_by",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "workload_type",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "year",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "month",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "clusterCustomTags",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "dbus",
+      "attribute": "None",
+      "datatype": "double",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "workspace_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.core.databricks.Usage"
+}

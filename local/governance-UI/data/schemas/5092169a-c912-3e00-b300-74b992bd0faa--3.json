@@ -1,0 +1,54 @@
+{
+  "id": "5092169a-c912-3e00-b300-74b992bd0faa--3",
+  "name": "Channel Master Acct Agrmt",
+  "version": "1.0.1",
+  "description": "None",
+  "documentation": "None",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "acct_key",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "acct_id",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "agrmt_key",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "agreement_cd",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "delete_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "edl_ingest_time",
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "None",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.channel_master_acct_agrmt"
+}

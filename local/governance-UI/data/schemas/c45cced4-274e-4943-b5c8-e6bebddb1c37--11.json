@@ -1,0 +1,33 @@
+{
+  "id": "c45cced4-274e-4943-b5c8-e6bebddb1c37--11",
+  "name": "eats.action_email",
+  "version": "0.0.6",
+  "description": "Records emails sent by Analytics Tools team automation",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "to",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "subject",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "time",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.eats_action_email"
+}

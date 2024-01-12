@@ -1,0 +1,59 @@
+#EnhancedSchemaFieldNames .table-striped tbody tr:nth-of-type(2n) {
+    background-color: #fff;
+}
+
+#EnhancedSchemaFieldNames .table-hover tbody tr:hover{
+    background-color:#ebf2eb;
+}
+
+#EnhancedSchemaFieldNames table thead th {
+    vertical-align: middle;
+}
+
+#EnhancedSchemaFieldNames .fieldNamesColumnHeaderSection {
+    width: fit-content;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#EnhancedSchemaFieldNames .fieldNamesColumnHeaderSort {
+    display: table-cell;
+    vertical-align: middle;
+    width: 24px;
+    text-align: center;
+}
+
+.tooltip-dq {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-dq .tooltiptext-dq {
+    visibility: hidden;
+    width: 194px;
+    height: 40px;
+    background-color: #333333;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 4px 0px 4px 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -100px;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.tooltip-dq .distinctness{
+    width: 155px;
+}
+  
+.tooltip-dq:hover .tooltiptext-dq {
+    visibility: visible;
+}

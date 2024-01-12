@@ -1,0 +1,11 @@
+.text-muted small { marginTop: '8px' }
+.d-md-inline {
+    color: #777;
+    paddingRight: '15px';
+    paddingBottom: '5px';
+    display: block;
+}
+
+.button {
+    padding: 0; textAlign: 'left'
+}

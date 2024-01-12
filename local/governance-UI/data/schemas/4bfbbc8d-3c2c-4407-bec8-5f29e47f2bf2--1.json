@@ -1,0 +1,110 @@
+{
+  "id": "4bfbbc8d-3c2c-4407-bec8-5f29e47f2bf2--1",
+  "name": "aom_metrics",
+  "version": "1.0.0",
+  "description": "Agile Operating Model Metrics",
+  "environmentName": "com.deere.enterprise.datalake.enhance.diad_metrics.aom_metrics",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "team",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "PSI",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "sprint",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "start_date",
+      "attribute": "None",
+      "datatype": "date",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "end_date",
+      "attribute": "None",
+      "datatype": "date",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "lead_time",
+      "attribute": "None",
+      "datatype": "double",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "cycle_time",
+      "attribute": "None",
+      "datatype": "double",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "deployment_frequency",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "features_delivered",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "CFR",
+      "attribute": "None",
+      "datatype": "double",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "MTTR",
+      "attribute": "None",
+      "datatype": "double",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "metadata",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "ingest_ts",
+      "attribute": "extract time",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "del_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "bd719376-71b2-5d06-bcbc-26180df22431",
+  "name": "metadata",
+  "version": "1",
+  "discovered": "2020-09-08T17:24:39.000Z",
+  "testing": true,
+  "partitionedBy": [],
+  "documentation": "None",
+  "description": "Discovered schema",
+  "glueTables": [
+    {
+      "Name": "metadata",
+      "DatabaseName": "devl_raw_edl_auditlogs_devl",
+      "Owner": "owner",
+      "CreateTime": "2020-09-08T17:24:39.000Z",
+      "UpdateTime": "2020-09-08T17:24:39.000Z",
+      "LastAccessTime": "2020-09-08T17:24:38.000Z",
+      "Retention": 0,
+      "StorageDescriptor": {
+        "Location": "s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/checkpoint/metadata",
+        "InputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+        "OutputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": {
+          "SerializationLibrary": "org.openx.data.jsonserde.JsonSerDe",
+          "Parameters": {
+            "paths": "id"
+          }
+        },
+        "BucketColumns": [],
+        "SortColumns": [],
+        "StoredAsSubDirectories": false
+      },
+      "TableType": "EXTERNAL_TABLE",
+      "Parameters": {
+        "CrawlerSchemaDeserializerVersion": "1.0",
+        "CrawlerSchemaSerializerVersion": "1.0",
+        "UPDATED_BY_CRAWLER": "devl_raw_edl_auditlogs_devl",
+        "averageRecordSize": "45",
+        "classification": "json",
+        "compressionType": "none",
+        "exclusions": "[\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/[_.*]*\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/[_.*]**\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/[_.*]*\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/[_.*]**\"]",
+        "recordCount": "1",
+        "sizeKey": "45",
+        "typeOfData": "file"
+      },
+      "CreatedBy": "arn:aws:sts::078228365593:assumed-role/edl-glue-role/AWS-Crawler",
+      "IsRegisteredWithLakeFormation": false,
+      "CatalogId": "078228365593"
+    }
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    }
+  ],
+  "datasetId": "fc0fa026-31f4-451d-8614-49a5f3f1f13e"
+}

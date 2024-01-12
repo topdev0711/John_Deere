@@ -1,0 +1,379 @@
+{
+  "metrics": [
+    {
+      "PutRequest": {
+        "Item": {
+          "date": {
+            "S": "12/2019"
+          },
+          "year": {
+            "S": "2019"
+          },
+          "month": {
+            "S": "12"
+          },
+          "application": {
+            "S": "enterprise-data-lake"
+          },
+          "interactiveDbus": {
+            "S": "4"
+          },
+          "automatedDbus": {
+            "S": "3"
+          },
+          "interactiveCost": {
+            "S": "0.10"
+          },
+          "automatedCost": {
+            "S": "1.02432"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "date": {
+            "S": "1/2020"
+          },
+          "year": {
+            "S": "2020"
+          },
+          "month": {
+            "S": "2"
+          },
+          "application": {
+            "S": "enterprise-data-lake"
+          },
+          "interactiveDbus": {
+            "S": "4"
+          },
+          "automatedDbus": {
+            "S": "3"
+          },
+          "interactiveCost": {
+            "S": "0.10"
+          },
+          "automatedCost": {
+            "S": "1.02432"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "date": {
+            "S": "2/2020"
+          },
+          "application": {
+            "S": "enterprise-data-lake"
+          },
+          "interactiveDbus": {
+            "S": "2"
+          },
+          "automatedDbus": {
+            "S": "1"
+          },
+          "interactiveCost": {
+            "S": "1.00"
+          },
+          "automatedCost": {
+            "S": "0.013"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "date": {
+            "S": "6/2020"
+          },
+          "year": {
+            "S": "2020"
+          },
+          "month": {
+            "S": "6"
+          },
+          "application": {
+            "S": "enterprise-data-lake"
+          },
+          "interactiveDbus": {
+            "S": "10"
+          },
+          "automatedDbus": {
+            "S": "9"
+          },
+          "interactiveCost": {
+            "S": "0.05"
+          },
+          "automatedCost": {
+            "S": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "date": {
+            "S": "3/2020"
+          },
+          "year": {
+            "S": "2020"
+          },
+          "month": {
+            "S": "3"
+          },
+          "application": {
+            "S": "enterprise-data-lake"
+          },
+          "interactiveDbus": {
+            "S": "4"
+          },
+          "interactiveCost": {
+            "S": "0.10"
+          },
+          "automatedCost": {
+            "S": "1.013"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "date": {
+            "S": "4/2020"
+          },
+          "year": {
+            "S": "2020"
+          },
+          "month": {
+            "S": "4"
+          },
+          "application": {
+            "S": "enterprise-data-lake"
+          },
+          "interactiveDbus": {
+            "S": "2"
+          },
+          "automatedDbus": {
+            "S": "1"
+          },
+          "interactiveCost": {
+            "S": "1.00"
+          },
+          "automatedCost": {
+            "S": "0.013"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "date": {
+            "S": "5/2020"
+          },
+          "year": {
+            "S": "2020"
+          },
+          "month": {
+            "S": "5"
+          },
+          "application": {
+            "S": "enterprise-data-lake"
+          },
+          "interactiveDbus": {
+            "S": "1"
+          },
+          "automatedDbus": {
+            "S": "1"
+          },
+          "interactiveCost": {
+            "S": "0.05"
+          },
+          "automatedCost": {
+            "S": "0.013"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "date": {
+            "S": "7/2020"
+          },
+          "year": {
+            "S": "2020"
+          },
+          "month": {
+            "S": "7"
+          },
+          "application": {
+            "S": "enterprise-data-lake"
+          },
+          "interactiveDbus": {
+            "S": "4"
+          },
+          "interactiveCost": {
+            "S": "0.10"
+          },
+          "automatedCost": {
+            "S": "1.013"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "date": {
+            "S": "8/2020"
+          },
+          "year": {
+            "S": "2020"
+          },
+          "month": {
+            "S": "8"
+          },
+          "application": {
+            "S": "enterprise-data-lake"
+          },
+          "interactiveDbus": {
+            "S": "2"
+          },
+          "automatedDbus": {
+            "S": "1"
+          },
+          "interactiveCost": {
+            "S": "1.00"
+          },
+          "automatedCost": {
+            "S": "0.013"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "date": {
+            "S": "9/2020"
+          },
+          "year": {
+            "S": "2020"
+          },
+          "month": {
+            "S": "9"
+          },
+          "application": {
+            "S": "enterprise-data-lake"
+          },
+          "interactiveDbus": {
+            "S": "1"
+          },
+          "automatedDbus": {
+            "S": "1"
+          },
+          "interactiveCost": {
+            "S": "0.05"
+          },
+          "automatedCost": {
+            "S": "0.013"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "date": {
+            "S": "10/2020"
+          },
+          "year": {
+            "S": "2020"
+          },
+          "month": {
+            "S": "10"
+          },
+          "application": {
+            "S": "enterprise-data-lake"
+          },
+          "interactiveDbus": {
+            "S": "4"
+          },
+          "interactiveCost": {
+            "S": "0.10"
+          },
+          "automatedCost": {
+            "S": "1.013"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "date": {
+            "S": "11/2020"
+          },
+          "year": {
+            "S": "2020"
+          },
+          "month": {
+            "S": "11"
+          },
+          "application": {
+            "S": "enterprise-data-lake"
+          },
+          "interactiveDbus": {
+            "S": "2"
+          },
+          "automatedDbus": {
+            "S": "1"
+          },
+          "interactiveCost": {
+            "S": "1.00"
+          },
+          "automatedCost": {
+            "S": "0.02432"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "date": {
+            "S": "12/2020"
+          },
+          "year": {
+            "S": "2020"
+          },
+          "month": {
+            "S": "12"
+          },
+          "application": {
+            "S": "enterprise-data-lake"
+          },
+          "interactiveDbus": {
+            "S": "1"
+          },
+          "automatedDbus": {
+            "S": "1"
+          },
+          "interactiveCost": {
+            "S": "0.05"
+          },
+          "automatedCost": {
+            "S": "0.02432"
+          }
+        }
+      }
+    }
+  ]
+}

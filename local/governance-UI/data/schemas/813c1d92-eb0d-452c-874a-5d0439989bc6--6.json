@@ -1,0 +1,26 @@
+{
+  "id": "813c1d92-eb0d-452c-874a-5d0439989bc6--6",
+  "name": "smoke_test_schema_for_monitor",
+  "version": "0.0.1",
+  "description": "DO NOT DELETE USED FOR MONITORING",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "id",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "name",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.smoke_test_schema_for_monitor"
+}

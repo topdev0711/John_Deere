@@ -1,0 +1,19 @@
+{
+  "id": "69dac44c-f373-479a-ab44-ef3d8d826f54--2",
+  "name": "schema validation",
+  "version": "0.0.1",
+  "description": "testing",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.schema_validation"
+}

@@ -1,0 +1,587 @@
+{
+  "id": "3b420ae2-9fb5-4b62-a9aa-4c29655be612--26",
+  "name": "Channel Master Acct Detail",
+  "version": "1.9.1",
+  "description": "Added URL column in this schema",
+  "documentation": "This dataset contains master dealer account basic information like account Id, Name, Address, contact details, MRU, COG, TOG, DOG etc. ",
+  "partitionedBy": [],
+  "updateFrequency": "Daily",
+  "testing": false,
+  "fields": [
+      {
+          "name": "mru",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Marketing Responsible Unit\te.g. 1000",
+          "nullable": true
+      },
+      {
+          "name": "acct_id",
+          "attribute": "id",
+          "datatype": "string",
+          "description": "Unique External Account ID\te.g. 010016",
+          "nullable": false
+      },
+      {
+          "name": "acct_key",
+          "attribute": "None",
+          "datatype": "int",
+          "description": "Unique Internal Account Key \t e.g. 372",
+          "nullable": true
+      },
+      {
+          "name": "start_dt",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Account Start Date\t e.g. 1963-09-19",
+          "nullable": true
+      },
+      {
+          "name": "end_dt",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Account End Date\te.g. 1996-06-02",
+          "nullable": true
+      },
+      {
+          "name": "busn_end_dt",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Business End Date\t e.g. 1996-04-03",
+          "nullable": true
+      },
+      {
+          "name": "acct_nm",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Account Name\te.g. ESCAMBIA FARM EQUIPMENT CO.",
+          "nullable": true
+      },
+      {
+          "name": "acct_lgl_nm",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Account Legal Name \te.g. Allen, Inc. of Centre",
+          "nullable": true
+      },
+      {
+          "name": "acct_typ_id",
+          "attribute": "None",
+          "datatype": "int",
+          "description": "Account Type ID\te.g. 90",
+          "nullable": true
+      },
+      {
+          "name": "acct_typ_nm",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Account Type Name\te.g. Retail Outlet - Owned",
+          "nullable": true
+      },
+      {
+          "name": "acct_class",
+          "attribute": "None",
+          "datatype": "int",
+          "description": "Account Class ID\te.g. 2",
+          "nullable": true
+      },
+      {
+          "name": "acct_category",
+          "attribute": "None",
+          "datatype": "int",
+          "description": "Account Category ID\te.g. 61",
+          "nullable": true
+      },
+      {
+          "name": "acct_category_nm",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Account Category Name \te.g. Dealer",
+          "nullable": true
+      },
+      {
+          "name": "sales_division",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Sales Division \te.g. 1",
+          "nullable": true
+      },
+      {
+          "name": "sales_territory",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Sales Territory\t      e.g. 6",
+          "nullable": true
+      },
+      {
+          "name": "sales_division_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Sales Division Description \te.g. DIVISION 1",
+          "nullable": true
+      },
+      {
+          "name": "sales_div_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Sales Division Manager RACF ID\te.g. AV12908",
+          "nullable": true
+      },
+      {
+          "name": "sales_territory_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Sales Territory Description\te.g. TERRITORY 1             ",
+          "nullable": true
+      },
+      {
+          "name": "sales_terr_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Sales Territory Manager RACF ID\te.g. ET38146",
+          "nullable": true
+      },
+      {
+          "name": "parts_division",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Parts Division\te.g. c",
+          "nullable": true
+      },
+      {
+          "name": "parts_territory",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Parts Territory  e.g.\t4",
+          "nullable": true
+      },
+      {
+          "name": "parts_division_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Parts Division Manager Name\te.g. Scott Hessel",
+          "nullable": true
+      },
+      {
+          "name": "parts_div_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Parts Division Manager RACF ID\te.g. SH12813",
+          "nullable": true
+      },
+      {
+          "name": "parts_territory_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Parts Territory Manager Name \te.g. Rusty Ward",
+          "nullable": true
+      },
+      {
+          "name": "parts_terr_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Parts Territory Manager RACF ID\te.g. RW62562",
+          "nullable": true
+      },
+      {
+          "name": "service_division",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Service Division \te.g. 8",
+          "nullable": true
+      },
+      {
+          "name": "service_territory",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Service Territory \te.g. A",
+          "nullable": true
+      },
+      {
+          "name": "serv_division_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Service Division Manager Name \te.g. Cyndee Smiley",
+          "nullable": true
+      },
+      {
+          "name": "serv_div_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Service Division Manager RACF ID\te.g. AV12908",
+          "nullable": true
+      },
+      {
+          "name": "serv_territory_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Service Territory Manager Name\te.g. Travis Joslin",
+          "nullable": true
+      },
+      {
+          "name": "serv_terr_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Service territory manager RACF ID \te.g. TJ59028",
+          "nullable": true
+      },
+      {
+          "name": "group1_lead",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Group 1 Lead (TOG)\te.g. 013966",
+          "nullable": true
+      },
+      {
+          "name": "group2_lead",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Group 2 Lead (COG)\te.g. 013966",
+          "nullable": true
+      },
+      {
+          "name": "group3_lead",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Group 3 Lead (DOG)\te.g. 010026",
+          "nullable": true
+      },
+      {
+          "name": "location_lead",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Group 5 Lead (location)\t e.g. 010026",
+          "nullable": true
+      },
+      {
+          "name": "group6_lead",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Group 6 Lead\t e.g. 013966",
+          "nullable": true
+      },
+      {
+          "name": "mktg_area_id",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Marketing Area ID\te.g. 010026",
+          "nullable": true
+      },
+      {
+          "name": "p_str_addr_1",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Physical Address Line 1 \t e.g. 1009 7TH STREET SOUTH",
+          "nullable": true
+      },
+      {
+          "name": "p_str_addr_2",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Physical Address Line 2 \t e.g. Al Ittihad Road, Diera",
+          "nullable": true
+      },
+      {
+          "name": "p_city",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Physical Address City \te.g. CLANTON",
+          "nullable": true
+      },
+      {
+          "name": "p_st_abbr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Physical Address State \te.g. AL",
+          "nullable": true
+      },
+      {
+          "name": "p_pstl_cd",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Physical Address Postal Code \te.g. 35046-1350",
+          "nullable": true
+      },
+      {
+          "name": "p_country",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Physical Address Country \te.g. US",
+          "nullable": true
+      },
+      {
+          "name": "f_str_addr_1",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Financial Address Line 1 \te.g. PO BOX 1350",
+          "nullable": true
+      },
+      {
+          "name": "f_str_addr_2",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Financial Address Line 2 \te.g. c/o Ed Allen",
+          "nullable": true
+      },
+      {
+          "name": "f_city",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Financial Address City \te.g. CLANTON",
+          "nullable": true
+      },
+      {
+          "name": "f_st_abbr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Financial Address State \te.g. AL",
+          "nullable": true
+      },
+      {
+          "name": "f_pstl_cd",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Financial Address Postal Code \te.g. 35046-1350",
+          "nullable": true
+      },
+      {
+          "name": "f_country",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Financial Address Country \te.g. US",
+          "nullable": true
+      },
+      {
+          "name": "m_str_addr_1",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Mailing Address Line 1 \te.g. PO BOX 1350",
+          "nullable": true
+      },
+      {
+          "name": "m_str_addr_2",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Mailing Address Line 2 \te.g. c/o Ed Allen",
+          "nullable": true
+      },
+      {
+          "name": "m_city",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Mailing Address City \te.g. Centre",
+          "nullable": true
+      },
+      {
+          "name": "m_st_abbr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Mailing Address State \te.g. AL",
+          "nullable": true
+      },
+      {
+          "name": "m_pstl_cd",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Mailing Address Postal Code \t e.g. 35960",
+          "nullable": true
+      },
+      {
+          "name": "m_country",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Mailing Address Country \te.g. US",
+          "nullable": true
+      },
+      {
+          "name": "business_phone",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Business Phone Number \te.g. 2569275544",
+          "nullable": true
+      },
+      {
+          "name": "mailing_phone",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Mailing Phone Number \te.g. 2569275544",
+          "nullable": true
+      },
+      {
+          "name": "financial_phone",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Financial Phone Number\te.g. 2569275544",
+          "nullable": true
+      },
+      {
+          "name": "customer_to_acct_email",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Customer to Account Email Address\te.g. JOHNDEERESALES@SOUTHERNAG.NET   ",
+          "nullable": true
+      },
+      {
+          "name": "deere_to_acct_email",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Deere to Account Email ID \te.g. jpaul@orientirrigation.com",
+          "nullable": true
+      },
+      {
+          "name": "acct_geo_gom_region_nm",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Account GOM Region Name \t e.g. Region 4",
+          "nullable": true
+      },
+      {
+          "name": "latitude",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Physical Location Latitude\te.g. 32.823898",
+          "nullable": true
+      },
+      {
+          "name": "longitude",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Physical Location Longitude\te.g. -86.618804",
+          "nullable": true
+      },
+      {
+          "name": "sales_ind",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Sales Retail Outlet Indicator \t  e.g. Yes ",
+          "nullable": true
+      },
+      {
+          "name": "parts_ind",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Parts Retail Outlet Indicator \te.g. Yes",
+          "nullable": true
+      },
+      {
+          "name": "service_ind",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Service Retail Outlet Indicator \te.g. Yes ",
+          "nullable": true
+      },
+      {
+          "name": "sales_region_cd",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Sales Region Code (US only)\t      e.g. 1",
+          "nullable": true
+      },
+      {
+          "name": "sales_region_nm",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Sales Region Name (US only)\te.g. Eastern U.S.",
+          "nullable": true
+      },
+      {
+          "name": "mru_sbu",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Strategic Business Unit (SBU)\te.g. A000",
+          "nullable": true
+      },
+      {
+          "name": "dlr_owner_no",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Dealer Ownership Number\te.g. 1630342872",
+          "nullable": true
+      },
+      {
+          "name": "laad_acct",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Location Administrative Account by Division \te.g. 010021",
+          "nullable": true
+      },
+      {
+          "name": "credit_division",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Credit Division\t  e.g. A",
+          "nullable": true
+      },
+      {
+          "name": "credit_territory",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Credit Territory\te.g. 1",
+          "nullable": true
+      },
+      {
+          "name": "credit_division_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Credit Division Manager Name\te.g. DIVISION 1",
+          "nullable": true
+      },
+      {
+          "name": "credit_div_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Credit Division Manager RACF ID\te.g. GT61965",
+          "nullable": true
+      },
+      {
+          "name": "credit_territory_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Credit Territory Manager Name\te.g. open",
+          "nullable": true
+      },
+      {
+          "name": "credit_terr_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Credit Territory Manager RACF ID\te.g. NB62028",
+          "nullable": true
+      },
+      {
+          "name": "locale_cd",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Locale Code \te.g. En_US",
+          "nullable": true
+      },
+      {
+          "name": "url",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "Dealer website url  e.g. http://americanimplement.com",
+          "nullable": true
+      },
+      {
+          "name": "serv_unit",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "JDIS DParts Servicing unit e.g. DY00",
+          "nullable": true
+      },
+      {
+          "name": "delete_ind",
+          "attribute": "delete indicator",
+          "datatype": "int",
+          "description": "Delete Indicator  \te.g. Default 0",
+          "nullable": false
+      },
+      {
+          "name": "edl_ingest_time",
+          "attribute": "extract time",
+          "datatype": "long",
+          "description": "EDL Ingestion Timestamp\te.g. 1617856215",
+          "nullable": false
+      }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.channel_master_acct_detail"
+}

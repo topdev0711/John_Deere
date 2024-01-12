@@ -1,0 +1,26 @@
+{
+  "id": "2d3e20e5-9d15-4982-89bf-17182c390b3c--5",
+  "name": "test-external-delete-existing-flow-schema",
+  "version": "1.0.0",
+  "description": "test-external-delete-existing-flow",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "unique id",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.test_external_delete_existing_flow_schema"
+}

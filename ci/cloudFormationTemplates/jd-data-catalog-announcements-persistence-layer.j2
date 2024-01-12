@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: persistence layer for enterprise data governance center announcements
+Resources:
+  announcementsPersistence:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+      KeySchema:
+        -
+          AttributeName: "title"
+          KeyType: "HASH"
+        -
+          AttributeName: "startAt"
+          KeyType: "RANGE"
+      AttributeDefinitions:
+        -
+          AttributeName: "title"
+          AttributeType: "S"
+
+        -
+          AttributeName: "startAt"
+          AttributeType: "S"
+      BillingMode: "PAY_PER_REQUEST"
+      ProvisionedThroughput:
+        ReadCapacityUnits: 0
+        WriteCapacityUnits: 0
+      TableName: {{ announcementsTable }}
+      SSESpecification:
+          SSEEnabled: true
+      Tags:
+        -
+          Key: Name
+          Value: {{ deereTaggingComponent }}-announcementsPersistence
+        -
+          Key: component
+          Value: {{ deereTaggingComponent }}
+      StreamSpecification:
+        StreamViewType: NEW_AND_OLD_IMAGES

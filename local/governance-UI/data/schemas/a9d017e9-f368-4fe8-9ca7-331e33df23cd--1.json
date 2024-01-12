@@ -1,0 +1,19 @@
+{
+  "id": "a9d017e9-f368-4fe8-9ca7-331e33df23cd--1",
+  "name": "madhutest",
+  "version": "8.9.9",
+  "description": "wqewqeqw",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "qwdqwd",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.madhutest"
+}

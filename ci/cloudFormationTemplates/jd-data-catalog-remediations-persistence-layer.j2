@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: persistence layer for enterprise data governance center remediations
+Resources:
+  remediationsPersistence:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+      KeySchema:
+        -
+          AttributeName: "name"
+          KeyType: "HASH" 
+        -
+          AttributeName: "createdAt"
+          KeyType: "RANGE"        
+      AttributeDefinitions:
+        -
+          AttributeName: "name"
+          AttributeType: "S"        
+        -
+          AttributeName: "createdAt"
+          AttributeType: "S"
+      BillingMode: PAY_PER_REQUEST
+      TableName: {{ remediationsTable }}
+      SSESpecification:
+          SSEEnabled: true
+      Tags:
+        -
+          Key: Name
+          Value: {{ deereTaggingComponent }}-remediationsPersistence
+        -
+          Key: component
+          Value: {{ deereTaggingComponent }}
+      StreamSpecification:
+        StreamViewType: NEW_AND_OLD_IMAGES

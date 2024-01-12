@@ -1,0 +1,81 @@
+{
+  "id": "4b8acc50-6f2b-4ed2-9d95-83f29c3927f1--5",
+  "name": "Asgardians Dataset",
+  "version": "0.0.2",
+  "description": "People of Asgard",
+  "documentation": "",
+  "partitionedBy": [
+    "ExtractTime",
+    "Alignment"
+  ],
+  "testing": false,
+  "fields": [
+    {
+      "name": "Name",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "Intelligence",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Strength",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Speed",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Durability",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Power",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Combat",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Total",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Deleted",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "ExtractTime",
+      "attribute": "None",
+      "datatype": "long",
+      "nullable": false
+    },
+    {
+      "name": "Alignment",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.asgardians_dataset"
+}

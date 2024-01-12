@@ -1,0 +1,92 @@
+{
+  "id": "9ba79c23-e557-3ee9-bd9e-60d4ff1cc260--55",
+  "name": "Demo Marvel Comic Characters",
+  "version": "0.0.5",
+  "description": "None",
+  "documentation": "None",
+  "partitionedBy": [
+    "ExtractTime",
+    "Alignment"
+  ],
+  "testing": false,
+  "fields": [
+    {
+      "name": "Name",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "Alignment",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "Intelligence",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "Strength",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "Speed",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "Durability",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "Power",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "Combat",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "Total",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "ExtractTime",
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "Deleted",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters"
+}

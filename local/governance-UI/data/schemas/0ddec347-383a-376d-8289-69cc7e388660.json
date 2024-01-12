@@ -1,0 +1,75 @@
+{
+  "environmentName": "com.deere.enterprise.datalake.enhance.core.edl.metrics.deltaStats",
+  "testing": false,
+  "partitionedBy": [],
+  "id": "0ddec347-383a-376d-8289-69cc7e388660",
+  "documentation": "None",
+  "description": "None",
+  "version": "1.0.0",
+  "name": "Edl Metrics Delta Stats",
+  "fields": [
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "community",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "date",
+      "description": "None",
+      "name": "date",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "dbName",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "edl_datatype",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "edl_representation",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "name": "numFiles",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "phase",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "name": "sizeInBytes",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "subCommunity",
+      "nullable": true
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "15824441-fd91-3ea6-88ad-ff3b6e745204--45",
+  "name": "Test History Test",
+  "version": "1.0.0",
+  "description": "New description",
+  "documentation": "None",
+  "partitionedBy": [],
+  "testing": true,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "age",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "edl_timestamp",
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "delete_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "Some new description",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.test_history_test"
+}

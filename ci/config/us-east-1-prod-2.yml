@@ -1,0 +1,35 @@
+node_env: production
+env: prod
+account: 305463345279
+region: us-east-1
+
+ApplicationName: JohnDeereDataCatalog2
+
+EC2InstanceType: m5.2xlarge
+EC2MinNumberOfInstances: 3
+EC2MaxNumberOfInstances: 6
+
+VpcId: vpc-a91aa4ce
+PrivateSubnets: subnet-11171c67,subnet-3698c31c
+PublicSubnets: subnet-10171c66,subnet-0a98c320
+DeereNetworkSSH: sg-818bc3fa
+SslArn: arn:aws:acm:us-east-1:305463345279:certificate/28d458e2-81da-4b51-83a1-6fda65b8bfc9
+CName: dataGovernanceCenter2
+
+URLPrefix: data-catalog2
+URLSuffix: vpn-prod.us.e03.c01.johndeerecloud.com
+BaseURL: data-catalog.deere.com
+HostedZoneId: ZMDBHYXHNDOVP
+
+collibraUserName: govUI_devl
+
+deereTaggingComponent: enterprise-data-governance-center
+newRelicAppName: JD Data Catalog Prod
+
+APPDYNAMICSCONTROLLERHOSTNAME: deere.saas.appdynamics.com
+APPDYNAMICSCONTROLLERPORT: 443
+APPDYNAMICSAGENTACCOUNTNAME: deere
+APPDYNAMICSAGENTACCOUNTACCESSKEY: 74e9fa91-3f90-4270-b0c4-d0baeca37ba8
+APPDYNAMICSAGENTAPPLICATIONNAME: EDLDataCatalogProd
+APPDYNAMICSAGENTNODENAME: EDLDataCatalog
+APPDYNAMICSAGENTTIERNAME: data-catalog.edl.deere.com

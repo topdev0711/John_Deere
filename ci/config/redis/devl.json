@@ -1,0 +1,37 @@
+[
+  {
+    "ParameterKey": "replicationGroupId",
+    "ParameterValue": "REPLICATION_GROUP_ID",
+    "ResolvedValue": "string"
+  },
+  {
+    "ParameterKey": "cacheNodeType",
+    "ParameterValue": "cache.m6g.large",
+    "ResolvedValue": "string"
+  },
+  {
+    "ParameterKey": "subnets",
+    "ParameterValue": "subnet-2762390d,subnet-4883a610",
+    "ResolvedValue": "string"
+  },
+  {
+    "ParameterKey": "numNodeGroup",
+    "ParameterValue": "2",
+    "ResolvedValue": "string"
+  },
+  {
+    "ParameterKey": "replicaPerNodeGroup",
+    "ParameterValue": "1",
+    "ResolvedValue": "string"
+  },
+  {
+    "ParameterKey": "VpcId",
+    "ParameterValue": "vpc-882698ef",
+    "ResolvedValue": "string"
+  },
+  {
+    "ParameterKey": "redisAuthToken",
+    "ParameterValue": "AE/EDL/REDIS_AUTH_TOKEN",
+    "ResolvedValue": "string" 
+  }
+]

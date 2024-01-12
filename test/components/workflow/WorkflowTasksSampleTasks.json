@@ -1,0 +1,426 @@
+[
+  {
+    "correlation_id": "4522c543-7a7b-4f25-94c1-4f8799552a2b",
+    "task_definition": {
+      "destination": {
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "action": {
+        "operation": {
+          "name": "current_state"
+        },
+        "service": "TRANSFORM"
+      },
+      "source": {
+        "representation": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters@0.0.5",
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "trigger": {
+        "event": "async_ingest_request"
+      }
+    },
+    "created_by": "0oab61no9hmKkuuMA0h7",
+    "created": "2020-02-11T12:39:09.031Z",
+    "task_hash": "85d7dc064d7ea260b884eb4f1319bbe1",
+    "id": "00013a1c-6e99-45eb-84cb-9221667515fb",
+    "delete_indicator": 0,
+    "modified": "2020-02-12T11:04:54.029Z",
+    "event_hash": "668b45e8f9dbfc8724c89b95a94e4546"
+  },
+  {
+    "correlation_id": "a143ccd8-6002-43ef-bc24-7a79f4975301",
+    "task_definition": {
+      "destination": {
+        "dataType": "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters_anon"
+      },
+      "action": {
+        "operation": {
+          "name": "ANONYMIZATION",
+          "options": {
+            "fields": [
+              {
+                "name": "Name",
+                "format": "name",
+                "seeded": true
+              }
+            ]
+          }
+        },
+        "service": "TRANSFORM"
+      },
+      "trigger": {
+        "event": "async_ingest_request"
+      },
+      "source": {
+        "representation": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters@0.0.6",
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      }
+    },
+    "created_by": "0oab61no9hmKkuuMA0h7",
+    "created": "2020-04-06T16:06:10.882Z",
+    "task_hash": "0f996a5cbeabaaca9842ff428f73b9ed",
+    "id": "2c265ea7-51c8-487a-bba9-93c82cc2125c",
+    "delete_indicator": 0,
+    "modified": "2020-04-06T16:06:10.882Z",
+    "event_hash": "668b45e8f9dbfc8724c89b95a94e4546"
+  },
+  {
+    "correlation_id": "3a5bb729-79fe-4c8b-93c0-405cf6afefd9",
+    "task_definition": {
+      "destination": {
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "action": {
+        "operation": {
+          "name": "DERIVE_HISTORY",
+          "options": {
+            "fields": [
+              {
+                "name": "name",
+                "format": "USERNAME",
+                "seeded": true
+              }
+            ]
+          }
+        },
+        "service": "TRANSFORM"
+      },
+      "trigger": {
+        "event": "async_ingest_request",
+        "fullLoad": true
+      },
+      "source": {
+        "representation": "com.deere.enterprise.datalake.test.KapaTest@1.0.0",
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      }
+    },
+    "created_by": "0oab61no9hmKkuuMA0h7",
+    "created": "2019-08-19T17:31:47.125Z",
+    "task_hash": "340231a989657388ac4863b6b75f931e",
+    "id": "388cff3a-62bc-473b-ba52-f2d193c6ff81",
+    "delete_indicator": 0,
+    "modified": "2019-08-19T17:31:47.125Z",
+    "event_hash": "668b45e8f9dbfc8724c89b95a94e4546"
+  },
+  {
+    "correlation_id": "3038b21e-b831-4341-b8e7-ce656c4a1642",
+    "task_definition": {
+      "destination": {
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "action": {
+        "operation": {
+          "name": "DERIVE_HISTORY"
+        },
+        "service": "TRANSFORM"
+      },
+      "source": {
+        "representation": "com.deere.enterprise.datalake.test.KapaTest@1.0.0",
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "trigger": {
+        "event": "async_ingest_request"
+      }
+    },
+    "created_by": "0oab61no9hmKkuuMA0h7",
+    "created": "2019-08-26T15:11:50.394Z",
+    "task_hash": "340231a989657388ac4863b6b75f931e",
+    "id": "5a639208-4e54-42bb-85ad-05e8a87cf2d5",
+    "delete_indicator": 0,
+    "modified": "2019-08-26T15:11:50.394Z",
+    "event_hash": "668b45e8f9dbfc8724c89b95a94e4546"
+  },
+  {
+    "correlation_id": "07a80841-a533-43d0-8d87-b93d87a8eca1",
+    "task_definition": {
+      "destination": {
+        "dataType": "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters_anon"
+      },
+      "action": {
+        "operation": {
+          "name": "ANONYMIZATION",
+          "options": {
+            "fields": [
+              {
+                "name": "user_name",
+                "format": "USERNAME",
+                "seeded": true
+              }
+            ]
+          }
+        },
+        "service": "TRANSFORM"
+      },
+      "trigger": {
+        "event": "async_ingest_request"
+      },
+      "source": {
+        "representation": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters@0.0.7",
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      }
+    },
+    "created_by": "0oab61no9hmKkuuMA0h7",
+    "created": "2020-03-30T10:05:58.838Z",
+    "task_hash": "eee67d563ed1c1499cf63d0968813cfb",
+    "id": "80b58d37-edfd-441f-b285-1fdf50dd2db7",
+    "delete_indicator": 0,
+    "modified": "2020-03-30T10:05:58.838Z",
+    "event_hash": "668b45e8f9dbfc8724c89b95a94e4546"
+  },
+  {
+    "correlation_id": "55d326c4-109d-4c8c-a2b3-c0be4e24f6ea",
+    "task_definition": {
+      "destination": {
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "action": {
+        "operation": {
+          "name": "DERIVE_HISTORY",
+          "options": {
+            "fields": [
+              {
+                "name": "name",
+                "format": "USERNAME",
+                "seeded": true
+              }
+            ]
+          }
+        },
+        "service": "TRANSFORM"
+      },
+      "trigger": {
+        "event": "async_ingest_request",
+        "fullLoad": true
+      },
+      "source": {
+        "representation": "com.deere.enterprise.datalake.test.HistoryTest@1.0.0",
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      }
+    },
+    "created_by": "0oab61no9hmKkuuMA0h7",
+    "created": "2019-08-19T17:32:59.807Z",
+    "task_hash": "340231a989657388ac4863b6b75f931e",
+    "id": "876fdb1d-abb4-477d-8f9e-1b1e803e0f8f",
+    "delete_indicator": 0,
+    "modified": "2019-08-19T17:32:59.807Z",
+    "event_hash": "668b45e8f9dbfc8724c89b95a94e4546"
+  },
+  {
+    "correlation_id": "92f77b20-aed6-427a-90c8-a4b15f937aa6",
+    "task_definition": {
+      "destination": {
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "action": {
+        "operation": {
+          "name": "DERIVE_HISTORY"
+        },
+        "service": "TRANSFORM"
+      },
+      "trigger": {
+        "event": "async_ingest_request",
+        "fullLoad": true
+      },
+      "source": {
+        "representation": "com.deere.enterprise.datalake.test.HistoryTest@1.0.0",
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      }
+    },
+    "created_by": "0oab61no9hmKkuuMA0h7",
+    "created": "2019-12-12T12:09:09.847Z",
+    "task_hash": "340231a989657388ac4863b6b75f931e",
+    "id": "ab97bcfa-443a-4c54-8c32-a66aae1becb7",
+    "delete_indicator": 0,
+    "modified": "2019-12-12T12:09:09.847Z",
+    "event_hash": "668b45e8f9dbfc8724c89b95a94e4546"
+  },
+  {
+    "correlation_id": "d6e587e3-ffc4-464b-99ec-f72f46c85d92",
+    "task_definition": {
+      "destination": {
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "action": {
+        "operation": {
+          "name": "DERIVE_HISTORY"
+        },
+        "service": "TRANSFORM"
+      },
+      "trigger": {
+        "event": "async_ingest_request",
+        "fullLoad": true
+      },
+      "source": {
+        "representation": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters@0.0.5",
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      }
+    },
+    "created_by": "0oab61no9hmKkuuMA0h7",
+    "created": "2020-04-23T12:54:29.101Z",
+    "task_hash": "267f18afc8343f18ce5bcb5f8c5adda4",
+    "id": "ad786d5b-22de-4d05-a24d-c98fa0d45cd7",
+    "delete_indicator": 0,
+    "modified": "2020-04-23T12:54:29.101Z",
+    "event_hash": "668b45e8f9dbfc8724c89b95a94e4546"
+  },
+  {
+    "correlation_id": "af87c754-afcf-4003-a6c3-2f675b685a03",
+    "task_definition": {
+      "destination": {
+        "dataType": "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters_anon"
+      },
+      "action": {
+        "operation": {
+          "name": "anonymization",
+          "options": {
+            "fields": [
+              {
+                "name": "Name",
+                "format": "pystr",
+                "seeded": false,
+                "parameters": {
+                  "max_chars": 30
+                }
+              },
+              {
+                "name": "SSN",
+                "format": "string",
+                "seeded": true
+              }
+            ]
+          }
+        },
+        "service": "transform"
+      },
+      "trigger": {
+        "event": "async_ingest_request"
+      },
+      "source": {
+        "representation": "com.deere.enterprise.datalake.enhance.test_table_name_brian@0.0.1",
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      }
+    },
+    "created_by": "0oap5oqiynKpjlObm0h7",
+    "created": "2020-03-30T06:24:08.079Z",
+    "task_hash": "d55d16512a27d67c77c95e69b2891959",
+    "id": "c93b8d83-f44c-448e-9b7f-32931ba52af6",
+    "delete_indicator": 0,
+    "modified": "2020-03-30T06:24:08.079Z",
+    "event_hash": "668b45e8f9dbfc8724c89b95a94e4546"
+  },
+  {
+    "correlation_id": "0c3422d9-9d14-4275-b7d0-8d6df626ff9e",
+    "task_definition": {
+      "destination": {
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "action": {
+        "operation": {
+          "name": "CURRENT_STATE"
+        },
+        "service": "TRANSFORM"
+      },
+      "trigger": {
+        "event": "async_ingest_request"
+      },
+      "source": {
+        "representation": "com.deere.enterprise.datalake.test.IngestCurrent@1.0.0",
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      }
+    },
+    "created_by": "0oap5oqiynKpjlObm0h7",
+    "created": "2020-04-06T15:26:58.697Z",
+    "task_hash": "2b52e705bc93b403e64db2204e06b231",
+    "id": "e083fa6d-1ad7-4bea-8106-22e0608e65bf",
+    "delete_indicator": 0,
+    "modified": "2020-04-06T15:26:58.697Z",
+    "event_hash": "668b45e8f9dbfc8724c89b95a94e4546"
+  },
+  {
+    "correlation_id": "72cf7d57-9ab9-451d-a609-bf8ba2c1b90a",
+    "task_definition": {
+      "destination": {
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "action": {
+        "operation": {
+          "name": "DERIVE_HISTORY"
+        },
+        "service": "TRANSFORM"
+      },
+      "source": {
+        "representation": "com.deere.enterprise.datalake.test.KapaTest@1.0.0",
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "trigger": {
+        "event": "async_ingest_request",
+        "fullLoad": true
+      }
+    },
+    "created_by": "0oab61no9hmKkuuMA0h7",
+    "created": "2019-08-14T18:16:43.122Z",
+    "task_hash": "340231a989657388ac4863b6b75f931e",
+    "id": "eb8855dd-cb9e-4900-bbd8-bf80c4531d29",
+    "delete_indicator": 0,
+    "modified": "2019-08-14T18:16:43.122Z",
+    "event_hash": "668b45e8f9dbfc8724c89b95a94e4546"
+  },
+  {
+    "correlation_id": "1c58ea0f-b4b9-40ad-8b93-8c01f51d6f5d",
+    "task_definition": {
+      "destination": {
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "action": {
+        "operation": {
+          "name": "DERIVE_HISTORY"
+        },
+        "service": "TRANSFORM"
+      },
+      "source": {
+        "representation": "com.deere.enterprise.datalake.test.IngestCurrent@1.0.0",
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "trigger": {
+        "event": "async_ingest_request",
+        "fullLoad": true
+      }
+    },
+    "created_by": "0oab61no9hmKkuuMA0h7",
+    "created": "2019-09-27T01:44:47.791Z",
+    "task_hash": "340231a989657388ac4863b6b75f931e",
+    "id": "ec37fd25-21a6-45b7-97cd-1cff5bdcaa90",
+    "delete_indicator": 0,
+    "modified": "2019-09-27T01:44:47.791Z",
+    "event_hash": "668b45e8f9dbfc8724c89b95a94e4546"
+  },
+  {
+    "correlation_id": "4952f60f-d2b8-483a-9992-c9579a2a1a12",
+    "task_definition": {
+      "destination": {
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      },
+      "action": {
+        "operation": {
+          "name": "DERIVE_HISTORY"
+        },
+        "service": "TRANSFORM"
+      },
+      "trigger": {
+        "event": "async_ingest_request",
+        "fullLoad": true
+      },
+      "source": {
+        "representation": "com.deere.enterprise.datalake.test.HistoryTest@1.0.0",
+        "dataType": "com.deere.enterprise.datalake.enhance.demo.marvel.ComicCharacters"
+      }
+    },
+    "created_by": "0oab61no9hmKkuuMA0h7",
+    "created": "2020-03-06T08:38:22.959Z",
+    "task_hash": "5f2268565e9a39207f78b3bc4ecb8e52",
+    "id": "ee532957-25a2-4c11-ac4a-648df09f6b72",
+    "delete_indicator": 0,
+    "modified": "2020-03-06T08:38:22.959Z",
+    "event_hash": "668b45e8f9dbfc8724c89b95a94e4546"
+  }
+]

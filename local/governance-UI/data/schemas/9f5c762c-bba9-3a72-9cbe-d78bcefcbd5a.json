@@ -1,0 +1,147 @@
+{
+  "environmentName": "com.deere.enterprise.datalake.enhance.training_boston_crime",
+  "testing": false,
+  "partitionedBy": [
+    "YEAR"
+  ],
+  "id": "9f5c762c-bba9-3a72-9cbe-d78bcefcbd5a",
+  "documentation": "None",
+  "description": "None",
+  "version": "1.0.0",
+  "name": "Training Boston Crime",
+  "fields": [
+    {
+      "attribute": "id",
+      "datatype": "string",
+      "description": "None",
+      "name": "INCIDENT_NUMBER",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "OFFENSE_CODE",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "OFFENSE_CODE_GROUP",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "OFFENSE_DESCRIPTION",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "DISTRICT",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "REPORTING_AREA",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "SHOOTING",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "None",
+      "name": "OCCURRED_ON_DATE",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "YEAR",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "MONTH",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "DAY_OF_WEEK",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "HOUR",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "UCR_PART",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "STREET",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "double",
+      "description": "None",
+      "name": "LATITUDE",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "double",
+      "description": "None",
+      "name": "LONGITUDE",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "LOCATION",
+      "nullable": false
+    },
+    {
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "None",
+      "name": "INGEST_TS",
+      "nullable": false
+    },
+    {
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "None",
+      "name": "DELETE_IND",
+      "nullable": false
+    }
+  ]
+}

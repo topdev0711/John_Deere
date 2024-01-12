@@ -1,0 +1,89 @@
+{
+  "description": "None",
+  "fields": [
+      {
+          "name": "Name",
+          "datatype": "string",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "Alignment",
+          "datatype": "string",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "Intelligence",
+          "datatype": "string",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "Strength",
+          "datatype": "string",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "Speed",
+          "datatype": "string",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "Durability",
+          "datatype": "string",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "Power",
+          "datatype": "string",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "Combat",
+          "datatype": "string",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "Total",
+          "datatype": "string",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "ExtractTime",
+          "datatype": "string",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "Deleted",
+          "datatype": "string",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      }
+  ],
+  "documentation": "",
+  "isDynamic": false,
+  "name": "edl.testTable1",
+  "id": "edl.testTable1",
+  "version": "1.0.0",
+  "testing": false,
+  "partitionedBy": []
+}

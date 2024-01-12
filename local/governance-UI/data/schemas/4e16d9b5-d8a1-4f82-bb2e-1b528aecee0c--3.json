@@ -1,0 +1,19 @@
+{
+  "id": "4e16d9b5-d8a1-4f82-bb2e-1b528aecee0c--3",
+  "name": "view test",
+  "version": "1",
+  "description": "test description",
+  "documentation": "test",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "field1",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "some test description",
+      "nullable": true
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.view_test"
+}

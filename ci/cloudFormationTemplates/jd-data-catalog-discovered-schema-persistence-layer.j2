@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: persistence layer for enterprise data governance center discovered schemas
+Resources:
+  discoveredSchemaPersistence:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+      KeySchema:
+        -
+          AttributeName: "datasetId"
+          KeyType: "HASH"
+        -
+          AttributeName: "id"
+          KeyType: "RANGE"
+      AttributeDefinitions:
+        -
+          AttributeName: "id"
+          AttributeType: "S"
+
+        -
+          AttributeName: "datasetId"
+          AttributeType: "S"
+      ProvisionedThroughput:
+        ReadCapacityUnits: 600
+        WriteCapacityUnits: 600  
+      TableName: {{ discoveredSchemasTable }}
+      SSESpecification:
+          SSEEnabled: true
+      Tags:
+        -
+          Key: Name
+          Value: {{ deereTaggingComponent }}-discoveredSchemaPersistence
+        -
+          Key: component
+          Value: {{ deereTaggingComponent }}
+      StreamSpecification:
+        StreamViewType: NEW_AND_OLD_IMAGES

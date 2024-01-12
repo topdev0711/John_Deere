@@ -1,0 +1,54 @@
+{
+  "environmentName": "com.deere.enterprise.datalake.enhance.training_motor_vehicle_theft",
+  "testing": false,
+  "partitionedBy": [],
+  "id": "d5569020-de8e-3e7d-b116-43d0a81b5162",
+  "documentation": "None",
+  "description": "None",
+  "version": "1.0.0",
+  "name": "Training Motor Vehicle Theft",
+  "fields": [
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "city",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "month",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "name": "mvt_count",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "double",
+      "description": "None",
+      "name": "mvt_rate",
+      "nullable": false
+    },
+    {
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "None",
+      "name": "ingest_ts",
+      "nullable": false
+    },
+    {
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "None",
+      "name": "delete_ind",
+      "nullable": false
+    }
+  ]
+}

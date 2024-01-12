@@ -1,0 +1,80 @@
+{
+  "id": "04a38457-6655-4e33-8f06-89cf243f805f--62",
+  "name": "demo_asgardian_dataset",
+  "version": "3.0.2",
+  "description": "People",
+  "documentation": "",
+  "partitionedBy": [
+    "Alignment"
+  ],
+  "testing": false,
+  "fields": [
+    {
+      "name": "Name",
+      "attribute": "id",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "Intelligence",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Strength",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Speed",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Durability",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Power",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Combat",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Total",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Deleted",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "ExtractTime",
+      "attribute": "extract time",
+      "datatype": "long",
+      "nullable": false
+    },
+    {
+      "name": "Alignment",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.demo_asgardian_dataset"
+}

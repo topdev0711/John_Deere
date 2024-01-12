@@ -1,0 +1,117 @@
+{
+  "id": "12aec8a7-93bf-43c4-bc67-ee78e9f50752--11",
+  "name": "eats.tableau_workbooks",
+  "version": "0.0.6",
+  "description": "Metadata about workbooks on Tableau Server",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "workbook_id",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "env",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "loc",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "owner_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "created_ts",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "size_in_bytes",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "parent_project_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "description",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "last_published_ts",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "refreshable_extracts",
+      "attribute": "None",
+      "datatype": "boolean",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "extracts_refreshed_ts",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "contained_views_count",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "load_time",
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "del_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.eats_tableau_workbooks"
+}

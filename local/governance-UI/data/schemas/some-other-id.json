@@ -1,0 +1,20 @@
+{
+  "id": "some-other-id",
+  "name": "some-other-name",
+  "version": "2",
+  "partitionedBy": [],
+  "testing": true,
+  "discovered": "2019-11-12T02:56:10.710Z",
+  "description": "Test description",
+  "documentation": "some documentation",
+  "fields": [
+    {
+      "name": "field1",
+      "datatype": "int",
+      "nullable": true,
+      "attribute": "None",
+      "description": "Some field description"
+    }
+  ],
+  "datasetId": "af418aba-0db1-4514-a9c9-eb39e7dd59e8"
+}

@@ -1,0 +1,373 @@
+{
+  "id": "88d79350-a9fd-454a-a99c-941f85a24f2a--3",
+  "name": "final_rating_data",
+  "version": "1.0.0",
+  "description": "data on final ratings for reporting dashboards and applications",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "X",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": true
+    },
+    {
+      "name": "TL_USERID",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "SUPPLIER_NUMBER",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "FISCAL_YEAR",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "UNIT_KEY",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "Final_Rating_Level",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "FISCAL_PERIOD",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "Type_Name",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "SUPPLIER_NAME",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "Quality",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": true
+    },
+    {
+      "name": "Delivery",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": true
+    },
+    {
+      "name": "Technical_Support",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": true
+    },
+    {
+      "name": "Wavelength",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": true
+    },
+    {
+      "name": "Cost",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": true
+    },
+    {
+      "name": "Supporting_Points",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": true
+    },
+    {
+      "name": "Supporting_Classification",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "Total_Points",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": true
+    },
+    {
+      "name": "Overall_Classification",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "SUPL_BASE_MNGR_ID",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "SUPL_CNCL_CD",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "RLTNSHP_OWNR_ID",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "SUPL_CNCL_NM",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "SUPL_CNCL_MGR_ID",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "STRAT_SRCNG_MGR_ID",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "USERID",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "LNAME",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "FNAME",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "POSITION_TITLE",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "REPORT_GROUP_MGR",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "HIERARCHY_MGR_06",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "HIERARCHY_MGR_05",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "HIERARCHY_MGR_04",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "Overdue_Action_Items",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "Canceled_Action_Items",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "Active_Action_Items",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "Completed_Action_Items",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "UNIT_NAME",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "PARENT_NM",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "PGRP_NM",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "PGRP_COMMODITY_NM",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "SUPL_BASE_MNGR_LNAME",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "SUPL_BASE_MNGR_FNAME",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "TOTAL_SPEND",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "CATEGORY_POINTS_Q",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": true
+    },
+    {
+      "name": "LAST_UPDATED_BY_Q",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "LAST_UPDATED_TS_Q",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "CATEGORY_POINTS_D",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": true
+    },
+    {
+      "name": "LAST_UPDATED_BY_D",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "LAST_UPDATED_TS_D",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "CATEGORY_POINTS_T",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": true
+    },
+    {
+      "name": "LAST_UPDATED_BY_T",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "LAST_UPDATED_TS_T",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "CATEGORY_POINTS_W",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": true
+    },
+    {
+      "name": "LAST_UPDATED_BY_W",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "LAST_UPDATED_TS_W",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "CATEGORY_POINTS_C",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": true
+    },
+    {
+      "name": "LAST_UPDATED_BY_C",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "LAST_UPDATED_TS_C",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "USER_LASTNAME",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    },
+    {
+      "name": "USER_FIRSTNAME",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": true
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.final_rating_data"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "0d440511-e52a-4e9a-9612-ac2615193001--5",
+  "name": "Test_2",
+  "version": "1.0.0",
+  "description": "work_flow_button_2",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "Name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.test_2"
+}

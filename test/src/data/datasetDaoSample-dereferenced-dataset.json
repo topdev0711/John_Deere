@@ -1,0 +1,220 @@
+{
+  "_id": "36b9f434-afb3-406c-a519-c8f2810aea3b-1",
+  "schemas": [
+    "56c2f3a7-7e6d-4b3e-90c1-22174a77d83d--1"
+  ],
+  "linkedSchemas": [],
+  "tables": [
+    {
+      "schemaVersion": "1",
+      "schemaName": "Testing New Schema",
+      "schemaId": "56c2f3a7-7e6d-4b3e-90c1-22174a77d83d--1",
+      "tableName": "some_new_table"
+    }
+  ],
+  "classifications": [
+    {
+      "development": false,
+      "additionalTags": [],
+      "personalInformation": false,
+      "countriesRepresented": [
+        {
+          "id": "c29bf721-aeb7-4ac9-ab79-110fb9beb8cb",
+          "name": "ALL",
+          "label": "ALL"
+        }
+      ],
+      "id": "6426ba06-176f-414f-b07c-db397d3bc58a",
+      "community": {
+        "id": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+        "name": "Systems",
+        "label": null
+      },
+      "subCommunity": {
+        "id": "48112e16-9abf-48ed-ae79-ab43844a32ec",
+        "name": "Demo",
+        "label": null
+      },
+      "gicp": {
+        "id": "5f48ffda-9c01-4416-89e9-326d0a7bcd3c",
+        "name": "Confidential",
+        "label": null
+      }
+    },
+    {
+      "development": false,
+      "additionalTags": [],
+      "personalInformation": false,
+      "countriesRepresented": [],
+      "id": "4c0f9029-3b21-4fd1-a2c3-9b26b5d65f81",
+      "community": {
+        "id": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+        "name": "Systems",
+        "label": null
+      },
+      "subCommunity": {
+        "id": "48112e16-9abf-48ed-ae79-ab43844a32ec",
+        "name": "Demo",
+        "label": null
+      },
+      "gicp": {
+        "id": "5f48ffda-9c01-4416-89e9-326d0a7bcd3c",
+        "name": "Confidential",
+        "label": null
+      }
+    }
+  ],
+  "sourceDatasets": [
+    {
+      "id": "af418aba-0db1-4514-a9c9-eb39e7dd59e8",
+      "version": 16,
+      "name": "ABC Attachment Test"
+    }
+  ],
+  "paths": [],
+  "technology": {
+    "id": "1f8ee69b-62ad-42a3-9598-02947ea25670",
+    "name": "AWS",
+    "label": null
+  },
+  "version": 1,
+  "status": "AVAILABLE",
+  "createdAt": "2021-04-01T15:35:15.443Z",
+  "attachments": {
+    "deletedAttachments": [],
+    "newAttachments": [],
+    "currentAttachments": []
+  },
+  "updatedBy": "cl98561",
+  "createdBy": "cl98561",
+  "name": "Some New Dataset",
+  "phase": {
+    "id": "bcd204b0-b567-4e6b-a5b9-a593943c7330",
+    "name": "Enhance",
+    "label": null
+  },
+  "physicalLocation": {
+    "id": "6c2760b1-fabf-45fb-adc6-9d717e38b598",
+    "name": "us-east-1",
+    "label": null
+  },
+  "updatedAt": "2021-04-01T15:35:15.443Z",
+  "category": {
+    "id": "dc2db157-e121-4ac1-8d16-dc38141616b5",
+    "name": "Master",
+    "label": null
+  },
+  "requestComments": "No comments",
+  "description": "testing ref",
+  "id": "36b9f434-afb3-406c-a519-c8f2810aea3b",
+  "dataRecovery": false,
+  "custodian": "AWS-GIT-DWIS-ADMIN",
+  "approvals": [
+    {
+      "approvedBy": "cl98561",
+      "comment": null,
+      "approverEmail": "G90_COLLIBRA_APPROVER_SYSTEMS@JohnDeere.com",
+      "community": {
+        "id": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+        "name": "Systems",
+        "approver": "G90_COLLIBRA_APPROVER_SYSTEMS"
+      },
+      "status": "APPROVED",
+      "updatedAt": "2021-04-01T15:40:02.838Z"
+    },
+    {
+      "approvedBy": "cl98561",
+      "comment": null,
+      "approverEmail": "AWS-GIT-DWIS-ADMIN@JohnDeere.com",
+      "custodian": "AWS-GIT-DWIS-ADMIN",
+      "status": "APPROVED",
+      "updatedAt": "2021-04-01T15:40:02.838Z"
+    },
+    {
+      "approvedBy": "EDL",
+      "details": {
+        "dataset": {
+          "name": "com.deere.enterprise.datalake.enhance.some_new_dataset",
+          "values": [
+            {
+              "name": "Databricks Mount Location",
+              "value": "/mnt/edl_dev/enhance/some_new_dataset"
+            },
+            {
+              "name": "S3 Bucket Name",
+              "value": "jd-us01-edl-devl-enhance-700448318d10dc7227e0e918992734f8"
+            },
+            {
+              "name": "Account",
+              "value": "078228365593"
+            },
+            {
+              "name": "Resource",
+              "value": "Enterprise Data & Analytics Platform",
+              "url": "https://confluence.deere.com/pages/viewpage.action?pageId=89358918"
+            },
+            {
+              "name": "Resource",
+              "value": "EDL Getting Started",
+              "url": "https://confluence.deere.com/display/EDAP/EDL+Getting+Started"
+            },
+            {
+              "name": "Resource",
+              "value": "EDL Databricks Tutorials",
+              "url": "https://confluence.deere.com/pages/viewpage.action?pageId=117932969"
+            },
+            {
+              "name": "Resource",
+              "value": "EDL + Databricks",
+              "url": "https://confluence.deere.com/display/EDAP/Databricks"
+            },
+            {
+              "name": "Resource",
+              "value": "Ingesting Data",
+              "url": "https://confluence.deere.com/display/EDAP/Ingesting+Data"
+            }
+          ]
+        },
+        "schemas": [
+          {
+            "id": "56c2f3a7-7e6d-4b3e-90c1-22174a77d83d--1",
+            "name": "com.deere.enterprise.datalake.enhance.testing_new_schema@1",
+            "values": [
+              {
+                "name": "Databricks Table",
+                "value": "some_new_table_1"
+              },
+              {
+                "name": "Databricks Table",
+                "value": "some_new_table"
+              },
+              {
+                "name": "Resource",
+                "value": "EDL Warehouse",
+                "url": "https://confluence.deere.com/display/EDAP/EDL+Warehouse"
+              },
+              {
+                "name": "Resource",
+                "value": "BI Tools or SQL Clients",
+                "url": "https://confluence.deere.com/display/EDAP/Using+BI+Tools+or+SQL+Clients"
+              }
+            ]
+          }
+        ]
+      },
+      "system": "EDL",
+      "status": "APPROVED",
+      "updatedAt": "2021-04-01T15:40:16.413Z",
+      "reason": null
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.some_new_dataset",
+  "storageLocation": "jd-us01-edl-devl-enhance-700448318d10dc7227e0e918992734f8",
+  "storageAccount": "078228365593",
+  "discoveredSchemas": [],
+  "views": [],
+  "discoveredTables": [],
+  "documentation": "",
+  "environment": {},
+  "deletedSchemas": []
+}

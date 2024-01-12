@@ -1,0 +1,74 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: cache layer for enterprise data governance center data sets
+Parameters:
+  Vpc:
+    Default: "{{VpcId}}"
+    ConstraintDescription: ''
+    Type: String
+    Description: VPC Id
+  PrivateSubnets:
+    Default: "{{PrivateSubnets}}"
+    ConstraintDescription: ''
+    Type: String
+    Description: Subnet Ids for PrivateSubnets
+  PublicSubnets:
+    Default: "{{PublicSubnets}}"
+    ConstraintDescription: ''
+    Type: String
+    Description: Subnet Ids for PublicSubnets
+Resources:
+  jdCatalogCacheSecurityGroup{{cacheSuffix}}:
+    Type: "AWS::EC2::SecurityGroup"
+    Properties:
+      GroupDescription: "Elasticache Security Group"
+      VpcId:
+        Ref: Vpc
+      SecurityGroupIngress:
+      - IpProtocol: tcp
+        FromPort: '443'
+        ToPort: '443'
+        CidrIp: 0.0.0.0/0
+      - IpProtocol: tcp
+        FromPort: '6379'
+        ToPort: '6379'
+        CidrIp: 0.0.0.0/0
+  jdCatalogCacheCluster{{cacheSuffix}}:
+    Type: AWS::ElastiCache::CacheCluster
+    Properties:
+      CacheNodeType: cache.m5.2xlarge
+      CacheSubnetGroupName:
+        Ref: jdCatalogCacheSubnetGroup{{cacheSuffix}}
+      ClusterName: jddatacatalogcache{{env}}
+      Engine: redis
+      NumCacheNodes: 1
+      Tags:
+        - Value: "enterprise-data-governance-center"
+          Key: Name
+        - Value: "enterprise-data-governance-center"
+          Key: component
+      VpcSecurityGroupIds:
+        -
+          Fn::GetAtt:
+            - "jdCatalogCacheSecurityGroup{{cacheSuffix}}"
+            - "GroupId"
+  jdCatalogCacheSubnetGroup{{cacheSuffix}}:
+    Type: "AWS::ElastiCache::SubnetGroup"
+    Properties:
+      Description: "Cache Subnet Group"
+      SubnetIds:
+        - "{{cacheSubnet1}}"
+        - "{{cacheSubnet2}}"
+        - "{{cacheSubnet3}}"
+        - "{{cacheSubnet4}}"
+  jdCatalogCacheRoute53:
+      Type: AWS::Route53::RecordSet
+      Properties:
+        HostedZoneId: "{{HostedZoneId}}"
+        ResourceRecords:
+          - Fn::GetAtt:
+              - jdCatalogCacheCluster{{cacheSuffix}}
+              - RedisEndpoint.Address
+        Type: CNAME
+        Name: "jd-catalog-cache.{{URLSuffix}}"
+        TTL: '900'
+      DependsOn: jdCatalogCacheCluster{{cacheSuffix}}

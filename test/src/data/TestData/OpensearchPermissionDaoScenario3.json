@@ -1,0 +1,69 @@
+{
+  "index": "permission_groups",
+  "body": {
+    "from": 0,
+    "size": 20,
+    "query": {
+      "nested": {
+        "path": "permissions",
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "bool": {
+                  "should": [
+                    {
+                      "match_all": {}
+                    }
+                  ]
+                }
+              },
+              {
+                "bool": {
+                  "should": [
+                    {
+                      "match": {
+                        "permissions.roleType.keyword": "human"
+                      }
+                    },
+                    {
+                      "match": {
+                        "permissions.roleType.keyword": "system"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },       
+        "score_mode": "sum",
+        "inner_hits": {
+          "size": 10000,
+          "_source": [
+            "permissions.name",
+            "permissions.id",
+            "permissions.startDate",
+            "permissions.endDate"
+          ]
+        }
+      }
+    },
+    "sort": [
+      {
+        "roleType.keyword": {
+          "order": "asc"
+        }
+      },
+      {
+        "id.keyword": {
+          "order": "asc"
+        }
+      }
+    ],
+    "_source": [
+      "id",
+      "roleType"
+    ]
+  }
+}

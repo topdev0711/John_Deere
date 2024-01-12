@@ -1,0 +1,19 @@
+{
+  "id": "1ee4f7ae-0060-4a60-8d7f-30d1adeaac78--2",
+  "name": "b1",
+  "version": "0.0.1",
+  "description": "awesome dude",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.b1"
+}

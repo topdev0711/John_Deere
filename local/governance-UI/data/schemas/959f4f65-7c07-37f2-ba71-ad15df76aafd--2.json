@@ -1,0 +1,33 @@
+{
+  "id": "959f4f65-7c07-37f2-ba71-ad15df76aafd--2",
+  "name": "Edl Metrics Data Type Count",
+  "version": "1.0.0",
+  "description": "None",
+  "documentation": "None",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "enhance",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "raw",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "date",
+      "attribute": "None",
+      "datatype": "date",
+      "description": "None",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.edl_metrics_data_type_count"
+}

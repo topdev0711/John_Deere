@@ -1,0 +1,179 @@
+{
+  "id": "f0280a1c-d090-5954-814c-8b7bac69953e",
+  "name": "boston_by_year_and_month",
+  "version": "1",
+  "discovered": "2020-09-18T21:32:03.000Z",
+  "testing": true,
+  "partitionedBy": [
+    "year",
+    "month"
+  ],
+  "documentation": "None",
+  "description": "Discovered schema",
+  "glueTables": [
+    {
+      "Name": "boston_by_year_and_month",
+      "DatabaseName": "devl_raw_newdataset",
+      "Owner": "owner",
+      "CreateTime": "2020-09-18T21:32:03.000Z",
+      "UpdateTime": "2020-09-18T21:32:03.000Z",
+      "LastAccessTime": "2020-09-18T21:32:03.000Z",
+      "Retention": 0,
+      "StorageDescriptor": {
+        "Location": "s3://jd-us01-edl-devl-raw-c83faf53069a0f41ab2e25d47dcdf93a/boston_by_year_and_month/",
+        "InputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat",
+        "OutputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": {
+          "SerializationLibrary": "org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe",
+          "Parameters": {
+            "serialization.format": "1"
+          }
+        },
+        "BucketColumns": [],
+        "SortColumns": [],
+        "StoredAsSubDirectories": false
+      },
+      "TableType": "EXTERNAL_TABLE",
+      "Parameters": {
+        "CrawlerSchemaDeserializerVersion": "1.0",
+        "CrawlerSchemaSerializerVersion": "1.0",
+        "UPDATED_BY_CRAWLER": "devl_raw_newdataset",
+        "averageRecordSize": "62",
+        "classification": "parquet",
+        "compressionType": "none",
+        "exclusions": "[\"s3://jd-us01-edl-devl-raw-c83faf53069a0f41ab2e25d47dcdf93a/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-c83faf53069a0f41ab2e25d47dcdf93a/[_.*]*\",\"s3://jd-us01-edl-devl-raw-c83faf53069a0f41ab2e25d47dcdf93a/[_.*]**\",\"s3://jd-us01-edl-devl-raw-c83faf53069a0f41ab2e25d47dcdf93a/**/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-c83faf53069a0f41ab2e25d47dcdf93a/**/[_.*]*\",\"s3://jd-us01-edl-devl-raw-c83faf53069a0f41ab2e25d47dcdf93a/**/[_.*]**\"]",
+        "objectCount": "101",
+        "recordCount": "218610",
+        "sizeKey": "9603568",
+        "typeOfData": "file"
+      },
+      "CreatedBy": "arn:aws:sts::078228365593:assumed-role/edl-glue-role/AWS-Crawler",
+      "IsRegisteredWithLakeFormation": false,
+      "CatalogId": "078228365593"
+    }
+  ],
+  "fields": [
+    {
+      "name": "year",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "month",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "incident_number",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "offense_code",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "offense_code_group",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "offense_description",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "district",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "reporting_area",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "shooting",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "occurred_on_date",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "day_of_week",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "hour",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "ucr_part",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "street",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "latitude",
+      "attribute": "None",
+      "datatype": "double",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "longitude",
+      "attribute": "None",
+      "datatype": "double",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "location",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    }
+  ],
+  "datasetId": "774e94a8-173e-4298-9123-3b08d426a1a8"
+}

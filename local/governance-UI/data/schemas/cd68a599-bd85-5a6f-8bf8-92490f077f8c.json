@@ -1,0 +1,115 @@
+{
+  "id": "cd68a599-bd85-5a6f-8bf8-92490f077f8c",
+  "name": "map",
+  "version": "1",
+  "discovered": "2020-09-08T17:24:58.000Z",
+  "testing": true,
+  "partitionedBy": [],
+  "documentation": "None",
+  "description": "Discovered schema",
+  "glueTables": [
+    {
+      "Name": "map",
+      "DatabaseName": "devl_raw_demo_marvel",
+      "Owner": "owner",
+      "CreateTime": "2020-09-08T17:24:58.000Z",
+      "UpdateTime": "2020-09-08T17:24:58.000Z",
+      "LastAccessTime": "2020-09-08T17:24:57.000Z",
+      "Retention": 0,
+      "StorageDescriptor": {
+        "Location": "s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/filesUploadTest/map",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": {
+          "Parameters": {}
+        },
+        "BucketColumns": [],
+        "SortColumns": [],
+        "StoredAsSubDirectories": false
+      },
+      "TableType": "EXTERNAL_TABLE",
+      "Parameters": {
+        "CrawlerSchemaDeserializerVersion": "1.0",
+        "CrawlerSchemaSerializerVersion": "1.0",
+        "UPDATED_BY_CRAWLER": "devl_raw_demo_marvel",
+        "averageRecordSize": "14979",
+        "classification": "xml",
+        "compressionType": "none",
+        "exclusions": "[\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/[_.*]*\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/[_.*]**\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/[_.*]*\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/[_.*]**\"]",
+        "recordCount": "5109",
+        "rowTag": "node",
+        "sizeKey": "76540973",
+        "typeOfData": "file"
+      },
+      "CreatedBy": "arn:aws:sts::078228365593:assumed-role/edl-glue-role/AWS-Crawler",
+      "IsRegisteredWithLakeFormation": false,
+      "CatalogId": "078228365593"
+    }
+  ],
+  "fields": [
+    {
+      "name": "_changeset",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "_id",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "_lat",
+      "attribute": "None",
+      "datatype": "double",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "_lon",
+      "attribute": "None",
+      "datatype": "double",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "_timestamp",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "_uid",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "_user",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "_version",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "tag",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    }
+  ],
+  "datasetId": "4024a647-1767-321f-9456-26b6fef2399f"
+}

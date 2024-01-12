@@ -1,0 +1,40 @@
+{
+  "id": "bf5b175c-9e5b-4562-a2af-db6a67edd2eb--1",
+  "name": "MadhuCurrentStateSchema",
+  "version": "1.1.1",
+  "description": "MadhuCurrentStateSchema",
+  "documentation": "MadhuCurrentStateSchema",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "extractTime",
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "delInd",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.madhucurrentstateschema"
+}

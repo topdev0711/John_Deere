@@ -1,0 +1,47 @@
+{
+  "id": "aa59249c-2a07-4c67-9a52-0c1912f5b0f1--55",
+  "name": "IngestCurrent",
+  "version": "1.0.0",
+  "description": "IngestCurrent",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "age",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "edl_timestamp",
+      "attribute": "extract time",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "delete_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.ingestcurrent"
+}

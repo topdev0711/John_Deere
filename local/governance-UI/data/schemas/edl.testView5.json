@@ -1,0 +1,25 @@
+{
+  "id": "edl.testView5",
+  "name": "edl.testView5",
+  "version": "1.0.0",
+  "partitionedBy": [],
+  "testing": false,
+  "description": "Test View 5 description",
+  "documentation": "Test View 5 documentation",
+  "fields": [
+    {
+      "name": "field1",
+      "datatype": "int",
+      "nullable": true,
+      "attribute": "None",
+      "description": "Test View 5 field1 description"
+    },
+    {
+      "name": "field2",
+      "datatype": "string",
+      "nullable": true,
+      "attribute": "None",
+      "description": "Test View 5 field2 description"
+    }
+  ]
+}

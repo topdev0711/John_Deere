@@ -1,0 +1,131 @@
+{
+  "id": "1df1f92e-66c2-4607-9659-2473117c0be7--4",
+  "name": "paap_history",
+  "version": "1.0.0",
+  "description": "schema to load paap history data",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": true,
+  "fields": [
+    {
+      "name": "timestamp",
+      "attribute": "extract time",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "idx",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "tagid",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "inprocess",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "value_numeric",
+      "attribute": "None",
+      "datatype": "float",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "value_discrete",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "lsl",
+      "attribute": "None",
+      "datatype": "float",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "lcl",
+      "attribute": "None",
+      "datatype": "float",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "target",
+      "attribute": "None",
+      "datatype": "float",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "ucl",
+      "attribute": "None",
+      "datatype": "float",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "usl",
+      "attribute": "None",
+      "datatype": "float",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "out_of_spec",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "norun",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "result",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "corrective_action",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "racfid",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "comment",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.paap_history"
+}

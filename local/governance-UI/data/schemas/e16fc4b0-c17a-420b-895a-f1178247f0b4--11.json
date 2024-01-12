@@ -1,0 +1,47 @@
+{
+  "id": "e16fc4b0-c17a-420b-895a-f1178247f0b4--11",
+  "name": "eats.email_store",
+  "version": "0.0.3",
+  "description": "Stores standard email responses sent by analytics tools automation",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "subject",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "html",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "text",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "del_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "load_time",
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.eats_email_store"
+}

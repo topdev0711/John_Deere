@@ -1,0 +1,26 @@
+{
+  "id": "b44d7e4e-052b-4764-9dbd-d2129de409fa--2",
+  "name": "TestEnabelDataRecoverySchema",
+  "version": "1.0.0",
+  "description": "TestEnabelDataRecoverySchema",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "Name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.testenabeldatarecoveryschema"
+}

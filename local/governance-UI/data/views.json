@@ -1,0 +1,425 @@
+{
+  "views": [
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+          },
+          "name": {
+            "S": "edl.testView"
+          },
+          "status": {
+            "S": "DELETED"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "10e93cfc-b0a9-4eb2-b636-d62f2b2147b1"
+          },
+          "name": {
+            "S": "edl.testView"
+          },
+          "status": {
+            "S": "AVAILABLE"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+          },
+          "name": {
+            "S": "edl.testView1"
+          },
+          "status": {
+            "S": "DRIFTED"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "1979357a-700f-4689-b4f7-27757592aa3e"
+          },
+          "name": {
+            "S": "edl.test2"
+          },
+          "status": {
+            "S": "DELETED"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+          },
+          "name": {
+            "S": "edl.testView4"
+          },
+          "status": {
+            "S": "DELETED"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+          },
+          "name": {
+            "S": "edl.testView5"
+          },
+          "status": {
+            "S": "AVAILABLE"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0a17b74b-53e6-495f-bd1a-385cd997a067"
+          },
+          "name": {
+            "S": "edl.test3"
+          },
+          "status": {
+            "S": "DRIFTED"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0a17b74b-53e6-495f-bd1a-385cd997a067"
+          },
+          "name": {
+            "S": "edl.test4"
+          },
+          "status": {
+            "S": "AVAILABLE"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+          },
+          "name": {
+            "S": "edl_views_devl.test_view"
+          },
+          "status": {
+            "S": "AVAILABLE"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0a17b74b-53e6-495f-bd1a-385cd997a067"
+          },
+          "name": {
+            "S": "edl_views_devl.test_view"
+          },
+          "status": {
+            "S": "AVAILABLE"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0a17b74b-53e6-495f-bd1a-385cd997a067"
+          },
+          "name": {
+            "S": "edl.test5"
+          },
+          "status": {
+            "S": "DRIFTED"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0a17b74b-53e6-495f-bd1a-385cd997a067"
+          },
+          "name": {
+            "S": "edl.testTravis"
+          },
+          "status": {
+            "S": "DRIFTED"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0a17b74b-53e6-495f-bd1a-385cd997a067"
+          },
+          "name": {
+            "S": "edl_views_devl.test_view2"
+          },
+          "status": {
+            "S": "AVAILABLE"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0a17b74b-53e6-495f-bd1a-385cd997a067"
+          },
+          "name": {
+            "S": "edl.test"
+          },
+          "status": {
+            "S": "DELETED"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "350699a2-bf9d-4e8d-9ef5-181d805452af"
+          },
+          "name": {
+            "S": "brian.marvel_raw_cross"
+          },
+          "status": {
+            "S": "DELETED"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "350699a2-bf9d-4e8d-9ef5-181d805452af"
+          },
+          "name": {
+            "S": "View1"
+          },
+          "driftDetails": {
+            "M": {
+              "type": {
+                "S": "dataset"
+              },
+              "items": {
+                "L": [
+                  {
+                    "S": "28df30b3-5370-4bdd-bab4-2977d1ba25ed"
+                  }
+                ]
+              }
+            }
+          },
+          "status": {
+            "S": "DRIFTED"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+          },
+          "name": {
+            "S": "View1"
+          },
+          "driftDetails": {
+            "M": {
+              "type": {
+                "S": "dataset"
+              },
+              "items": {
+                "L": [
+                  {
+                    "S": "28df30b3-5370-4bdd-bab4-2977d1ba25ed"
+                  }
+                ]
+              }
+            }
+          },
+          "status": {
+            "S": "DRIFTED"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "datasetid-1"
+          },
+          "name": {
+            "S": "View2"
+          },
+          "status": {
+            "S": "AVAILABLE"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+          },
+          "name": {
+            "S": "View4"
+          },
+          "driftDetails": {
+            "M": {}
+          },
+          "status": {
+            "S": "AVAILABLE"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+          },
+          "name": {
+            "S": "brian.marvel_raw_cross"
+          },
+          "driftDetails": {
+            "M": {}
+          },
+          "status": {
+            "S": "AVAILABLE"
+          },
+          "createdAt": {
+            "S": "2020-06-02T18:26:41.274Z"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+          },
+          "name": {
+            "S": "edl_views_devl.test_view_structure_for_raw"
+          },
+          "driftDetails": {
+            "M": {}
+          },
+          "status": {
+            "S": "AVAILABLE"
+          },
+          "createdAt": {
+            "S": "2021-09-13T19:01:06.449Z"
+          },
+          "updatedAt": {
+            "S": "2021-09-13T19:01:06.449Z"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "f0b41fd9-e43c-46f7-ad89-418f01cd5a2a--55",
+  "name": "Demo Marvel Comic Characters",
+  "version": "0.0.9",
+  "description": "Comic Character Stats",
+  "documentation": "Coming Soon!",
+  "partitionedBy": [
+    "ExtractTime",
+    "Alignment"
+  ],
+  "testing": false,
+  "fields": [
+    {
+      "name": "Name",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "The character name",
+      "nullable": false
+    },
+    {
+      "name": "Alignment",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Good, bad or something else...",
+      "nullable": false
+    },
+    {
+      "name": "Intelligence",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "Brain power",
+      "nullable": false
+    },
+    {
+      "name": "Strength",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "How strong they are",
+      "nullable": false
+    },
+    {
+      "name": "Speed",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "How fast they are",
+      "nullable": false
+    },
+    {
+      "name": "Durability",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "How durable they are",
+      "nullable": false
+    },
+    {
+      "name": "Power",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "How powerful they are",
+      "nullable": false
+    },
+    {
+      "name": "Combat",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "How good of a fighter they are",
+      "nullable": false
+    },
+    {
+      "name": "Total",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "Total awesomeness!",
+      "nullable": false
+    },
+    {
+      "name": "ExtractTime",
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "The extract time",
+      "nullable": false
+    },
+    {
+      "name": "Deleted",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "Soft delete indicator",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters"
+}

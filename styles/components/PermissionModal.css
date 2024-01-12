@@ -1,0 +1,12 @@
+.permission-modal-xl-100ht {
+    height: 100%
+}
+
+.permission-modal-xl-100ht .modal-dialog {
+    height: 90%;
+}
+
+.permission-modal-xl-100ht .modal-content {
+    max-height: none;
+    height: 100%;
+}

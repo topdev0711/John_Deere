@@ -1,0 +1,32 @@
+.listGroup {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.enhancedSchemaListButton {
+    background-color: 'white';
+    border: 'none';
+    display: 'inline-block';
+    border-color: 'white';
+}
+
+.toogleButtonGroup {
+    height: 30px;
+}
+
+.schemaText {
+    padding: 0.75rem 0 0 1.25rem;
+}
+
+.schemaSearchBar {
+    padding: 0.75rem 0.75rem 0 0.50rem;
+}
+
+.schemaSortButton {
+    padding: 0.75rem 0 0 0.50rem;
+}
+
+.schemaListCol {
+    padding-left: 0px;
+    padding-right: 0px;
+}

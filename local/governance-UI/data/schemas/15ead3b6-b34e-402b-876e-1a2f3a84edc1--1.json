@@ -1,0 +1,81 @@
+{
+  "id": "15ead3b6-b34e-402b-876e-1a2f3a84edc1--1",
+  "name": "demo_modify_event_test_dataset",
+  "version": "0.0.1",
+  "description": "Test",
+  "documentation": "",
+  "partitionedBy": [
+    "ExtractTime",
+    "Alignment"
+  ],
+  "testing": true,
+  "fields": [
+    {
+      "name": "Name",
+      "attribute": "id",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "Intelligence",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Strength",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Speed",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Durability",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Power",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Combat",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Total",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Deleted",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "ExtractTime",
+      "attribute": "extract time",
+      "datatype": "long",
+      "nullable": false
+    },
+    {
+      "name": "Alignment",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.demo_modify_event_test_dataset"
+}

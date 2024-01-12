@@ -1,0 +1,89 @@
+{
+  "id": "d83fdfd9-cc29-4461-89c3-e7e5babcb5ac--11",
+  "name": "eats.rstudio_connect_users",
+  "version": "0.0.3",
+  "description": "Users of RStudio Connect",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "user_id",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "env",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "loc",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "created_ts",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "login_ts",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "locked",
+      "attribute": "None",
+      "datatype": "boolean",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "is_owner",
+      "attribute": "None",
+      "datatype": "boolean",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "user_role",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "racf",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": true
+    },
+    {
+      "name": "load_time",
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "del_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.eats_rstudio_connect_users"
+}

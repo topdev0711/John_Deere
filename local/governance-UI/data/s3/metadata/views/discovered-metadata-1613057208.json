@@ -1,0 +1,215 @@
+{
+  "views": [
+    {
+      "name": "edl.test_deref",
+      "structure": {
+        "description": "Test description",
+        "documentation": "some documentation",
+        "fields": [
+          {
+            "name": "field1",
+            "datatype": "int",
+            "nullable": true,
+            "attribute": "None",
+            "description": "Some field description"
+          }
+        ]
+      },
+      "environmentNames": [
+        "com.deere.enterprise.datalake.raw.acl_enhancement_test_external_with_path_attribute_and_values_1",
+        "com.deere.enterprise.datalake.raw.file_explorer_dataset"
+      ]
+    },
+    {
+      "name": "brian.marvel_raw_cross",
+      "structure": {
+        "description": "Existing pending remediation and new drift with NO new communities then do nothing",
+        "documentation": "some documentation",
+        "fields": [
+          {
+            "name": "field1",
+            "datatype": "int",
+            "nullable": true,
+            "attribute": "None",
+            "description": "Some field description"
+          }
+        ]
+      },
+      "environmentNames": [
+        "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters_new"
+      ]
+    },
+    {
+      "name": "brian.marvel_raw_cross_test2",
+      "structure": {
+        "description": "Existing pending remediation and new drift with NO new communities then do nothing",
+        "documentation": "some documentation",
+        "fields": [
+          {
+            "name": "field1",
+            "datatype": "int",
+            "nullable": true,
+            "attribute": "None",
+            "description": "Some field description"
+          }
+        ]
+      },
+      "environmentNames": [
+        "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters_new",
+        "com.deere.enterprise.datalake.enhance.test_ds_for_views"
+      ]
+    },
+    {
+      "name": "brian.marvel_raw_cross_test3",
+      "structure": {
+        "description": "Existing pending remediation and new drift with NEW  communities  then update the remediation with pending for new communities only",
+        "documentation": "some documentation",
+        "fields": [
+          {
+            "name": "field1",
+            "datatype": "int",
+            "nullable": true,
+            "attribute": "None",
+            "description": "Some field description"
+          }
+        ]
+      },
+      "environmentNames": [
+        "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters_new",
+        "com.deere.enterprise.datalake.enhance.test_ds_for_views",
+        "com.deere.enterprise.datalake.enhance.madhuworkflowtest",
+        "com.deere.enterprise.datalake.enhance.ae_data"
+      ]
+    },
+    {
+      "name": "brian.marvel_raw_cross_test4",
+      "structure": {
+        "description": "Existing pending remediation and new drift with REMOVAL of communities  then update the remediation by removal of communities been removed.",
+        "documentation": "some documentation",
+        "fields": [
+          {
+            "name": "field1",
+            "datatype": "int",
+            "nullable": true,
+            "attribute": "None",
+            "description": "Some field description"
+          }
+        ]
+      },
+      "environmentNames": [
+        "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters_new",
+        "com.deere.enterprise.datalake.enhance.test_ds_for_views"
+      ]
+    },
+    {
+      "name": "brian.marvel_raw_cross_test5",
+      "structure": {
+        "description": "Also update status to approved if remaining communities are approved.",
+        "documentation": "some documentation",
+        "fields": [
+          {
+            "name": "field1",
+            "datatype": "int",
+            "nullable": true,
+            "attribute": "None",
+            "description": "Some field description"
+          }
+        ]
+      },
+      "environmentNames": [
+        "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters_new",
+        "com.deere.enterprise.datalake.enhance.test_ds_for_views"
+      ]
+    },
+    {
+      "name": "brian.marvel_raw_cross_test7",
+      "structure": {
+        "description": "Existing reject remediation and existing drift with changes communities then update the remediation with pending",
+        "documentation": "some documentation",
+        "fields": [
+          {
+            "name": "field1",
+            "datatype": "int",
+            "nullable": true,
+            "attribute": "None",
+            "description": "Some field description"
+          }
+        ]
+      },
+      "environmentNames": [
+        "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters_new",
+        "com.deere.enterprise.datalake.enhance.test_ds_for_views",
+        "com.deere.enterprise.datalake.enhance.madhuworkflowtest"
+      ]
+    },
+    {
+      "name": "brian.marvel_raw_cross_test6",
+      "structure": {
+        "description": "Existing approved remediation and new drift should create new remediation",
+        "documentation": "some documentation",
+        "fields": [
+          {
+            "name": "field1",
+            "datatype": "int",
+            "nullable": true,
+            "attribute": "None",
+            "description": "Some field description"
+          }
+        ]
+      },
+      "environmentNames": [
+        "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters_new",
+        "com.deere.enterprise.datalake.enhance.test_ds_for_views",
+        "com.deere.enterprise.datalake.enhance.madhuworkflowtest"
+      ]
+    },
+    {
+      "name": "brian.dhams_test_view",
+      "structure": {
+        "description": "Existing pending remediation and new drift with NO new communities then do nothing",
+        "documentation": "some documentation",
+        "fields": [
+          {
+            "name": "field1",
+            "datatype": "int",
+            "nullable": true,
+            "attribute": "None",
+            "description": "Some field description"
+          }
+        ]
+      },
+      "environmentNames": [
+        "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters_new"
+      ]
+    },
+    {
+      "name": "edl_views_devl.test_view_structure_for_raw",
+      "environmentNames": [
+        "com.deere.enterprise.datalake.enhance.demo_marvel_comic_characters_new",
+        "com.deere.enterprise.datalake.enhance.madhuworkflowtest"
+      ],
+      "structure": {
+        "description": "None",
+        "fields": [
+          {
+            "name": "name_new",
+            "datatype": "string",
+            "description": "",
+            "nullable": true,
+            "attribute": "None"
+          },
+          {
+            "name": "id",
+            "datatype": "integer",
+            "description": "id des",
+            "nullable": true,
+            "attribute": "None"
+          }
+        ],
+        "documentation": "",
+        "isDynamic": false,
+        "tables": ["edl_current_dev.Asgardian_NEW_dataset"]
+      }
+    }
+  ]
+}

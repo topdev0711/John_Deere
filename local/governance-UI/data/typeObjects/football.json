@@ -1,0 +1,10 @@
+{
+  "Contents": [],
+  "CommonPrefixes": [],
+  "IsTruncated": false, 
+  "KeyCount": 7, 
+  "MaxKeys": 10, 
+  "Name": "jd-us01-edl-devl-raw-someEncodedId", 
+  "NextContinuationToken": "", 
+  "Prefix": ""
+}

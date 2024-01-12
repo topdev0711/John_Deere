@@ -1,0 +1,83 @@
+{
+  "id": "dad720bd-7df4-4b4d-8e66-c79b901b8eb3--62",
+  "name": "demo_asgardian_dataset_multi_partition",
+  "version": "0.0.2",
+  "description": "People",
+  "documentation": "",
+  "partitionedBy": [
+    "Alignment"
+  ],
+  "testing": false,
+  "fields": [
+    {
+      "name": "Name",
+      "attribute": "id",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "Intelligence",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Strength",
+      "attribute": "None",
+      "datatype": "decimal",
+      "nullable": false,
+      "precision": 10,
+      "scale": 0
+    },
+    {
+      "name": "Speed",
+      "attribute": "None",
+      "datatype": "date",
+      "nullable": false
+    },
+    {
+      "name": "Durability",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "nullable": false
+    },
+    {
+      "name": "Power",
+      "attribute": "None",
+      "datatype": "bytes",
+      "nullable": false
+    },
+    {
+      "name": "Combat",
+      "attribute": "None",
+      "datatype": "double",
+      "nullable": false
+    },
+    {
+      "name": "Total",
+      "attribute": "None",
+      "datatype": "float",
+      "nullable": false
+    },
+    {
+      "name": "Deleted",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "ExtractTime",
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "Alignment",
+      "attribute": "None",
+      "datatype": "boolean",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.demo_asgardian_dataset_multi_partition"
+}

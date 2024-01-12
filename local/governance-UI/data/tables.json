@@ -1,0 +1,79 @@
+{
+  "tables": [
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+          },
+          "name": {
+            "S": "edl_testTable"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "09224f32-0389-3649-8e6e-f3d37015de96"
+          },
+          "name": {
+            "S": "edl_testTable"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+          },
+          "name": {
+            "S": "edl.testTable1"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "09224f32-0389-3649-8e6e-f3d37015de96"
+          },
+          "name": {
+            "S": "edl.testTable3"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "1979357a-700f-4689-b4f7-27757592aa3e"
+          },
+          "name": {
+            "S": "edl_testTable"
+          },
+          "updatedAt": {
+            "S": "2020-09-01T18:26:41.274Z"
+          }
+        }
+      }
+    }
+  ]
+}

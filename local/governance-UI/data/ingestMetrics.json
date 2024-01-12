@@ -1,0 +1,58 @@
+[
+    {
+        "requestId": "f65523e0-8527-4f06-88a5-103ebad6f6f0",
+        "status": "COMPLETE",
+        "errorMessage":"",
+        "metaData": {
+            "dataType": "com.deere.enterprise.datalake.raw.cps.telematics.measures",
+            "contentType": "",
+            "representation": "",
+            "numberOfRecords": 0,
+            "estimatedSize": 0,
+            "startTime": "2020-02-12T08:25:00.678Z",
+            "endTime": "2020-02-12T08:27:05.348Z"
+        }
+    },
+    {
+        "requestId": "8475f2e2-3217-4cc9-9e78-ecd4beaac1d6",
+        "status": "COMPLETE_WITH_ERRORS",
+        "errorMessage":"Some schema mismatch error occured",
+        "metaData": {
+            "dataType": "com.deere.enterprise.datalake.raw.cps.telematics.measures",
+            "contentType": "",
+            "representation": "",
+            "numberOfRecords": 0,
+            "estimatedSize": 0,
+            "startTime": "2020-02-12T08:24:48.839Z",
+            "endTime": "2020-02-12T08:26:00.317Z"
+        }
+    },
+    {
+        "requestId": "4d4a0997-68fb-4baf-a439-d6ad8fa7f9bf",
+        "status": "PENDING",
+        "errorMessage":"",
+        "metaData": {
+            "dataType": "com.deere.enterprise.datalake.raw.cps.telematics.measures",
+            "contentType": "",
+            "representation": "",
+            "numberOfRecords": 0,
+            "estimatedSize": 0,
+            "startTime": "2020-02-12T08:24:46.816Z",
+            "endTime": "2020-02-12T08:25:59.901Z"
+        }
+    },
+    {
+        "requestId": "e90c5956-5ca1-404d-a713-46ab9e64266c",
+        "status": "FAILED",
+        "errorMessage":"No such representation found",
+        "metaData": {
+            "dataType": "com.deere.enterprise.datalake.raw.cps.telematics.measures",
+            "contentType": "",
+            "representation": "",
+            "numberOfRecords": 0,
+            "estimatedSize": 0,
+            "startTime": "2020-02-12T08:24:46.058Z",
+            "endTime": "2020-02-12T08:25:54.284Z"
+        }
+    }
+]

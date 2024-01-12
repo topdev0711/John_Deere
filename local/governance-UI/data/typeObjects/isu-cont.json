@@ -1,0 +1,24 @@
+{
+  "Contents": [
+    {
+      "ETag": "\"sometag-1\"", 
+      "Key": "isu/file3.js", 
+      "LastModified": "2013-09-01T18:47:24.000Z", 
+      "Size": 4192256, 
+      "StorageClass": "STANDARD"
+    },      
+    {
+      "ETag": "\"sometag-1\"", 
+      "Key": "isu/file4.py", 
+      "LastModified": "2013-09-01T18:47:24.000Z", 
+      "Size": 4192256, 
+      "StorageClass": "STANDARD"
+    }
+  ],
+  "IsTruncated": false, 
+  "KeyCount": 2, 
+  "MaxKeys": 10, 
+  "Name": "jd-us01-edl-devl-raw-someEncodedId", 
+  "NextContinuationToken": "", 
+  "Prefix": ""
+}

@@ -1,0 +1,233 @@
+{
+  "id": "0a521db0-f7d0-4832-b3b3-638507f9ba8a--2",
+  "name": "MAI_INVENTORY",
+  "version": "1.0.0",
+  "description": "Inventory",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "PLANT",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "PLANT",
+      "nullable": false
+    },
+    {
+      "name": "ORDER_FROM_SUPPLIER",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "ORDER_FROM_SUPPLIER",
+      "nullable": true
+    },
+    {
+      "name": "PURCHASING_GROUP",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "PURCHASING_GROUP",
+      "nullable": true
+    },
+    {
+      "name": "PROCUREMENT_TYPE",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "UNIT_OF_MEASURE",
+      "nullable": true
+    },
+    {
+      "name": "MATERIAL",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "MATERIAL",
+      "nullable": false
+    },
+    {
+      "name": "MATERIAL_STATUS",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "MATERIAL_STATUS",
+      "nullable": true
+    },
+    {
+      "name": "UNIT_OF_MEASURE",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "UNIT_OF_MEASURE",
+      "nullable": true
+    },
+    {
+      "name": "VALUATION_CLASS",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "VALUATION_CLASS",
+      "nullable": true
+    },
+    {
+      "name": "CALENDAR_DATE",
+      "attribute": "None",
+      "datatype": "date",
+      "description": "CALENDAR_DATE",
+      "nullable": true
+    },
+    {
+      "name": "INVENTORY_QUANTITY",
+      "attribute": "None",
+      "datatype": "decimal",
+      "description": "INVENTORY_QUANTITY",
+      "nullable": true,
+      "precision": 13,
+      "scale": 3
+    },
+    {
+      "name": "INVENTORY_VALUE",
+      "attribute": "None",
+      "datatype": "decimal",
+      "description": "INVENTORY_VALUE",
+      "nullable": true,
+      "precision": 13,
+      "scale": 3
+    },
+    {
+      "name": "STOCK_CATEGORIES",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "STOCK_CATEGORIES",
+      "nullable": true
+    },
+    {
+      "name": "PLANT_CURRENCY",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "PLANT_CURRENCY",
+      "nullable": true
+    },
+    {
+      "name": "FISCAL_YEAR_PERIOD",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "FISCAL_YEAR_PERIOD",
+      "nullable": true
+    },
+    {
+      "name": "VALUATION_TYPE",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "VALUATION_TYPE",
+      "nullable": true
+    },
+    {
+      "name": "MRP_CONTROLLER",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "MRP_CONTROLLER",
+      "nullable": true
+    },
+    {
+      "name": "MRP_CONTROLLER_DESCRIPTION",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "MRP_CONTROLLER_DESCRIPTION",
+      "nullable": true
+    },
+    {
+      "name": "PURCHASING_GROUP_DESCRIPTION",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "PURCHASING_GROUP_DESCRIPTION",
+      "nullable": true
+    },
+    {
+      "name": "PURCHASING_GROUP_USERID",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "PURCHASING_GROUP_USERID",
+      "nullable": true
+    },
+    {
+      "name": "MRP_AREA",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "MRP_AREA",
+      "nullable": true
+    },
+    {
+      "name": "MRP_AREA_DESCRIPTION",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "MRP_AREA_DESCRIPTION",
+      "nullable": true
+    },
+    {
+      "name": "ORDER_FROM_SUPPLIER_NAME",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "ORDER_FROM_SUPPLIER_NAME",
+      "nullable": true
+    },
+    {
+      "name": "MATERIAL_DESCRIPTION",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "MATERIAL_DESCRIPTION",
+      "nullable": true
+    },
+    {
+      "name": "STORAGE_LOCATION",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "STORAGE_LOCATION",
+      "nullable": true
+    },
+    {
+      "name": "STORAGE_LOCATION_DESCRIPTION",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "STORAGE_LOCATION_DESCRIPTION",
+      "nullable": true
+    },
+    {
+      "name": "SPECIAL_STOCK",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "SPECIAL_STOCK",
+      "nullable": true
+    },
+    {
+      "name": "SPECIAL_STOCK_DESCRIPTION",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "SPECIAL_STOCK_DESCRIPTION",
+      "nullable": true
+    },
+    {
+      "name": "ABC_INDICATOR",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "ABC_INDICATOR",
+      "nullable": true
+    },
+    {
+      "name": "STOCK_TYPE",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "STOCK_TYPE",
+      "nullable": true
+    },
+    {
+      "name": "LANDSCAPE_CD",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "LANDSCAPE_CD",
+      "nullable": false
+    },
+    {
+      "name": "SNAPSHOT_DATE",
+      "attribute": "id",
+      "datatype": "date",
+      "description": "SNAPSHOT_DATE",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.mai_inventory"
+}

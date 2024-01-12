@@ -1,0 +1,284 @@
+{
+  "id": "39140f9f-e0c1-52b5-8faa-18707350d8c5",
+  "name": "non_auditable",
+  "version": "1",
+  "discovered": "2020-09-08T17:24:39.000Z",
+  "testing": true,
+  "partitionedBy": [
+    "year",
+    "month"
+  ],
+  "documentation": "None",
+  "description": "Discovered schema",
+  "glueTables": [
+    {
+      "Name": "non_auditable",
+      "DatabaseName": "devl_raw_edl_auditlogs_devl",
+      "Owner": "owner",
+      "CreateTime": "2020-09-08T17:24:39.000Z",
+      "UpdateTime": "2020-09-08T17:24:39.000Z",
+      "LastAccessTime": "2020-09-08T17:24:38.000Z",
+      "Retention": 0,
+      "StorageDescriptor": {
+        "Location": "s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/non-auditable/",
+        "InputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat",
+        "OutputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": {
+          "SerializationLibrary": "org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe",
+          "Parameters": {
+            "serialization.format": "1"
+          }
+        },
+        "BucketColumns": [],
+        "SortColumns": [],
+        "StoredAsSubDirectories": false
+      },
+      "TableType": "EXTERNAL_TABLE",
+      "Parameters": {
+        "CrawlerSchemaDeserializerVersion": "1.0",
+        "CrawlerSchemaSerializerVersion": "1.0",
+        "UPDATED_BY_CRAWLER": "devl_raw_edl_auditlogs_devl",
+        "averageRecordSize": "163",
+        "classification": "parquet",
+        "compressionType": "none",
+        "exclusions": "[\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/[_.*]*\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/[_.*]**\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/[_.*]*\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/[_.*]**\"]",
+        "objectCount": "2",
+        "recordCount": "232189",
+        "sizeKey": "25771261",
+        "typeOfData": "file"
+      },
+      "CreatedBy": "arn:aws:sts::078228365593:assumed-role/edl-glue-role/AWS-Crawler",
+      "IsRegisteredWithLakeFormation": false,
+      "CatalogId": "078228365593"
+    },
+    {
+      "Name": "data",
+      "DatabaseName": "devl_raw_edl_auditlogs_devl",
+      "Owner": "owner",
+      "CreateTime": "2020-09-08T17:24:39.000Z",
+      "UpdateTime": "2020-09-17T13:38:32.000Z",
+      "LastAccessTime": "2020-09-17T13:38:31.000Z",
+      "Retention": 0,
+      "StorageDescriptor": {
+        "Location": "s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/data/",
+        "InputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat",
+        "OutputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": {
+          "SerializationLibrary": "org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe",
+          "Parameters": {
+            "serialization.format": "1"
+          }
+        },
+        "BucketColumns": [],
+        "SortColumns": [],
+        "StoredAsSubDirectories": false
+      },
+      "TableType": "EXTERNAL_TABLE",
+      "Parameters": {
+        "CrawlerSchemaDeserializerVersion": "1.0",
+        "CrawlerSchemaSerializerVersion": "1.0",
+        "UPDATED_BY_CRAWLER": "devl_raw_edl_auditlogs_devl",
+        "averageRecordSize": "130",
+        "classification": "parquet",
+        "compressionType": "none",
+        "exclusions": "[\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/[_.*]*\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/[_.*]**\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/[_.*]*\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/[_.*]**\"]",
+        "objectCount": "510",
+        "recordCount": "6740867",
+        "sizeKey": "756936334",
+        "typeOfData": "file"
+      },
+      "CreatedBy": "arn:aws:sts::078228365593:assumed-role/edl-glue-role/AWS-Crawler",
+      "IsRegisteredWithLakeFormation": false,
+      "CatalogId": "078228365593"
+    }
+  ],
+  "fields": [
+    {
+      "name": "year",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "month",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "bucket_owner",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "request_date_time",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "remote_ip",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "requester",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "request_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "operation",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "key",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "request_uri",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "http_status",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "error_code",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "bytes_sent",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "object_size",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "total_time",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "turn_around_time",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "referrer",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "user_agent",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "version_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "host_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "signature_version",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "cipher_suite",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "authentication_type",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "host_header",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "tls_version",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "bucket",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    }
+  ],
+  "datasetId": "fc0fa026-31f4-451d-8614-49a5f3f1f13e"
+}

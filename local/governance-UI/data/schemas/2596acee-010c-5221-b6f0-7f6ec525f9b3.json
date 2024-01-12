@@ -1,0 +1,81 @@
+{
+  "id": "2596acee-010c-5221-b6f0-7f6ec525f9b3",
+  "name": "jd_us01_edl_devl_raw_2dda5a8ea1b7efba7db2286fcd728f34",
+  "version": "1",
+  "discovered": "2020-09-17T13:38:11.000Z",
+  "testing": true,
+  "partitionedBy": [
+    "partition_0",
+    "partition_1"
+  ],
+  "documentation": "None",
+  "description": "Discovered schema",
+  "glueTables": [
+    {
+      "Name": "jd_us01_edl_devl_raw_2dda5a8ea1b7efba7db2286fcd728f34",
+      "DatabaseName": "devl_raw_dhams_test_explorerview_publish",
+      "Owner": "owner",
+      "CreateTime": "2020-09-17T13:38:11.000Z",
+      "UpdateTime": "2020-09-17T13:38:11.000Z",
+      "LastAccessTime": "2020-09-17T13:38:11.000Z",
+      "Retention": 0,
+      "StorageDescriptor": {
+        "Location": "s3://jd-us01-edl-devl-raw-2dda5a8ea1b7efba7db2286fcd728f34/",
+        "InputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat",
+        "OutputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": {
+          "SerializationLibrary": "org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe",
+          "Parameters": {
+            "serialization.format": "1"
+          }
+        },
+        "BucketColumns": [],
+        "SortColumns": [],
+        "StoredAsSubDirectories": false
+      },
+      "TableType": "EXTERNAL_TABLE",
+      "Parameters": {
+        "CrawlerSchemaDeserializerVersion": "1.0",
+        "CrawlerSchemaSerializerVersion": "1.0",
+        "UPDATED_BY_CRAWLER": "devl_raw_dhams_test_explorerview_publish",
+        "averageRecordSize": "164",
+        "classification": "parquet",
+        "compressionType": "none",
+        "exclusions": "[\"s3://jd-us01-edl-devl-raw-2dda5a8ea1b7efba7db2286fcd728f34/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-2dda5a8ea1b7efba7db2286fcd728f34/[_.*]*\",\"s3://jd-us01-edl-devl-raw-2dda5a8ea1b7efba7db2286fcd728f34/[_.*]**\",\"s3://jd-us01-edl-devl-raw-2dda5a8ea1b7efba7db2286fcd728f34/**/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-2dda5a8ea1b7efba7db2286fcd728f34/**/[_.*]*\",\"s3://jd-us01-edl-devl-raw-2dda5a8ea1b7efba7db2286fcd728f34/**/[_.*]**\"]",
+        "objectCount": "3",
+        "recordCount": "2",
+        "sizeKey": "1202",
+        "typeOfData": "file"
+      },
+      "CreatedBy": "arn:aws:sts::078228365593:assumed-role/edl-glue-role/AWS-Crawler",
+      "IsRegisteredWithLakeFormation": false,
+      "CatalogId": "078228365593"
+    }
+  ],
+  "fields": [
+    {
+      "name": "partition_0",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "partition_1",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": false
+    },
+    {
+      "name": "_c0",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    }
+  ],
+  "datasetId": "fb70b584-81f4-44a4-8fcb-24fd9626dc54"
+}

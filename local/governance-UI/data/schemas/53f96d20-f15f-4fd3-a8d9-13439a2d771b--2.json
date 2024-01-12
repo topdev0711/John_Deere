@@ -1,0 +1,19 @@
+{
+  "id": "53f96d20-f15f-4fd3-a8d9-13439a2d771b--2",
+  "name": "fsdafdsf",
+  "version": "1",
+  "description": "fasdf",
+  "documentation": "fasdf",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "asdfadsf",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.fsdafdsf"
+}

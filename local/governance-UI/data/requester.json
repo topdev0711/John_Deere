@@ -1,0 +1,71 @@
+{
+  "entitlements": [
+    {
+      "additionalTags": [],
+      "development": false,
+      "countriesOfCreation": [
+        "ALL"
+      ],
+      "personalInformation": false,
+      "countriesRepresented": [
+        "ALL"
+      ],
+      "id": "bc7e127f-432e-4c49-9de8-8d76671c2ed6",
+      "community": "Channel",
+      "actions": [
+        "Read",
+        "Write"
+      ],
+      "subCommunity": "Service Delivery",
+      "gicp": "Confidential"
+    }
+  ],
+  "clientId": "somecoolclientid1",
+  "updatedBy": "testracfId",
+  "endDate": "2020-06-24T20:53:15.948Z",
+  "requestComments": "No comments",
+  "roleType": "system",
+  "version": 28,
+  "businessCase": "I really wanna access this data",
+  "createdAt": "2020-05-22T05:30:12.194Z",
+  "createdBy": "testracfId",
+  "approvals": [
+    {
+      "approvedBy": "testracfId",
+      "comment": null,
+      "approverEmail": "AWS-GIT-DWIS-DEV@JohnDeere.com",
+      "community": "Channel",
+      "status": "APPROVED",
+      "updatedAt": "2020-05-22T05:30:28.459Z"
+    },
+    {
+      "approvedBy": "testracfId",
+      "comment": null,
+      "approverEmail": "AWS-GIT-DWIS-DEV@JohnDeere.com",
+      "community": "Customer",
+      "status": "APPROVED",
+      "updatedAt": "2020-05-22T05:30:28.459Z"
+    },
+    {
+      "custodian": "AWS-GIT-DWIS-DEV",
+      "status": "PENDING",
+      "approvedBy": "testracfId",
+      "approverEmail": "AWS-GIT-DWIS-DEV@JohnDeere.com",
+      "comment": null,
+      "updatedAt": "2020-05-22T05:30:28.459Z"
+    },
+    {
+      "system": "EDL",
+      "status": "APPROVED",
+      "details": {},
+      "approvedBy": "testracfId",
+      "updatedAt": "2020-05-22T05:30:28.460Z"
+    }
+  ],
+  "name": "CPS Automation",
+  "id": "123456840503dnflng",
+  "startDate": "2019-06-24T20:53:15.948Z",
+  "group": "Test Group",
+  "updatedAt": "2020-05-22T05:30:12.239Z",
+  "status": "AVAILABLE"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "1b8cd4d7-7394-4d25-a805-b36cbb7f98a4--1",
+  "name": "Test",
+  "version": "1.0.0",
+  "description": "Test",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "Name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.test"
+}

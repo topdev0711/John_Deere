@@ -1,0 +1,108 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Parameters:
+  replicationGroupId:
+    Type: String
+    Description: Replication Group Id
+  cacheNodeType:
+    Type: String
+    Description: Cache Node Type
+  subnets:
+    Type: String
+    Description: Subnet Ids for Redis Cache
+  numNodeGroup:
+    Type: String
+    Description: Number of Node Group
+  replicaPerNodeGroup:
+    Type: String
+    Description: Number of Replica per Node Group
+  VpcId:
+    Type: String
+    Description: VPC Id  
+  redisAuthToken:
+    Type: String
+    Description: Redis Authentication Token
+
+Resources:
+
+  EDLCatalogCacheSecurityGroup:
+    Type: "AWS::EC2::SecurityGroup"
+    Properties:
+      GroupDescription: "Elasticache Security Group"
+      VpcId: !Ref VpcId
+      SecurityGroupIngress:
+      - IpProtocol: tcp
+        FromPort: '443'
+        ToPort: '443'
+        CidrIp: 0.0.0.0/0
+      - IpProtocol: tcp
+        FromPort: '6379'
+        ToPort: '6379'
+        CidrIp: 0.0.0.0/0
+
+  EDLRedisSubnetGroup:
+    Type: AWS::ElastiCache::SubnetGroup
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
+    Properties:
+      CacheSubnetGroupName: "edl-redis-subnet-group"
+      Description: "EDL redis subnet group"
+      SubnetIds: !Split [',', !Ref subnets]
+
+  EDLCacheParameterGroup:
+    Type: AWS::ElastiCache::ParameterGroup
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
+    Properties:
+      CacheParameterGroupFamily: "redis6.x"
+      Description: !Join [ " ", [ "Cache parameter group for: ", !Ref replicationGroupId ] ]
+      Properties:
+        cluster-enabled : "yes"
+        cluster-allow-reads-when-down: "yes"
+  
+  EDLRedisSecret:
+    Type: AWS::SecretsManager::Secret
+    Properties:
+      Name: AE/EDL/REDIS_AUTH_TOKEN
+      Description: 'This is the secret for Redis auth token'
+      GenerateSecretString:
+        SecretStringTemplate: '{"username": "EdlAdmin"}'
+        GenerateStringKey: 'password'
+        PasswordLength: 30
+        ExcludeCharacters: '"@/\'
+      Tags:
+        -
+          Key: component
+          Value: "enterprise-data-governance-center"
+
+  EDLClusterInReplicationGroup:
+    Type: AWS::ElastiCache::ReplicationGroup
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
+    Properties:
+      AuthToken:
+        Fn::Sub: '{{resolve:secretsmanager:${redisAuthToken}::password}}' 
+      ReplicationGroupId: !Ref replicationGroupId
+      ReplicationGroupDescription: " EDL redis cluster"
+      AutomaticFailoverEnabled: true
+      CacheNodeType: !Ref cacheNodeType
+      CacheParameterGroupName: !Ref EDLCacheParameterGroup
+      CacheSubnetGroupName: "edl-redis-subnet-group"
+      Engine: redis
+      EngineVersion: '6.x'
+      NumNodeGroups: !Ref numNodeGroup
+      ReplicasPerNodeGroup: !Ref replicaPerNodeGroup
+      SecurityGroupIds:
+        -
+          Fn::GetAtt:
+            - "EDLCatalogCacheSecurityGroup"
+            - "GroupId"
+      TransitEncryptionEnabled: true
+      AtRestEncryptionEnabled: true
+      MultiAZEnabled: true
+      Tags:
+        - Key: "component"
+          Value: "enterprise-data-governance-center"
+    DependsOn:
+      - EDLRedisSubnetGroup
+      - EDLCacheParameterGroup
+      - EDLRedisSecret

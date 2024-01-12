@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: persistence layer for enterprise data governance center edl usage metrics
+Resources:
+  metricsPersistence:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+      KeySchema:
+        -
+          AttributeName: "application"
+          KeyType: "HASH" 
+        -
+          AttributeName: "date"
+          KeyType: "RANGE"        
+      AttributeDefinitions:
+        -
+          AttributeName: "application"
+          AttributeType: "S"        
+        -
+          AttributeName: "date"
+          AttributeType: "S"
+      BillingMode: PAY_PER_REQUEST
+      TableName: jd-data-catalog-metrics
+      SSESpecification:
+          SSEEnabled: true
+      Tags:
+        -
+          Key: Name
+          Value: {{ deereTaggingComponent }}-metricsPersistence
+        -
+          Key: component
+          Value: {{ deereTaggingComponent }}

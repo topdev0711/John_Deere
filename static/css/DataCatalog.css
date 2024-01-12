@@ -1,0 +1,83 @@
+.catalog-popover {
+    padding: 10px;
+    max-width: 600px;
+    box-shadow: 0 1px 8px #bbb;
+}
+
+.catalog-card {
+    box-shadow: none;
+    max-width: 100%;
+    border: 0;
+}
+
+.catalog-leftText {
+    max-width: 90%;
+}
+
+.catalog-selectBox {
+    float: right;
+    margin-top: -6px;
+    margin-right: -35px;
+}
+
+.catalog-listItem {
+    margin-top: 10px;
+    border-bottom: 0px;
+}
+
+.catalog-listItemSelected {
+    margin-top: 10px;
+    background-color: #f6f6f6;
+    border-bottom: 0px;
+}
+
+.catalog-datasetSummary {
+    margin-top: 8px;
+}
+
+.catalog-dataSummaryDetail {
+    color: #777;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.catalog-filterLink {
+    z-index: 100;
+}
+
+.catalog-registerNewDataset {
+    margin-top: 2px;
+    white-space: nowrap;
+}
+
+.catalog-iconDetails {
+    color: green;
+    float: right;
+    right: 5px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.catalog-iconSpecific {
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.catalog-resultCount {
+    float: right !important;
+}
+
+.catalog-searchLogo {
+    background: none;
+}
+
+.catalog-badge {
+    background-color: #a5a5a5;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.catalog-badgeContainer {
+    margin-top: 3px;
+}

@@ -1,0 +1,51 @@
+node_env: production
+env: devl
+account: 541843007032
+region: us-east-1
+
+ApplicationName: JohnDeereDataCatalog
+
+EC2InstanceType: m5.2xlarge
+EC2MinNumberOfInstances: 2
+EC2MaxNumberOfInstances: 2
+
+VpcId: vpc-882698ef
+PrivateSubnets: subnet-2762390d,subnet-4883a610
+PublicSubnets: subnet-4c83a614,subnet-2462390e
+DeereNetworkSSH: sg-1671396d
+certificateID: 5dd5c254-2056-44e5-9e43-f4c61b80ec70
+CName: dataGovernanceCenter
+VpcCidr: 10.212.224.0/21
+
+URLPrefix: data-catalog-dev-lakers
+URLSuffix: vpn-devl.us.e03.c01.johndeerecloud.com
+BaseURL: data-catalog-dev-lakers.vpn-devl.us.e03.c01.johndeerecloud.com
+HostedZoneId: Z2OQCZSODIVDU5
+
+discoveredSchemasTable: jd-data-catalog-discovered-schemas
+viewsTable: jd-data-catalog-views
+tablesTable: jd-data-catalog-tables
+announcementsTable: jd-data-catalog-announcements
+remediationsTable: jd-data-catalog-remediations
+applicationsTable: jd-data-catalog-applications
+
+collibraUserName: govUI_devl
+
+deereTaggingComponent: enterprise-data-governance-center
+
+cacheSuffix: Devl
+cachePrivateSubnet: subnet-2762390d
+cachePublicSubnet: subnet-4c83a614
+cacheSubnet1: subnet-2762390d
+cacheSubnet2: subnet-4c83a614
+cacheSubnet3: subnet-4883a610
+cacheSubnet4: subnet-2462390e
+
+dbInstance: "db.r5.xlarge"
+dbAvailabilityZone1: us-east-1a
+dbAvailabilityZone2: us-east-1c
+#snsName: edgSelfServiceCloudWatchAlarm
+
+#kmsAlias: alias/edg-self-service-key
+
+#ec2KeyName:

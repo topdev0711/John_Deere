@@ -1,0 +1,21 @@
+{
+  "id": "View1",
+  "name": "View1",
+  "isDynamic": true,
+  "version": "0",
+  "partitionedBy": [],
+  "testing": true,
+  "discovered": "2019-11-12T02:56:10.710Z",
+  "description": "View1 description",
+  "documentation": "View1 documentation",
+  "fields": [
+    {
+      "name": "field1",
+      "datatype": "int",
+      "nullable": true,
+      "attribute": "None",
+      "description": "View1 field description"
+    }
+  ],
+  "datasetId": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+}

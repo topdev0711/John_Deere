@@ -1,0 +1,102 @@
+{
+  "id": "bb6d25da-b272-4709-8fca-c643ec836154--1",
+  "name": "Guardium Data Activity ",
+  "version": "5.1.5",
+  "description": "Guardium Data Activity ",
+  "environmentName": "com.deere.enterprise.datalake.raw.guardium_data_activity_detail.guardium_data_activity",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": true,
+  "fields": [
+    {
+      "name": "MANAGER_NM",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "EMPLOYEE_NM",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "DB_User_Only",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "EMP_UNIT_CD",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "EMP_DEPT_CD",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "EMP_TITLE",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "Timestamp",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "nullable": false
+    },
+    {
+      "name": "Server_Host_Name",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "Database_Name",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "DB2_i_z_Database",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "Source_Program",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "Field12",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "Full_SQL_ID",
+      "attribute": "None",
+      "datatype": "long",
+      "nullable": false
+    },
+    {
+      "name": "Records_Affected",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Full_Sql",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Contents": [
+    {
+      "Key": "isu/",
+      "LastModified": "2020-05-18T23:51:33.000Z",
+      "ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+      "Size": 0,
+      "StorageClass": "STANDARD"
+    }
+  ],
+  "CommonPrefixes": [
+    {"Prefix": "isu/bball/"},
+    {"Prefix": "isu/football/"}
+  ],
+  "IsTruncated": false, 
+  "KeyCount": 2, 
+  "MaxKeys": 10, 
+  "Name": "jd-us01-edl-devl-raw-someEncodedId", 
+  "NextContinuationToken": "token", 
+  "Prefix": ""
+}

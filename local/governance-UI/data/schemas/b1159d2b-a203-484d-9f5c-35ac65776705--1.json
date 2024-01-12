@@ -1,0 +1,40 @@
+{
+  "id": "b1159d2b-a203-484d-9f5c-35ac65776705--1",
+  "name": "dhams_prevent_reuse_clientid_test_schema",
+  "version": "1.0.0",
+  "description": "dhams_prevent_reuse_clientid_test_schema",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "id",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "name",
+      "nullable": false
+    },
+    {
+      "name": "extract_time",
+      "attribute": "extract time",
+      "datatype": "timestamp",
+      "description": "time",
+      "nullable": false
+    },
+    {
+      "name": "delete_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "delete ind",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.dhams_prevent_reuse_clientid_test_schema"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "af7120da-cb79-4bac-a96d-54851341029e--3",
+  "name": "MaDD",
+  "version": "1.0.0",
+  "description": "assdsafsdf",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.madd"
+}

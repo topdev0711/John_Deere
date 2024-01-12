@@ -1,0 +1,328 @@
+{
+  "discovered-schemas": [
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "4024a647-1767-321f-9456-26b6fef2399f"
+          },
+          "discovered": {
+            "S": "2020-09-24T18:01:32.000Z"
+          },
+          "id": {
+            "S": "2984fd4b-ff4a-50cb-b91a-a09d1c03718e"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "4024a647-1767-321f-9456-26b6fef2399f"
+          },
+          "discovered": {
+            "S": "2020-09-24T18:01:32.000Z"
+          },
+          "id": {
+            "S": "3a46f58d-5c04-59e9-ba9f-0386a8aefe23"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "4024a647-1767-321f-9456-26b6fef2399f"
+          },
+          "discovered": {
+            "S": "2020-09-08T17:24:56.000Z"
+          },
+          "id": {
+            "S": "73f32b34-d175-566a-971f-f8ef44ca36a1"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "4024a647-1767-321f-9456-26b6fef2399f"
+          },
+          "discovered": {
+            "S": "2020-09-08T17:24:58.000Z"
+          },
+          "id": {
+            "S": "cd68a599-bd85-5a6f-8bf8-92490f077f8c"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "4024a647-1767-321f-9456-26b6fef2399f"
+          },
+          "discovered": {
+            "S": "2020-10-06T18:01:14.000Z"
+          },
+          "id": {
+            "S": "d3779509-71f0-53dd-a75e-5da3d3779bf3"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "4024a647-1767-321f-9456-26b6fef2399f"
+          },
+          "discovered": {
+            "S": "2020-09-25T18:01:29.000Z"
+          },
+          "id": {
+            "S": "d795ecb1-f3d9-5acd-b367-60d9946e9ea7"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "774e94a8-173e-4298-9123-3b08d426a1a8"
+          },
+          "discovered": {
+            "S": "2020-09-18T21:32:03.000Z"
+          },
+          "id": {
+            "S": "3b3f37e5-158e-57c9-869c-fc8068d1c663"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "774e94a8-173e-4298-9123-3b08d426a1a8"
+          },
+          "discovered": {
+            "S": "2020-09-18T21:32:03.000Z"
+          },
+          "id": {
+            "S": "f0280a1c-d090-5954-814c-8b7bac69953e"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "ab490705-932f-470b-a434-e98fed64dfe9"
+          },
+          "discovered": {
+            "S": "2020-09-26T18:01:18.000Z"
+          },
+          "id": {
+            "S": "9dce669e-a4d0-56da-897b-cfb175c6dd1f"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "ab490705-932f-470b-a434-e98fed64dfe9"
+          },
+          "discovered": {
+            "S": "2020-09-26T18:01:21.000Z"
+          },
+          "id": {
+            "S": "cca9a169-5841-5429-a3f2-80405f375dd8"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "ab490705-932f-470b-a434-e98fed64dfe9"
+          },
+          "discovered": {
+            "S": "2020-09-26T18:01:20.000Z"
+          },
+          "id": {
+            "S": "ec606813-4c61-51a7-8f0f-a9d62c8664c7"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "af418aba-0db1-4514-a9c9-eb39e7dd59e8"
+          },
+          "discovered": {
+            "S": "2019-11-12T02:56:10.710Z"
+          },
+          "id": {
+            "S": "some-id"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "af418aba-0db1-4514-a9c9-eb39e7dd59e8"
+          },
+          "discovered": {
+            "S": "2019-11-12T02:56:10.710Z"
+          },
+          "id": {
+            "S": "some-other-id"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "fb70b584-81f4-44a4-8fcb-24fd9626dc54"
+          },
+          "discovered": {
+            "S": "2020-09-17T13:38:11.000Z"
+          },
+          "id": {
+            "S": "2596acee-010c-5221-b6f0-7f6ec525f9b3"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "fc0fa026-31f4-451d-8614-49a5f3f1f13e"
+          },
+          "discovered": {
+            "S": "2020-09-08T17:24:39.000Z"
+          },
+          "id": {
+            "S": "39140f9f-e0c1-52b5-8faa-18707350d8c5"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "fc0fa026-31f4-451d-8614-49a5f3f1f13e"
+          },
+          "discovered": {
+            "S": "2020-09-08T17:24:39.000Z"
+          },
+          "id": {
+            "S": "a8f9828e-f212-56de-aa28-5ece88f170c5"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "fc0fa026-31f4-451d-8614-49a5f3f1f13e"
+          },
+          "discovered": {
+            "S": "2020-09-08T17:24:39.000Z"
+          },
+          "id": {
+            "S": "bd719376-71b2-5d06-bcbc-26180df22431"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "datasetId": {
+            "S": "fc0fa026-31f4-451d-8614-49a5f3f1f13e"
+          },
+          "discovered": {
+            "S": "2020-09-08T17:24:39.000Z"
+          },
+          "id": {
+            "S": "c5640d33-c255-5696-ac9c-cfbfc8e7a62f"
+          },
+          "testing": {
+            "BOOL": true
+          }
+        }
+      }
+    }
+  ]
+}

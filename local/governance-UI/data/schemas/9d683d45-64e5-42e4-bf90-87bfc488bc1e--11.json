@@ -1,0 +1,61 @@
+{
+  "id": "9d683d45-64e5-42e4-bf90-87bfc488bc1e--11",
+  "name": "eats.action_delete_unused_workbooks",
+  "version": "0.0.3",
+  "description": "Records unused Tableau workbooks that were deleted from the server",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "tool",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "env",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "loc",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "workbook_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "owner_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "size",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "time",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.eats_action_delete_unused_workbooks"
+}

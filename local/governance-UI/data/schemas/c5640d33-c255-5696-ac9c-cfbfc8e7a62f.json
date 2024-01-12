@@ -1,0 +1,96 @@
+{
+  "id": "c5640d33-c255-5696-ac9c-cfbfc8e7a62f",
+  "name": "commits",
+  "version": "1",
+  "discovered": "2020-09-08T17:24:39.000Z",
+  "testing": true,
+  "partitionedBy": [],
+  "documentation": "None",
+  "description": "Discovered schema",
+  "glueTables": [
+    {
+      "Name": "commits",
+      "DatabaseName": "devl_raw_edl_auditlogs_devl",
+      "Owner": "owner",
+      "CreateTime": "2020-09-08T17:24:39.000Z",
+      "UpdateTime": "2020-09-08T17:24:39.000Z",
+      "LastAccessTime": "2020-09-08T17:24:39.000Z",
+      "Retention": 0,
+      "StorageDescriptor": {
+        "Location": "s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/checkpoint/commits/",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": {
+          "Parameters": {}
+        },
+        "BucketColumns": [],
+        "SortColumns": [],
+        "StoredAsSubDirectories": false
+      },
+      "TableType": "EXTERNAL_TABLE",
+      "Parameters": {
+        "CrawlerSchemaDeserializerVersion": "1.0",
+        "CrawlerSchemaSerializerVersion": "1.0",
+        "UPDATED_BY_CRAWLER": "devl_raw_edl_auditlogs_devl",
+        "averageRecordSize": "14",
+        "classification": "ion",
+        "compressionType": "none",
+        "exclusions": "[\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/[_.*]*\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/[_.*]**\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/[_.*]*\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/[_.*]**\"]",
+        "objectCount": "101",
+        "recordCount": "202",
+        "sizeKey": "2929",
+        "typeOfData": "file"
+      },
+      "CreatedBy": "arn:aws:sts::078228365593:assumed-role/edl-glue-role/AWS-Crawler",
+      "IsRegisteredWithLakeFormation": false,
+      "CatalogId": "078228365593"
+    },
+    {
+      "Name": "offsets",
+      "DatabaseName": "devl_raw_edl_auditlogs_devl",
+      "Owner": "owner",
+      "CreateTime": "2020-09-08T17:24:39.000Z",
+      "UpdateTime": "2020-09-08T17:24:39.000Z",
+      "LastAccessTime": "2020-09-08T17:24:39.000Z",
+      "Retention": 0,
+      "StorageDescriptor": {
+        "Location": "s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/checkpoint/offsets/",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": {
+          "Parameters": {}
+        },
+        "BucketColumns": [],
+        "SortColumns": [],
+        "StoredAsSubDirectories": false
+      },
+      "TableType": "EXTERNAL_TABLE",
+      "Parameters": {
+        "CrawlerSchemaDeserializerVersion": "1.0",
+        "CrawlerSchemaSerializerVersion": "1.0",
+        "UPDATED_BY_CRAWLER": "devl_raw_edl_auditlogs_devl",
+        "averageRecordSize": "196",
+        "classification": "ion",
+        "compressionType": "none",
+        "exclusions": "[\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/[_.*]*\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/[_.*]**\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/[_.*]*\",\"s3://jd-us01-edl-devl-raw-5b46024f5bab1033025b62ee475a004d/**/[_.*]**\"]",
+        "objectCount": "101",
+        "recordCount": "303",
+        "sizeKey": "59489",
+        "typeOfData": "file"
+      },
+      "CreatedBy": "arn:aws:sts::078228365593:assumed-role/edl-glue-role/AWS-Crawler",
+      "IsRegisteredWithLakeFormation": false,
+      "CatalogId": "078228365593"
+    }
+  ],
+  "fields": [
+    {
+      "name": "choice",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    }
+  ],
+  "datasetId": "fc0fa026-31f4-451d-8614-49a5f3f1f13e"
+}

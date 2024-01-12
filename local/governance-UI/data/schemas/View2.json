@@ -1,0 +1,20 @@
+{
+  "id": "View2",
+  "name": "View2",
+  "version": "0",
+  "partitionedBy": [],
+  "testing": true,
+  "discovered": "2019-11-12T02:56:10.710Z",
+  "description": "View2 description",
+  "documentation": "View2 documentation",
+  "fields": [
+    {
+      "name": "field1",
+      "datatype": "int",
+      "nullable": true,
+      "attribute": "None",
+      "description": "View2 field description"
+    }
+  ],
+  "datasetId": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+}

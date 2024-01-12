@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: persistence layer for enterprise data governance center schemas
+Resources:
+  schemaPersistence:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: jd-data-catalog-schemas-{{env}}
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+  schemaBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      PolicyDocument:
+        FileJinJa: ci/config/jd-data-catalog-schema-bucket-policy.json
+        VariablesNoQuote:
+          S3_BUCKET: jd-data-catalog-schemas-{{env}}
+      Bucket:
+        Ref: schemaPersistence

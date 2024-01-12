@@ -1,0 +1,26 @@
+{
+  "id": "27cceb12-f437-451a-9ac1-58f7da47d7c2--5",
+  "name": "Test_4",
+  "version": "4.0.0",
+  "description": "work flow table Test_4",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "address",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.test_4"
+}

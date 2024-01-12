@@ -1,0 +1,42 @@
+{
+  "id": "9de9e2d4-5e46-408d-b1aa-0ca490bea4b6--3",
+  "name": "aeops_test",
+  "version": "0.0.1",
+  "description": "AEOPS Team testing dataset for Nifi Flows",
+  "documentation": "",
+  "partitionedBy": [
+    "edl_load_ts"
+  ],
+  "testing": true,
+  "fields": [
+    {
+      "name": "ID",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "unique id",
+      "nullable": false
+    },
+    {
+      "name": "Firstname",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Firstname",
+      "nullable": false
+    },
+    {
+      "name": "Lastname",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "last name",
+      "nullable": false
+    },
+    {
+      "name": "edl_load_ts",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "load time",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.raw.aeops_test"
+}

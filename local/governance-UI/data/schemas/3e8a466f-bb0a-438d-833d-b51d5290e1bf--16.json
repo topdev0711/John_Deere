@@ -1,0 +1,19 @@
+{
+  "id": "3e8a466f-bb0a-438d-833d-b51d5290e1bf--16",
+  "name": "A new schema",
+  "version": "1",
+  "description": "testiung",
+  "documentation": "test",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "field",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "test",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.a_new_schema"
+}

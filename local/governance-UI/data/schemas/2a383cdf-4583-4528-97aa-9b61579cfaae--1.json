@@ -1,0 +1,33 @@
+{
+  "id": "2a383cdf-4583-4528-97aa-9b61579cfaae--1",
+  "name": "PrashanthEnhanceTest",
+  "version": "1.0.0",
+  "description": "Schemas for Prashanth Enhance Test",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "FirstName",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "First Name",
+      "nullable": false
+    },
+    {
+      "name": "LastName",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Last Name",
+      "nullable": false
+    },
+    {
+      "name": "Age",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "Age",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.prashanthenhancetest"
+}

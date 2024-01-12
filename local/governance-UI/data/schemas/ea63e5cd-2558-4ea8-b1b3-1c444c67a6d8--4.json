@@ -1,0 +1,124 @@
+{
+  "id": "ea63e5cd-2558-4ea8-b1b3-1c444c67a6d8--4",
+  "name": "JDSC EUM Log",
+  "version": "0.0.1",
+  "description": "End User Monitoring Logging Data for JDSC from AppDynamics",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "agt_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Agent ID",
+      "nullable": true
+    },
+    {
+      "name": "cguid",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "Client GUID",
+      "nullable": false
+    },
+    {
+      "name": "evnt_ts",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "Event Timestamp (UTC)",
+      "nullable": false
+    },
+    {
+      "name": "page_nm",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Page Name",
+      "nullable": true
+    },
+    {
+      "name": "page_url",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Page URL",
+      "nullable": true
+    },
+    {
+      "name": "page_parnt_url",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Page Parent URL",
+      "nullable": true
+    },
+    {
+      "name": "racf_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "RACF ID",
+      "nullable": true
+    },
+    {
+      "name": "usr_nm",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "User Name",
+      "nullable": true
+    },
+    {
+      "name": "acct_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Account ID",
+      "nullable": true
+    },
+    {
+      "name": "dlr_nm",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Dealer Name",
+      "nullable": true
+    },
+    {
+      "name": "geo_cntry",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Geocountry",
+      "nullable": true
+    },
+    {
+      "name": "geo_regn",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Georegion",
+      "nullable": true
+    },
+    {
+      "name": "geo_city",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Geocity",
+      "nullable": true
+    },
+    {
+      "name": "resp_tm",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "Response Time (ms)",
+      "nullable": true
+    },
+    {
+      "name": "page_exprc",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Page Experience",
+      "nullable": true
+    },
+    {
+      "name": "extr_ts",
+      "attribute": "extract time",
+      "datatype": "timestamp",
+      "description": "Extract Timestamp (UTC)",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.jdsc_eum_log"
+}

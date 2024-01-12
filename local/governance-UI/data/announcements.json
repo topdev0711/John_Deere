@@ -1,0 +1,76 @@
+{
+  "announcements": [
+    {
+      "PutRequest": {
+        "Item": {
+          "title": {
+            "S": "TEST ANNOUNCEMENT"
+          },
+          "startAt": {
+            "S": "2020-06-04T00:0:00.000Z"
+          },
+          "endAt": {
+            "S": "2020-07-21T00:0:00.000Z"
+          },
+          "text": {
+            "S": "This is a test alert"
+          },
+          "createdAt": {
+            "S": "2020-06-04T05:52:40.368Z"
+          },
+          "updatedAt": {
+            "S": "2020-06-04T05:52:40.368Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "title": {
+            "S": "TEST ANNOUNCEMENT2"
+          },
+          "startAt": {
+            "S": "2020-06-04T00:0:00.000Z"
+          },
+          "endAt": {
+            "S": "2020-07-19T00:0:00.000Z"
+          },
+          "text": {
+            "S": "This is a test alert"
+          },
+          "createdAt": {
+            "S": "2020-06-04T05:52:40.368Z"
+          },
+          "updatedAt": {
+            "S": "2020-06-04T05:52:40.368Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "title": {
+            "S": "Sample Announcement"
+          },
+          "startAt": {
+            "S": "2020-07-21T00:0:00.000Z"
+          },
+          "endAt": {
+            "S": "2050-07-22T00:0:00.000Z"
+          },
+          "text": {
+            "S": "This is a test alert"
+          },
+          "createdAt": {
+            "S": "2020-06-04T05:52:40.368Z"
+          },
+          "updatedAt": {
+            "S": "2020-06-04T05:52:40.368Z"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+#EnhancedSchemaListItem.list-group-item.active {
+    background-color: #EBF2EB;
+    color: #333;
+    border-color: #ccc;
+}
+
+#EnhancedSchemaListItem.list-group-item {
+    padding: 5px 5px 5px 16px;
+}
+
+.showsearchIcon {
+    float: right;
+    margin-right: 6px;
+    margin-top: -20px;
+    position: relative;
+    z-index: 2;
+}
+
+.searchBarEnhanced {
+    height: 130%;
+    border-radius: 4px;
+    max-height: 32px;
+    font-family: inherit;
+}
+
+.schemaListName {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1B1B1B;
+}
+
+.schemaListVersion {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+}
+

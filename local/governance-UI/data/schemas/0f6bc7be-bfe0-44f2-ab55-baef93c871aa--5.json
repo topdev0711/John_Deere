@@ -1,0 +1,47 @@
+{
+  "id": "0f6bc7be-bfe0-44f2-ab55-baef93c871aa--5",
+  "name": "demo_dc_event_test",
+  "version": "1.0.0",
+  "description": "this is test type for event testing",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": true,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "this is id filed",
+      "nullable": false
+    },
+    {
+      "name": "updated_ts",
+      "attribute": "extract time",
+      "datatype": "timestamp",
+      "description": "this is last updated timestamp",
+      "nullable": false
+    },
+    {
+      "name": "del_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "delete indicator",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "contains name",
+      "nullable": false
+    },
+    {
+      "name": "address",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "address field",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.demo_dc_event_test"
+}

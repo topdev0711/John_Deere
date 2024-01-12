@@ -1,0 +1,152 @@
+{
+  "id": "7791ae11-a454-4cec-b3dd-0b6bc5b9f67d--10",
+  "name": "JDSC EUM Log",
+  "version": "0.0.4",
+  "description": "End User Monitoring Logging Data for JDSC from AppDynamics",
+  "documentation": "# EDL Representation\n* history table: edl.jdsc_eum_log_dev - May contain duplicates due to API results\n* current table: edl_current.jdsc_eum_log_dev - Contains one record per unique ID (cguid)\n* view: N/A\n\n# Refresh Timing\n* Ad hoc\n\n# What's New\n* Initial schema\n\n# Joining Considerations (logical key, etc.)\n* None\n\n# Field Notes\n* extr_ts: Added as part of EDL load. Represents the time the data was extracted and loaded to the EDL\n* All other fields are coming directly from the AppDynamics API without any transformations applied",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "agt_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Agent ID",
+      "nullable": true
+    },
+    {
+      "name": "cguid",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "Client GUID",
+      "nullable": false
+    },
+    {
+      "name": "evnt_ts",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "Event Timestamp (UTC)",
+      "nullable": false
+    },
+    {
+      "name": "page_nm",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Page Name",
+      "nullable": true
+    },
+    {
+      "name": "page_url",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Page URL",
+      "nullable": true
+    },
+    {
+      "name": "page_parnt_url",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Page Parent URL",
+      "nullable": true
+    },
+    {
+      "name": "racf_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "RACF ID",
+      "nullable": true
+    },
+    {
+      "name": "usr_nm",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "User Name",
+      "nullable": true
+    },
+    {
+      "name": "acct_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Account ID",
+      "nullable": true
+    },
+    {
+      "name": "dlr_nm",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Dealer Name",
+      "nullable": true
+    },
+    {
+      "name": "geo_cntry",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Geocountry",
+      "nullable": true
+    },
+    {
+      "name": "geo_regn",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Georegion",
+      "nullable": true
+    },
+    {
+      "name": "geo_city",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Geocity",
+      "nullable": true
+    },
+    {
+      "name": "resp_tm",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "Response Time (ms)",
+      "nullable": true
+    },
+    {
+      "name": "page_exprc",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Page Experience",
+      "nullable": true
+    },
+    {
+      "name": "domd_brnch_cd",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Branch Code from DOMD",
+      "nullable": true
+    },
+    {
+      "name": "brnch_mru_cd",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Branch MRU Code",
+      "nullable": true
+    },
+    {
+      "name": "div_cd",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Division Code",
+      "nullable": true
+    },
+    {
+      "name": "terr_cd",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Territory Code",
+      "nullable": true
+    },
+    {
+      "name": "extr_ts",
+      "attribute": "extract time",
+      "datatype": "timestamp",
+      "description": "Extract Timestamp (UTC)",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.jdsc_eum_log"
+}

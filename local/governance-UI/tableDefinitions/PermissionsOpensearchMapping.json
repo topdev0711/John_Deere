@@ -1,0 +1,737 @@
+{
+  "settings": {
+      "index.max_inner_result_window": "2147483647",
+      "analysis": {
+          "normalizer": {
+              "my_normalizer": {
+                  "type": "custom",
+                  "filter": ["lowercase"]
+              }
+          }
+      }
+  },
+  "mappings": {
+      "properties": {
+          "id": {
+              "type": "text",
+              "fields": {
+                  "normalize": {
+                      "type": "keyword",
+                      "normalizer": "my_normalizer"
+                  },
+                  "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                  }
+              }
+          },
+          "permissions": {
+              "type": "nested",
+              "properties": {
+                  "_id": {
+                      "type": "text",
+                      "fields": {
+                          "normalize": {
+                              "type": "keyword",
+                              "normalizer": "my_normalizer"
+                          },
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  },
+                  "approvals": {
+                      "properties": {
+                          "approvedBy": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          },
+                          "approverEmail": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          },
+                          "comment": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          },
+                          "commentHistory": {
+                              "properties": {
+                                  "comment": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  },
+                                  "reason": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  },
+                                  "status": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  },
+                                  "updatedAt": {
+                                      "type": "date"
+                                  },
+                                  "updatedBy": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  }
+                              }
+                          },
+                          "community": {
+                              "properties": {
+                                  "approver": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  },
+                                  "id": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  },
+                                  "name": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  }
+                              }
+                          },
+                          "custodian": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          },
+                          "owner": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          },
+                          "reason": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          },
+                          "status": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          },
+                          "subCommunity": {
+                              "properties": {
+                                  "approver": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  },
+                                  "id": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  },
+                                  "name": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  }
+                              }
+                          },
+                          "system": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          },
+                          "updatedAt": {
+                              "type": "date"
+                          }
+                      }
+                  },
+                  "businessCase": {
+                      "type": "text",
+                      "fields": {
+                          "normalize": {
+                              "type": "keyword",
+                              "normalizer": "my_normalizer"
+                          },
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  },
+                  "clientId": {
+                      "type": "text",
+                      "fields": {
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  },
+                  "commentHistory": {
+                      "properties": {
+                          "comment": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          },
+                          "comments": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          },
+                          "updatedAt": {
+                              "type": "date"
+                          },
+                          "updatedBy": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          }
+                      }
+                  },
+                  "createdAt": {
+                      "type": "date"
+                  },
+                  "createdBy": {
+                      "type": "text",
+                      "fields": {
+                          "normalize": {
+                              "type": "keyword",
+                              "normalizer": "my_normalizer"
+                          },
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  },
+                  "description": {
+                      "type": "text",
+                      "fields": {
+                          "normalize": {
+                              "type": "keyword",
+                              "normalizer": "my_normalizer"
+                          },
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  },
+                  "endDate": {
+                      "type": "date"
+                  },
+                  "entitlements": {
+                      "properties": {
+                          "actions": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          },
+                          "additionalTags": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          },
+                          "community": {
+                              "properties": {
+                                  "id": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  },
+                                  "name": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  }
+                              }
+                          },
+                          "countriesRepresented": {
+                              "properties": {
+                                  "id": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  },
+                                  "label": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  },
+                                  "name": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  }
+                              }
+                          },
+                          "development": {
+                              "type": "boolean"
+                          },
+                          "gicp": {
+                              "properties": {
+                                  "id": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  },
+                                  "name": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  }
+                              }
+                          },
+                          "id": {
+                              "type": "text",
+                              "fields": {
+                                  "normalize": {
+                                      "type": "keyword",
+                                      "normalizer": "my_normalizer"
+                                  },
+                                  "keyword": {
+                                      "type": "keyword",
+                                      "ignore_above": 256
+                                  }
+                              }
+                          },
+                          "personalInformation": {
+                              "type": "boolean"
+                          },
+                          "subCommunity": {
+                              "properties": {
+                                  "id": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  },
+                                  "label": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  },
+                                  "name": {
+                                      "type": "text",
+                                      "fields": {
+                                          "normalize": {
+                                              "type": "keyword",
+                                              "normalizer": "my_normalizer"
+                                          },
+                                          "keyword": {
+                                              "type": "keyword",
+                                              "ignore_above": 256
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  },
+                  "environment": {
+                      "type": "object"
+                  },
+                  "group": {
+                      "type": "text",
+                      "fields": {
+                          "normalize": {
+                              "type": "keyword",
+                              "normalizer": "my_normalizer"
+                          },
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  },
+                  "id": {
+                      "type": "text",
+                      "fields": {
+                          "normalize": {
+                              "type": "keyword",
+                              "normalizer": "my_normalizer"
+                          },
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  },
+                  "lockedBy": {
+                      "type": "text",
+                      "fields": {
+                          "normalize": {
+                              "type": "keyword",
+                              "normalizer": "my_normalizer"
+                          },
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  },
+                  "name": {
+                      "type": "text",
+                      "fields": {
+                          "normalize": {
+                              "type": "keyword",
+                              "normalizer": "my_normalizer"
+                          },
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  },
+                  "requestComments": {
+                      "type": "text",
+                      "fields": {
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  },
+                  "roleType": {
+                      "type": "text",
+                      "fields": {
+                          "normalize": {
+                              "type": "keyword",
+                              "normalizer": "my_normalizer"
+                          },
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  },
+                  "startDate": {
+                      "type": "date"
+                  },
+                  "status": {
+                      "type": "text",
+                      "fields": {
+                          "normalize": {
+                              "type": "keyword",
+                              "normalizer": "my_normalizer"
+                          },
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  },
+                  "updatedAt": {
+                      "type": "date"
+                  },
+                  "updatedBy": {
+                      "type": "text",
+                      "fields": {
+                          "normalize": {
+                              "type": "keyword",
+                              "normalizer": "my_normalizer"
+                          },
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  },
+                  "version": {
+                      "type": "long"
+                  },
+                  "views": {
+                      "type": "text",
+                      "fields": {
+                          "normalize": {
+                              "type": "keyword",
+                              "normalizer": "my_normalizer"
+                          },
+                          "keyword": {
+                              "type": "keyword",
+                              "ignore_above": 256
+                          }
+                      }
+                  }
+              }
+          },
+          "roleType": {
+              "type": "text",
+              "fields": {
+                  "normalize": {
+                      "type": "keyword",
+                      "normalizer": "my_normalizer"
+                  },
+                  "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                  }
+              }
+          }
+      }
+  }
+}

@@ -1,0 +1,324 @@
+[
+  {
+    "_id": "4242764a-84c0-49fb-8f61-486911e28e2c-2",
+    "id": "4242764a-84c0-49fb-8f61-486911e28e2c",
+    "version": 2,
+    "name": "EDLTDL-198-TEST-PERM",
+    "requestComments": "No comments",
+    "roleType": "human",
+    "businessCase": "EDLTDL-198-TEST",
+    "startDate": "2023-05-14T05:00:00.000Z",
+    "views": [],
+    "group": "AWS-GIT-DWIS-DEV",
+    "entitlements": [
+      {
+        "id": "daade0b2-42f3-4d37-9382-3dcba20ef86f",
+        "community": {
+          "id": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+          "name": "Information Technology"
+        },
+        "subCommunity": {
+          "id": "48112e16-9abf-48ed-ae79-ab43844a32ec",
+          "name": "Demo"
+        },
+        "countriesRepresented": [
+          {
+            "id": "9693d47b-71f9-408a-a7eb-14ee09ea8645",
+            "name": "IN",
+            "label": "India"
+          }
+        ],
+        "gicp": {
+          "id": "10710b7a-7391-4860-a18d-1d7edc746fe7",
+          "name": "Public"
+        },
+        "additionalTags": [],
+        "development": false,
+        "personalInformation": false,
+        "actions": null
+      }
+    ],
+    "createdBy": "ARJ5QKA",
+    "updatedBy": "ARJ5QKA",
+    "createdAt": "2023-05-15T21:33:37.469Z",
+    "updatedAt": "2023-05-15T21:33:37.473Z",
+    "status": "AVAILABLE",
+    "approvals": [
+      {
+        "approvedBy": "ARJ5QKA",
+        "status": "APPROVED",
+        "comment": null,
+        "updatedAt": "2023-05-15T21:33:50.696Z",
+        "approverEmail": "G90_COLLIBRA_APPROVER_SYSTEMS@JohnDeere.com",
+        "subCommunity": {
+          "id": "48112e16-9abf-48ed-ae79-ab43844a32ec",
+          "name": "Demo",
+          "approver": "G90_COLLIBRA_APPROVER_SYSTEMS"
+        },
+        "commentHistory": [
+          {
+            "status": "APPROVED",
+            "updatedBy": "ARJ5QKA",
+            "updatedAt": "2023-05-15T21:33:50.696Z",
+            "comment": "user approved"
+          }
+        ],
+        "reason": "user approved"
+      },
+      {
+        "approvedBy": "ARJ5QKA",
+        "status": "APPROVED",
+        "comment": "Auto approved by group owner submission.",
+        "reason": "Auto approved by group owner submission.",
+        "updatedAt": "2023-05-15T21:33:38.052Z",
+        "owner": "Purohit Dharmesh V/Tiwari Deepak",
+        "approverEmail": "dp11317@deere.com,dt73308@deere.com",
+        "commentHistory": [
+          {
+            "status": "APPROVED",
+            "updatedBy": "ARJ5QKA",
+            "updatedAt": "2023-05-15T21:33:38.052Z",
+            "comment": "Auto approved by group owner submission."
+          }
+        ]
+      },
+      {
+        "system": "EDL",
+        "status": "APPROVED",
+        "details": null,
+        "approvedBy": "EDL",
+        "updatedAt": "2023-05-15T21:33:56.716Z",
+        "commentHistory": [
+          {
+            "status": "APPROVED",
+            "updatedBy": "EDL",
+            "updatedAt": "2023-05-15T21:33:56.716Z",
+            "comment": "user approved"
+          }
+        ],
+        "reason": "user approved"
+      }
+    ],
+    "commentHistory": [
+      {
+        "updatedBy": "ARJ5QKA",
+        "updatedAt": "2023-05-15T21:33:38.058Z",
+        "comment": "No comments"
+      }
+    ]
+  },
+  {
+    "_id": "4242764a-84c0-49fb-8f61-486911e28e2c-1",
+    "name": "EDLTDL-198-TEST-PERM",
+    "requestComments": "No comments",
+    "roleType": "human",
+    "businessCase": "EDLTDL-198-TEST",
+    "startDate": "2023-05-14T05:00:00.000Z",
+    "views": [],
+    "group": "AWS-GIT-DWIS-DEV",
+    "entitlements": [
+      {
+        "id": "daade0b2-42f3-4d37-9382-3dcba20ef86f",
+        "community": {
+          "id": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+          "name": "Information Technology"
+        },
+        "subCommunity": {
+          "id": "48112e16-9abf-48ed-ae79-ab43844a32ec",
+          "name": "Demo"
+        },
+        "countriesRepresented": [
+          {
+            "id": "9693d47b-71f9-408a-a7eb-14ee09ea8645",
+            "name": "IN",
+            "label": "India"
+          }
+        ],
+        "gicp": {
+          "id": "10710b7a-7391-4860-a18d-1d7edc746fe7",
+          "name": "Public"
+        },
+        "additionalTags": [
+          "test"
+        ],
+        "development": false,
+        "personalInformation": false,
+        "actions": null
+      }
+    ],
+    "id": "4242764a-84c0-49fb-8f61-486911e28e2c",
+    "version": 1,
+    "createdBy": "ARJ5QKA",
+    "updatedBy": "ARJ5QKA",
+    "createdAt": "2023-05-15T20:59:36.168Z",
+    "updatedAt": "2023-05-15T20:59:36.168Z",
+    "status": "AVAILABLE",
+    "approvals": [
+      {
+        "approvedBy": "ARJ5QKA",
+        "status": "APPROVED",
+        "comment": null,
+        "updatedAt": "2023-05-15T20:59:45.918Z",
+        "approverEmail": "G90_COLLIBRA_APPROVER_SYSTEMS@JohnDeere.com",
+        "subCommunity": {
+          "id": "48112e16-9abf-48ed-ae79-ab43844a32ec",
+          "name": "Demo",
+          "approver": "G90_COLLIBRA_APPROVER_SYSTEMS"
+        },
+        "commentHistory": [
+          {
+            "status": "APPROVED",
+            "updatedBy": "ARJ5QKA",
+            "updatedAt": "2023-05-15T20:59:45.918Z",
+            "comment": "user approved"
+          }
+        ],
+        "reason": "user approved"
+      },
+      {
+        "approvedBy": "ARJ5QKA",
+        "status": "APPROVED",
+        "comment": "Auto approved by group owner submission.",
+        "reason": "Auto approved by group owner submission.",
+        "updatedAt": "2023-05-15T20:59:36.731Z",
+        "owner": "Purohit Dharmesh V/Tiwari Deepak",
+        "approverEmail": "dp11317@deere.com,dt73308@deere.com",
+        "commentHistory": [
+          {
+            "status": "APPROVED",
+            "updatedBy": "ARJ5QKA",
+            "updatedAt": "2023-05-15T20:59:36.731Z",
+            "comment": "Auto approved by group owner submission."
+          }
+        ]
+      },
+      {
+        "system": "EDL",
+        "status": "APPROVED",
+        "details": null,
+        "approvedBy": "EDL",
+        "updatedAt": "2023-05-15T20:59:49.823Z",
+        "commentHistory": [
+          {
+            "status": "APPROVED",
+            "updatedBy": "EDL",
+            "updatedAt": "2023-05-15T20:59:49.822Z",
+            "comment": "user approved"
+          }
+        ],
+        "reason": "user approved"
+      }
+    ],
+    "commentHistory": [
+      {
+        "updatedBy": "ARJ5QKA",
+        "updatedAt": "2023-05-15T20:59:36.739Z",
+        "comment": "No comments"
+      }
+    ],
+    "lockedBy": null
+  },
+  {
+    "_id": "5242764a-84c0-49fb-8f61-486911e28e2c-1",
+    "id": "5242764a-84c0-49fb-8f61-486911e28e2c",
+    "version": 1,
+    "name": "EDLTDL-198-TEST-PERM",
+    "requestComments": "No comments",
+    "roleType": "human",
+    "businessCase": "EDLTDL-198-TEST",
+    "startDate": "2023-05-14T05:00:00.000Z",
+    "views": [],
+    "group": "AWS-GIT-DWIS-DEV",
+    "entitlements": [
+      {
+        "id": "faade0b2-42f3-4d37-9382-3dcba20ef86f",
+        "community": {
+          "id": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+          "name": "Information Technology"
+        },
+        "subCommunity": {
+          "id": "48112e16-9abf-48ed-ae79-ab43844a32ec",
+          "name": "Demo"
+        },
+        "countriesRepresented": [
+        ],
+        "gicp": {
+          "id": "10710b7a-7391-4860-a18d-1d7edc746fe7",
+          "name": "Public"
+        },
+        "additionalTags": [],
+        "development": true,
+        "personalInformation": false,
+        "actions": null
+      }
+    ],
+    "createdBy": "ARJ5QKA",
+    "updatedBy": "ARJ5QKA",
+    "createdAt": "2023-05-15T21:33:37.469Z",
+    "updatedAt": "2023-05-15T21:33:37.473Z",
+    "status": "AVAILABLE",
+    "approvals": [
+      {
+        "approvedBy": "ARJ5QKA",
+        "status": "APPROVED",
+        "comment": null,
+        "updatedAt": "2023-05-15T21:33:50.696Z",
+        "approverEmail": "G90_COLLIBRA_APPROVER_SYSTEMS@JohnDeere.com",
+        "subCommunity": {
+          "id": "48112e16-9abf-48ed-ae79-ab43844a32ec",
+          "name": "Demo",
+          "approver": "G90_COLLIBRA_APPROVER_SYSTEMS"
+        },
+        "commentHistory": [
+          {
+            "status": "APPROVED",
+            "updatedBy": "ARJ5QKA",
+            "updatedAt": "2023-05-15T21:33:50.696Z",
+            "comment": "user approved"
+          }
+        ],
+        "reason": "user approved"
+      },
+      {
+        "approvedBy": "ARJ5QKA",
+        "status": "APPROVED",
+        "comment": "Auto approved by group owner submission.",
+        "reason": "Auto approved by group owner submission.",
+        "updatedAt": "2023-05-15T21:33:38.052Z",
+        "owner": "Purohit Dharmesh V/Tiwari Deepak",
+        "approverEmail": "dp11317@deere.com,dt73308@deere.com",
+        "commentHistory": [
+          {
+            "status": "APPROVED",
+            "updatedBy": "ARJ5QKA",
+            "updatedAt": "2023-05-15T21:33:38.052Z",
+            "comment": "Auto approved by group owner submission."
+          }
+        ]
+      },
+      {
+        "system": "EDL",
+        "status": "APPROVED",
+        "details": null,
+        "approvedBy": "EDL",
+        "updatedAt": "2023-05-15T21:33:56.716Z",
+        "commentHistory": [
+          {
+            "status": "APPROVED",
+            "updatedBy": "EDL",
+            "updatedAt": "2023-05-15T21:33:56.716Z",
+            "comment": "user approved"
+          }
+        ],
+        "reason": "user approved"
+      }
+    ],
+    "commentHistory": [
+      {
+        "updatedBy": "ARJ5QKA",
+        "updatedAt": "2023-05-15T21:33:38.058Z",
+        "comment": "No comments"
+      }
+    ]
+  }
+]

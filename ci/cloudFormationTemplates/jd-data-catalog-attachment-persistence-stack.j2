@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: persistence layer for enterprise data governance center attachment
+Resources:
+  attachmentPersistence:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: jd-data-catalog-attachment-{{env}}
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+  attachmentBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      PolicyDocument:
+        FileJinJa: ci/config/jd-data-catalog-attachment-bucket-policy.json
+        VariablesNoQuote:
+          S3_BUCKET: jd-data-catalog-attachment-{{env}}
+      Bucket:
+        Ref: attachmentPersistence

@@ -1,0 +1,54 @@
+{
+	"name": "Some Name",
+	"description": "test2",
+	"requestComments": "test",
+	"documentation": "",
+	"custodian": "AWS-GIT-DWIS-DEV",
+	"sourceDatasets": [],
+	"category": "Master",
+	"phase": "Enhance",
+	"technology": "AWS",
+	"physicalLocation": "us-east-1",
+	"linkedSchemas": [],
+	"deletedSchemas": [],
+	"tables": [],
+	"schemas": [],
+	"classifications": [
+		{
+			"id": "70c0516f-c62d-4391-aa2c-9fde33029558",
+			"community": "Customer",
+			"subCommunity": "Customer Activity",
+			"gicp": "Unclassified",
+			"development": true,
+			"countriesRepresented": [],
+			"countriesOfCreation": [],
+			"personalInformation": false,
+			"additionalTags": []
+		}
+	],
+	"id": "56debf7d-7643-4159-bde2-4aa61890cf3a",
+	"version": 1,
+	"createdBy": "testracfId",
+	"updatedBy": "testracfId",
+	"createdAt": "2020-05-21T09:56:52.633Z",
+	"updatedAt": "2020-05-21T09:56:52.633Z",
+	"status": "PENDING",
+	"approvals": [
+		{
+			"community": "Customer",
+			"status": "PENDING",
+			"approvedBy": null,
+			"approverEmail": "anyAddress",
+			"comment": null,
+			"updatedAt": null
+		},
+		{
+			"custodian": "AWS-GIT-DWIS-DEV",
+			"status": "PENDING",
+			"approvedBy": "testracfId",
+			"approverEmail": "AWS-GIT-DWIS-DEV@JohnDeere.com",
+			"comment": null,
+			"updatedAt": "2020-05-22T05:30:28.459Z"
+		}
+	]
+}

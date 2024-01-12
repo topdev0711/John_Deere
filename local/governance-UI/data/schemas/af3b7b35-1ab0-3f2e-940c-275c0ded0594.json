@@ -1,0 +1,68 @@
+{
+  "environmentName": "com.deere.enterprise.datalake.enhance.training_city_data",
+  "testing": false,
+  "partitionedBy": [],
+  "id": "af3b7b35-1ab0-3f2e-940c-275c0ded0594",
+  "documentation": "None",
+  "description": "None",
+  "version": "1.0.0",
+  "name": "Training City Data",
+  "fields": [
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "rankIn2016",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "state",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "stateAbbrev",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "name": "population2010",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "name": "estPopulation2016",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "city",
+      "nullable": false
+    },
+    {
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "None",
+      "name": "ingest_ts",
+      "nullable": false
+    },
+    {
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "None",
+      "name": "delete_ind",
+      "nullable": false
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "08fb741f-857a-4e83-a3cd-78ece78933cb--2",
+  "name": "SAP_BW_DEMO",
+  "version": "1.0.0",
+  "description": "Scheduling Agreement data",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "EBELN",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "Purchasing Document Number",
+      "nullable": false
+    },
+    {
+      "name": "EBELP",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "Item Number of Purchasing Document",
+      "nullable": false
+    },
+    {
+      "name": "ABART",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "Scheduling agreement release type",
+      "nullable": false
+    },
+    {
+      "name": "ABRUF",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "Release Number",
+      "nullable": false
+    },
+    {
+      "name": "ETENR",
+      "attribute": "id",
+      "datatype": "string",
+      "description": "Delivery Schedule Line Counter",
+      "nullable": false
+    },
+    {
+      "name": "EINDT",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Item Delivery Date",
+      "nullable": true
+    },
+    {
+      "name": "LPEIN",
+      "attribute": "None",
+      "datatype": "date",
+      "description": "Category of Delivery Date",
+      "nullable": true
+    },
+    {
+      "name": "UZEIT",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Delivery Date Time-Spot",
+      "nullable": true
+    },
+    {
+      "name": "MENGE",
+      "attribute": "None",
+      "datatype": "float",
+      "description": "Scheduled Quantity",
+      "nullable": true
+    },
+    {
+      "name": "ETART",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Schedule line type (backlog, immed. requirement, forecast)",
+      "nullable": true
+    },
+    {
+      "name": "SERNR",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "BOM explosion number",
+      "nullable": true
+    },
+    {
+      "name": "ESTKZ",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Creation Indicator (Purchase Requisition/Schedule Lines)",
+      "nullable": true
+    },
+    {
+      "name": "AMENG",
+      "attribute": "None",
+      "datatype": "float",
+      "description": "Previous Quantity (Delivery Schedule Lines)",
+      "nullable": true
+    },
+    {
+      "name": "WEMNG",
+      "attribute": "None",
+      "datatype": "float",
+      "description": "Quantity of Goods Received",
+      "nullable": true
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.sap_bw_demo"
+}

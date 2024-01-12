@@ -1,0 +1,33 @@
+{
+  "id": "97218c53-f732-4fc1-8ab1-c95acde048ee--3",
+  "name": "MaDD",
+  "version": "1.1.0",
+  "description": "assdsafsdf",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "ext_timeStamp",
+      "attribute": "extract time",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "delete_id",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.madd"
+}

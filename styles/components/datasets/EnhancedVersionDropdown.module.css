@@ -1,0 +1,44 @@
+.schemaVersionToggle {
+    background-color: #ffffff;
+    border-color: #333333;
+    color: #000000;
+    box-shadow: none;
+}
+
+/*.schemaVersionToggle.disabled:focus {*/
+/*    background-color: #f0f0f0;*/
+/*    color: #9f44b5;*/
+/*}*/
+
+.schemaVersionToggle:hover {
+    background-color: #f0f0f0;
+    border-color: #000000;
+}
+
+.schemaVersionItem {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.schemaVersionItem:hover {
+    background-color: #f4f8f4;
+    color: #367c2b;
+    border-left: 3px solid;
+}
+
+.schemaVersionDropdown {
+    background-color: #000000 !important;
+    color: #9f44b5;
+}
+
+.btn-outline-primary.dropdown-toggle #test{color:#fff;background-color:#000000 !important;border-color:#367c2b}
+
+.dianaClass {color:#fff;background-color:#000000 !important;border-color:#367c2b}
+
+#test{background-color: #000000 !important;}
+
+.btn-primary{background-color: #000000 !important}
+
+#test.show.dropdown{background-color: #000000 !important;}
+
+.schemaVersionDropdown.dianaClass #test { background-color:#000}

@@ -1,0 +1,75 @@
+{
+  "id": "38f04860-f3fd-40e9-b1cb-656fd2103b40--5",
+  "name": "ELIPS Header EDL Load Monitoring",
+  "version": "1.0.0",
+  "description": "Table used for monitoring job completions and loaded records for the ELIPS Header table",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "run_completion_ts",
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "timestamp of run completion",
+      "nullable": false
+    },
+    {
+      "name": "edl_extract_ts",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "unix time stamp of run completion",
+      "nullable": false
+    },
+    {
+      "name": "edl_extract_date",
+      "attribute": "None",
+      "datatype": "date",
+      "description": "date timestamp of run completion",
+      "nullable": false
+    },
+    {
+      "name": "total_records_loaded_history_flag_n",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "Total records loaded with the history flag set to 'n'",
+      "nullable": false
+    },
+    {
+      "name": "wip_t_records_loaded",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "Records loaded with the WIP flag field set to 't'",
+      "nullable": false
+    },
+    {
+      "name": "wip_f_records_loaded",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "Records loaded with the WIP flag field set to 'f' or null.",
+      "nullable": false
+    },
+    {
+      "name": "delayed_indicator",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Field indicating whether the load was on time or late based on unix time of 9am.",
+      "nullable": false
+    },
+    {
+      "name": "day_type",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "Field indicating whether the day was a weekday or weekend.  Smaller loads are expected during the weekends.",
+      "nullable": false
+    },
+    {
+      "name": "delete_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.cps_adm_monitoring.elips_header_edl_load_monitoring"
+}

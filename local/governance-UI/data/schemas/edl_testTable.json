@@ -1,0 +1,112 @@
+{
+  "description": "None",
+  "fields": [
+      {
+          "name": "my_string",
+          "datatype": "string",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "my_binary",
+          "datatype": "binary",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "my_short",
+          "datatype": "short",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "my_byte",
+          "datatype": "byte",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "my_integer",
+          "datatype": "integer",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "my_long",
+          "datatype": "long",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "my_float",
+          "datatype": "float",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "my_double",
+          "datatype": "double",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "my_decimal",
+          "datatype": "decimal",
+          "description": "",
+          "nullable": true,
+          "precision": 3,
+          "scale": 2,
+          "attribute": "None"
+      },
+      {
+          "name": "my_timestamp",
+          "datatype": "timestamp",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "my_date",
+          "datatype": "date",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "my_struct",
+          "datatype": "struct",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "my_map",
+          "datatype": "map",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      },
+      {
+          "name": "my_array",
+          "datatype": "array",
+          "description": "",
+          "nullable": true,
+          "attribute": "None"
+      }
+  ],
+  "documentation": "",
+  "isDynamic": false,
+  "name": "edl_testTable",
+  "id": "edl_testTable",
+  "version": "1.0.0",
+  "testing": false,
+  "partitionedBy": []
+}

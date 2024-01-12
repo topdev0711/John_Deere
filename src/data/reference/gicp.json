@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Highly Confidential",
+    "id": "7ef24262-e13e-43a6-b0e9-dcfc0638a46f",
+    "enabled": true
+  },
+  {
+    "name": "Confidential",
+    "id": "5f48ffda-9c01-4416-89e9-326d0a7bcd3c",
+    "enabled": true
+  },
+  {
+    "name": "Company Use",
+    "id": "e43046c8-2472-43c5-9b63-e0b23ec09399",
+    "enabled": true
+  },
+  {
+    "name": "Public",
+    "id": "10710b7a-7391-4860-a18d-1d7edc746fe7",
+    "enabled": true
+  },
+  {
+    "name": "Personal & Confidential",
+    "id": "cbd24f83-5a0a-4230-b1d0-7525047663ad",
+    "enabled": false
+  },
+  {
+    "name": "Unclassified",
+    "id": "159d753e-c245-43eb-ba2b-7d29cb436c3d",
+    "enabled": false
+    
+  }
+]

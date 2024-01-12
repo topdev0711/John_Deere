@@ -1,0 +1,564 @@
+{
+    "index": "dataset_v3",
+    "body": {
+        "from": 0,
+        "size": 20,
+        "query": {
+            "bool": {
+                "must": [
+                    {
+                        "bool": {
+                            "should": [
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "query_string": {
+                                                    "query": "Demo",
+                                                    "fields": [
+                                                        "name^10"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "query_string": {
+                                                    "query": "*Demo*",
+                                                    "fields": [
+                                                        "name^5"
+                                                    ]
+                                                }
+                                            }
+                                        ],
+                                        "_name": "Name"
+                                    }
+                                },
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "query_string": {
+                                                    "query": "Demo",
+                                                    "fields": [
+                                                        "description^5"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            },
+                                            {
+                                                "query_string": {
+                                                    "query": "*Demo*",
+                                                    "fields": [
+                                                        "description^2"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            }
+                                        ],
+                                        "_name": "Description"
+                                    }
+                                },
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "query_string": {
+                                                    "query": "Demo",
+                                                    "fields": [
+                                                        "deletedSchemas^5"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            },
+                                            {
+                                                "query_string": {
+                                                    "query": "*Demo*",
+                                                    "fields": [
+                                                        "deletedSchemas^2"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            }
+                                        ],
+                                        "_name": "Deleted Schemas"
+                                    }
+                                },
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "query_string": {
+                                                    "query": "Demo",
+                                                    "fields": [
+                                                        "environmentName^5"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            },
+                                            {
+                                                "query_string": {
+                                                    "query": "*Demo*",
+                                                    "fields": [
+                                                        "environmentName^2"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            }
+                                        ],
+                                        "_name": "Environment Name"
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "paths^5"
+                                        ],
+                                        "_name": "Paths",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "documentation^5"
+                                        ],
+                                        "_name": "Documentation",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "custodian^5"
+                                        ],
+                                        "_name": "Custodian",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "application^5"
+                                        ],
+                                        "_name": "Application",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "id^5"
+                                        ],
+                                        "_name": "Id",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "version^5"
+                                        ],
+                                        "_name": "Version",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "createdBy^5"
+                                        ],
+                                        "_name": "Created By",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "updatedBy^5"
+                                        ],
+                                        "_name": "Updated By",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "storageLocation^5"
+                                        ],
+                                        "_name": "Storage Location",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "classifications.community.*^5"
+                                        ],
+                                        "_name": "Classifications Community",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "classifications.subcommunity.*^5"
+                                        ],
+                                        "_name": "Classifications Subcommunity",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "classifications.gicp.*^5"
+                                        ],
+                                        "_name": "Classifications Gicp",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "classifications.countriesRepresented.*^5"
+                                        ],
+                                        "_name": "Classifications Countries Represented",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "sourceDatasets.*^5"
+                                        ],
+                                        "_name": "Source Datasets",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "category.*^5"
+                                        ],
+                                        "_name": "Category",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "phase.*^5"
+                                        ],
+                                        "_name": "Phase",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "technology.*^5"
+                                        ],
+                                        "_name": "Technology",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "physicalLocation.*^5"
+                                        ],
+                                        "_name": "Physical Location",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "attachments.*^5"
+                                        ],
+                                        "_name": "Attachments",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "sources.*^5"
+                                        ],
+                                        "_name": "Sources",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "approvals.*^5"
+                                        ],
+                                        "_name": "Environment Details",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "query_string": {
+                                        "query": "Demo",
+                                        "fields": [
+                                            "commentHistory.*^5"
+                                        ],
+                                        "_name": "Comment History",
+                                        "lenient": true
+                                    }
+                                },
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "query_string": {
+                                                    "query": "Demo",
+                                                    "fields": [
+                                                        "schemas.*^2"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            },
+                                            {
+                                                "query_string": {
+                                                    "query": "*Demo*",
+                                                    "fields": [
+                                                        "schemas.name^5",
+                                                        "schemas.fields.name^5"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            }
+                                        ],
+                                        "_name": "Schemas"
+                                    }
+                                },
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "query_string": {
+                                                    "query": "Demo",
+                                                    "fields": [
+                                                        "linkedSchemas.*^2"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            },
+                                            {
+                                                "query_string": {
+                                                    "query": "*Demo*",
+                                                    "fields": [
+                                                        "linkedSchemas.name^5",
+                                                        "linkedSchemas.fields.name^5"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            }
+                                        ],
+                                        "_name": "Linked Schemas"
+                                    }
+                                },
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "query_string": {
+                                                    "query": "Demo",
+                                                    "fields": [
+                                                        "tables.*^2"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            },
+                                            {
+                                                "query_string": {
+                                                    "query": "*Demo*",
+                                                    "fields": [
+                                                        "tables.schemaEnvironmentName^5",
+                                                        "tables.tablename^5"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            }
+                                        ],
+                                        "_name": "Tables"
+                                    }
+                                },
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "query_string": {
+                                                    "query": "Demo",
+                                                    "fields": [
+                                                        "views.*^2"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            },
+                                            {
+                                                "query_string": {
+                                                    "query": "*Demo*",
+                                                    "fields": [
+                                                        "views.name^5",
+                                                        "views.fields.name^5"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            }
+                                        ],
+                                        "_name": "Views"
+                                    }
+                                },
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "query_string": {
+                                                    "query": "Demo",
+                                                    "fields": [
+                                                        "discoveredTables.*^2"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            },
+                                            {
+                                                "query_string": {
+                                                    "query": "*Demo*",
+                                                    "fields": [
+                                                        "discoveredTables.name^5",
+                                                        "discoveredTables.fields.name^5"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            }
+                                        ],
+                                        "_name": "Discovered Tables"
+                                    }
+                                },
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "query_string": {
+                                                    "query": "Demo",
+                                                    "fields": [
+                                                        "discoveredSchemas.*^2"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            },
+                                            {
+                                                "query_string": {
+                                                    "query": "*Demo*",
+                                                    "fields": [
+                                                        "discoveredSchemas.name^5",
+                                                        "discoveredSchemas.fields.name^5"
+                                                    ],
+                                                    "lenient": true
+                                                }
+                                            }
+                                        ],
+                                        "_name": "Discovered Schemas"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "bool": {
+                            "should": [
+                                {
+                                    "match": {
+                                        "classifications.community.name.keyword": "Systems"
+                                    }
+                                },
+                                {
+                                    "match": {
+                                        "classifications.community.name.keyword": "Finance"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "bool": {
+                            "should": [
+                                {
+                                    "match": {
+                                        "classifications.development": true
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "bool": {
+                            "should": [
+                                {
+                                    "match": {
+                                        "classifications.personalInformation": true
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "bool": {
+                            "should": [
+                                {
+                                    "bool": {
+                                        "must_not": {
+                                            "exists": {
+                                                "field": "visibility"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "_source": [
+            "custodian",
+            "classifications",
+            "id",
+            "status",
+            "name",
+            "description",
+            "phase",
+            "usability",
+            "createdBy",
+            "environmentName",
+            "schemas",
+            "linkedSchemas",
+            "entitlementsStrArray",
+            "entitlementsCount",
+            "hasAllCompanyUseFlag",
+            "visibility"
+        ]
+    }
+}

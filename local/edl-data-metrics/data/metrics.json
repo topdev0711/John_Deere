@@ -1,0 +1,1477 @@
+{
+  "edlDatasetMetricsVersioned": [
+    {
+      "PutRequest": {
+        "Item": {
+          "tableName": {
+            "S": "edl.test_isg_tractors_test"
+          },
+          "completeness": {
+            "M": {
+              "total": {
+                "N": "5"
+              },
+              "fields": {
+                "L": [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Name"
+                      },
+                      "count": {
+                        "N": "5"
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Age"
+                      },
+                      "count": {
+                        "N": "5"
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Rank"
+                      },
+                      "count": {
+                        "N": "2"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "distinctness": {
+            "M": {
+              "fields": {
+                "L": [
+                  {
+                    "M": {
+                      "total": {
+                        "N": "5"
+                      },
+                      "name": {
+                        "S": "Name"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_3"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_4"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_5"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_2"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_1"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "total": {
+                        "N": "5"
+                      },
+                      "name": {
+                        "S": "Age"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "28"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "30"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "25"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "21"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "23"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "total": {
+                        "N": "2"
+                      },
+                      "name": {
+                        "S": "Rank"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "NullValue"
+                              },
+                              "count": {
+                                "N": "3"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "Sr"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "Jr"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "updateTime": {
+            "S": "2022-03-04T17:38:21.486Z"
+          },
+          "createTime": {
+            "S": "2022-03-04T17:38:21.486Z"
+          },
+          "version": {
+            "N": "1"
+          },
+          "status": {
+            "S": "COMPLETE"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "tableName": {
+            "S": "edl.test_isg_tractors_test"
+          },
+          "updateTime": {
+            "S": "2022-04-04T17:38:21.486Z"
+          },
+          "createTime": {
+            "S": "2022-04-04T17:38:21.486Z"
+          },
+          "version": {
+            "N": "2"
+          },
+          "status": {
+            "S": "PENDING"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "tableName": {
+            "S": "edl.demo_marvel_comiccharacters_old_0_0_8"
+          },
+          "completeness": {
+            "M": {
+              "total": {
+                "N": "5"
+              },
+              "fields": {
+                "L": [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Name"
+                      },
+                      "count": {
+                        "N": "5"
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Age"
+                      },
+                      "count": {
+                        "N": "5"
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Rank"
+                      },
+                      "count": {
+                        "N": "2"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "distinctness": {
+            "M": {
+              "fields": {
+                "L": [
+                  {
+                    "M": {
+                      "total": {
+                        "N": "5"
+                      },
+                      "name": {
+                        "S": "Name"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_3"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_4"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_5"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_2"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_1"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "total": {
+                        "N": "5"
+                      },
+                      "name": {
+                        "S": "Age"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "28"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "30"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "25"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "21"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "23"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "total": {
+                        "N": "2"
+                      },
+                      "name": {
+                        "S": "Rank"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "NullValue"
+                              },
+                              "count": {
+                                "N": "3"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "Sr"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "Jr"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "updateTime": {
+            "S": "2022-03-04T17:38:21.486Z"
+          },
+          "createTime": {
+            "S": "2022-03-04T17:38:21.486Z"
+          },
+          "version": {
+            "N": "1"
+          },
+          "status": {
+            "S": "COMPLETE"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "tableName": {
+            "S": "fake-table-name"
+          },
+          "completeness": {
+            "M": {
+              "total": {
+                "N": "5"
+              },
+              "fields": {
+                "L": [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Name"
+                      },
+                      "count": {
+                        "N": "5"
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Age"
+                      },
+                      "count": {
+                        "N": "5"
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Rank"
+                      },
+                      "count": {
+                        "N": "2"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "distinctness": {
+            "M": {
+              "fields": {
+                "L": [
+                  {
+                    "M": {
+                      "total": {
+                        "N": "5"
+                      },
+                      "name": {
+                        "S": "Name"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_3"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_4"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_5"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_2"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_1"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "total": {
+                        "N": "5"
+                      },
+                      "name": {
+                        "S": "Age"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "28"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "30"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "25"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "21"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "23"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "total": {
+                        "N": "2"
+                      },
+                      "name": {
+                        "S": "Rank"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "NullValue"
+                              },
+                              "count": {
+                                "N": "3"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "Sr"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "Jr"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "updateTime": {
+            "S": "2022-03-04T17:38:21.486Z"
+          },
+          "createTime": {
+            "S": "2022-03-04T17:38:21.486Z"
+          },
+          "version": {
+            "N": "1"
+          },
+          "status": {
+            "S": "COMPLETE"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "tableName": {
+            "S": "edl.demo_marvel_comiccharacters_old_0_0_8"
+          },
+          "completeness": {
+            "M": {
+              "total": {
+                "N": "5"
+              },
+              "fields": {
+                "L": [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Name"
+                      },
+                      "count": {
+                        "N": "5"
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Age"
+                      },
+                      "count": {
+                        "N": "5"
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Rank"
+                      },
+                      "count": {
+                        "N": "2"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "distinctness": {
+            "M": {
+              "fields": {
+                "L": [
+                  {
+                    "M": {
+                      "total": {
+                        "N": "5"
+                      },
+                      "name": {
+                        "S": "Name"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_3"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_4"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_5"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_2"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_1"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "total": {
+                        "N": "5"
+                      },
+                      "name": {
+                        "S": "Age"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "28"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "30"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "25"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "21"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "23"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "total": {
+                        "N": "2"
+                      },
+                      "name": {
+                        "S": "Rank"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "NullValue"
+                              },
+                              "count": {
+                                "N": "3"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "Sr"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "Jr"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "updateTime": {
+            "S": "2022-03-05T17:38:21.486Z"
+          },
+          "createTime": {
+            "S": "2022-03-05T17:38:21.486Z"
+          },
+          "version": {
+            "N": "2"
+          },
+          "status": {
+            "S": "COMPLETE"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "tableName": {
+            "S": "fake-table-name"
+          },
+          "completeness": {
+            "M": {
+              "total": {
+                "N": "5"
+              },
+              "fields": {
+                "L": [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Name"
+                      },
+                      "count": {
+                        "N": "5"
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Age"
+                      },
+                      "count": {
+                        "N": "5"
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Rank"
+                      },
+                      "count": {
+                        "N": "2"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "distinctness": {
+            "M": {
+              "fields": {
+                "L": [
+                  {
+                    "M": {
+                      "total": {
+                        "N": "5"
+                      },
+                      "name": {
+                        "S": "Name"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_3"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_4"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_5"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_2"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_1"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "total": {
+                        "N": "5"
+                      },
+                      "name": {
+                        "S": "Age"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "28"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "30"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "25"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "21"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "23"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "total": {
+                        "N": "2"
+                      },
+                      "name": {
+                        "S": "Rank"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "NullValue"
+                              },
+                              "count": {
+                                "N": "3"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "Sr"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "Jr"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "updateTime": {
+            "S": "2022-03-05T17:38:21.486Z"
+          },
+          "createTime": {
+            "S": "2022-03-05T17:38:21.486Z"
+          },
+          "version": {
+            "N": "2"
+          },
+          "status": {
+            "S": "COMPLETE"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "tableName": {
+            "S": "test.demo_table_exports_1"
+          },
+          "completeness": {
+            "M": {
+              "total": {
+                "N": "5"
+              },
+              "fields": {
+                "L": [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Name"
+                      },
+                      "count": {
+                        "N": "5"
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Age"
+                      },
+                      "count": {
+                        "N": "5"
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "name": {
+                        "S": "Rank"
+                      },
+                      "count": {
+                        "N": "2"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "distinctness": {
+            "M": {
+              "fields": {
+                "L": [
+                  {
+                    "M": {
+                      "total": {
+                        "N": "5"
+                      },
+                      "name": {
+                        "S": "Name"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_3"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_4"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_5"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_2"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "fake_name_1"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "total": {
+                        "N": "5"
+                      },
+                      "name": {
+                        "S": "Age"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "28"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "30"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "25"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "21"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "23"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "M": {
+                      "total": {
+                        "N": "2"
+                      },
+                      "name": {
+                        "S": "Rank"
+                      },
+                      "distribution": {
+                        "L": [
+                          {
+                            "M": {
+                              "name": {
+                                "S": "NullValue"
+                              },
+                              "count": {
+                                "N": "3"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "Sr"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          },
+                          {
+                            "M": {
+                              "name": {
+                                "S": "Jr"
+                              },
+                              "count": {
+                                "N": "1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "updateTime": {
+            "S": "2022-03-05T17:38:21.486Z"
+          },
+          "createTime": {
+            "S": "2022-03-05T17:38:21.486Z"
+          },
+          "version": {
+            "N": "2"
+          },
+          "status": {
+            "S": "COMPLETE"
+          }
+        }
+      }
+    }
+  ]
+}

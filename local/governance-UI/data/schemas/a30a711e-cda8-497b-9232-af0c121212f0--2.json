@@ -1,0 +1,40 @@
+{
+  "id": "a30a711e-cda8-497b-9232-af0c121212f0--2",
+  "name": "dhams_enhance_test_workflow_listener_schema",
+  "version": "1.0.0",
+  "description": "dhams_enhance_test_workflow_listener",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "id",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "name",
+      "nullable": false
+    },
+    {
+      "name": "extract_times",
+      "attribute": "extract time",
+      "datatype": "timestamp",
+      "description": "extract time",
+      "nullable": false
+    },
+    {
+      "name": "delete_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "delete ind",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.dhams_enhance_test_workflow_listener_schema"
+}

@@ -1,0 +1,65 @@
+{
+  "Contents": [
+      {
+        "ETag": "\"sometag-1\"", 
+        "Key": "some file.rtf",
+        "LastModified": "2013-09-01T18:47:24.000Z", 
+        "Size": 10, 
+        "StorageClass": "STANDARD"
+      },      
+      {
+        "ETag": "\"sometag-1\"", 
+        "Key": "file2.parquet", 
+        "LastModified": "2013-09-01T18:47:24.000Z", 
+        "Size": 4192256, 
+        "StorageClass": "STANDARD"
+      },      
+      {
+        "ETag": "\"sometag-1\"", 
+        "Key": "file3.parquet", 
+        "LastModified": "2013-09-01T18:47:24.000Z", 
+        "Size": 4192256, 
+        "StorageClass": "STANDARD"
+      },      
+      {
+        "ETag": "\"sometag-1\"", 
+        "Key": "file4.parquet", 
+        "LastModified": "2013-09-01T18:47:24.000Z", 
+        "Size": 4192256, 
+        "StorageClass": "STANDARD"
+      },
+      {
+        "ETag": "\"sometag-1\"", 
+        "Key": "file5.parquet", 
+        "LastModified": "2013-09-01T18:47:24.000Z", 
+        "Size": 4192256, 
+        "StorageClass": "STANDARD"
+      },      
+      {
+        "ETag": "\"sometag-1\"", 
+        "Key": "file6.parquet", 
+        "LastModified": "2013-09-01T18:47:24.000Z", 
+        "Size": 4192256, 
+        "StorageClass": "STANDARD"
+      },      
+      {
+        "ETag": "\"sometag-1\"", 
+        "Key": "file7.parquet", 
+        "LastModified": "1971-05-18T18:47:24.000Z", 
+        "Size": 4192256, 
+        "StorageClass": "STANDARD"
+      },      
+      {
+        "ETag": "\"sometag-1\"", 
+        "Key": "file8.parquet", 
+        "LastModified": "2020-05-18T18:47:24.000Z", 
+        "Size": 4192256, 
+        "StorageClass": "STANDARD"
+      }
+  ], 
+  "IsTruncated": true, 
+  "KeyCount": 9, 
+  "MaxKeys": 10, 
+  "Name": "jd-us01-edl-devl-raw-someEncodedId", 
+  "Prefix": ""
+}

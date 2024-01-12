@@ -1,0 +1,26 @@
+{
+  "id": "61d48945-f75a-4e2b-a57c-c428b3034d55--3",
+  "name": "dhams_test_write_delete_schema",
+  "version": "1.0.0",
+  "description": "dhams_test_write_delete",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "id",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "name",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.dhams_test_write_delete_schema"
+}

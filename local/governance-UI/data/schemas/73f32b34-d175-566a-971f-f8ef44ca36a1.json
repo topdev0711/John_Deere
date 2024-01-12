@@ -1,0 +1,168 @@
+{
+  "id": "73f32b34-d175-566a-971f-f8ef44ca36a1",
+  "name": "classic_rock_songs_all_csv",
+  "version": "1",
+  "discovered": "2020-09-08T17:24:56.000Z",
+  "testing": true,
+  "partitionedBy": [],
+  "documentation": "None",
+  "description": "Discovered schema",
+  "glueTables": [
+    {
+      "Name": "classic_rock_songs_all_csv",
+      "DatabaseName": "devl_raw_demo_marvel",
+      "Owner": "owner",
+      "CreateTime": "2020-09-08T17:24:56.000Z",
+      "UpdateTime": "2020-09-08T17:24:56.000Z",
+      "LastAccessTime": "2020-09-08T17:24:56.000Z",
+      "Retention": 0,
+      "StorageDescriptor": {
+        "Location": "s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/filesUploadTest/classic_rock_songs_all.csv",
+        "InputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+        "OutputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": {
+          "SerializationLibrary": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+          "Parameters": {
+            "field.delim": ","
+          }
+        },
+        "BucketColumns": [],
+        "SortColumns": [],
+        "StoredAsSubDirectories": false
+      },
+      "TableType": "EXTERNAL_TABLE",
+      "Parameters": {
+        "CrawlerSchemaDeserializerVersion": "1.0",
+        "CrawlerSchemaSerializerVersion": "1.0",
+        "UPDATED_BY_CRAWLER": "devl_raw_demo_marvel",
+        "areColumnsQuoted": "false",
+        "averageRecordSize": "105",
+        "classification": "csv",
+        "columnsOrdered": "true",
+        "compressionType": "none",
+        "delimiter": ",",
+        "exclusions": "[\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/[_.*]*\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/[_.*]**\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/[_.*]*\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/[_.*]**\"]",
+        "recordCount": "41635",
+        "sizeKey": "4371738",
+        "skip.header.line.count": "1",
+        "typeOfData": "file"
+      },
+      "CreatedBy": "arn:aws:sts::078228365593:assumed-role/edl-glue-role/AWS-Crawler",
+      "IsRegisteredWithLakeFormation": false,
+      "CatalogId": "078228365593"
+    },
+    {
+      "Name": "classic_rock_songs_all_csv_08c179828fe913fec931e21a99d3955d",
+      "DatabaseName": "devl_raw_demo_marvel",
+      "Owner": "owner",
+      "CreateTime": "2020-09-08T17:24:57.000Z",
+      "UpdateTime": "2020-09-08T17:24:57.000Z",
+      "LastAccessTime": "2020-09-08T17:24:57.000Z",
+      "Retention": 0,
+      "StorageDescriptor": {
+        "Location": "s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/myRootFolder/myNestedFolder/filesUploadTest/classic_rock_songs_all.csv",
+        "InputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+        "OutputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": {
+          "SerializationLibrary": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+          "Parameters": {
+            "field.delim": ","
+          }
+        },
+        "BucketColumns": [],
+        "SortColumns": [],
+        "StoredAsSubDirectories": false
+      },
+      "TableType": "EXTERNAL_TABLE",
+      "Parameters": {
+        "CrawlerSchemaDeserializerVersion": "1.0",
+        "CrawlerSchemaSerializerVersion": "1.0",
+        "UPDATED_BY_CRAWLER": "devl_raw_demo_marvel",
+        "areColumnsQuoted": "false",
+        "averageRecordSize": "105",
+        "classification": "csv",
+        "columnsOrdered": "true",
+        "compressionType": "none",
+        "delimiter": ",",
+        "exclusions": "[\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/[_.*]*\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/[_.*]**\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/[_.*]*\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/[_.*]**\"]",
+        "recordCount": "41635",
+        "sizeKey": "4371738",
+        "skip.header.line.count": "1",
+        "typeOfData": "file"
+      },
+      "CreatedBy": "arn:aws:sts::078228365593:assumed-role/edl-glue-role/AWS-Crawler",
+      "IsRegisteredWithLakeFormation": false,
+      "CatalogId": "078228365593"
+    }
+  ],
+  "fields": [
+    {
+      "name": "song_raw",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "song_clean",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "artist_raw",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "artist_clean",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "callsign",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "time",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "unique_id",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "combined",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "first_",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": true
+    }
+  ],
+  "datasetId": "4024a647-1767-321f-9456-26b6fef2399f"
+}

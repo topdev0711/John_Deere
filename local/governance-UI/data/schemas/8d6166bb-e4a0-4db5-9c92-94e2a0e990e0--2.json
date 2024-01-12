@@ -1,0 +1,96 @@
+{
+    "id": "8d6166bb-e4a0-4db5-9c92-94e2a0e990e0--2",
+    "name": "dealer_agreements_afdealeragrmt",
+    "version": "1.0.0",
+    "description": "These  new schemas are created to segregate the current General dealer datasets from Dealer AOR type, where they are in currently",
+    "documentation": "",
+    "partitionedBy": [],
+    "testing": false,
+    "fields": [
+      {
+        "name": "ACCT_KEY",
+        "attribute": "id",
+        "datatype": "int",
+        "description": "",
+        "nullable": false
+      },
+      {
+        "name": "ACCT_ID",
+        "attribute": "None",
+        "datatype": "string",
+        "description": "",
+        "nullable": false
+      },
+      {
+        "name": "AGRMT_KEY",
+        "attribute": "id",
+        "datatype": "int",
+        "description": "",
+        "nullable": false
+      },
+      {
+        "name": "AGRMT_CD",
+        "attribute": "None",
+        "datatype": "string",
+        "description": "",
+        "nullable": false
+      },
+      {
+        "name": "AGRMT_NM",
+        "attribute": "None",
+        "datatype": "string",
+        "description": "",
+        "nullable": false
+      },
+      {
+        "name": "ACCT_AGRMT_SBU",
+        "attribute": "None",
+        "datatype": "string",
+        "description": "",
+        "nullable": false
+      },
+      {
+        "name": "AGRMT_SBU_NM",
+        "attribute": "None",
+        "datatype": "string",
+        "description": "",
+        "nullable": false
+      },
+      {
+        "name": "IUD_FLAG",
+        "attribute": "None",
+        "datatype": "string",
+        "description": "",
+        "nullable": false
+      },
+      {
+        "name": "IUD_TS",
+        "attribute": "None",
+        "datatype": "date",
+        "description": "",
+        "nullable": false
+      },
+      {
+        "name": "SRC_BATCH_TS",
+        "attribute": "None",
+        "datatype": "long",
+        "description": "",
+        "nullable": false
+      },
+      {
+        "name": "EDL_LOAD_TS",
+        "attribute": "extract time",
+        "datatype": "long",
+        "description": "",
+        "nullable": false
+      },
+      {
+        "name": "DEL_IND",
+        "attribute": "delete indicator",
+        "datatype": "int",
+        "description": "",
+        "nullable": false
+      }
+    ],
+    "environmentName": "com.deere.enterprise.datalake.enhance.dealer_agreements_afdealeragrmt"
+  }

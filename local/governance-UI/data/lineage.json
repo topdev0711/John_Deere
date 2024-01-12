@@ -1,0 +1,41 @@
+[
+ {
+                "taskId": "99b1be53-91b0-49e8-870e-879b70c07007",
+                "source": {
+                    "type": "aws postgres rds",
+                    "namespace": "public.RDS_POSTGRES_DUMMY_PROD_0_0_1"
+                },
+                "destination": {
+                    "dataType": "com.deere.enterprise.datalake.enhance.db2_attunity_test",
+                    "type": "Schema",
+                    "namespace": "com.deere.enterprise.datalake.enhance.rds_postgres_dummy_rds@1.0.0"
+                },
+                "created": "2022-05-11T12:20:06.829Z"
+ },
+ {
+                "taskId": "99b1be53-91b0-49e8-870e-879b70c07008",
+                "source": {
+                    "type": "DB2",
+                    "namespace": "DXPDRTP.JD_PART_PRICE"
+                },
+                "destination": {
+                    "dataType": "com.deere.enterprise.datalake.enhance.core.Customer.Preferences_and_Consent.Revoked_Consent",
+                    "type": "DB2",
+                    "namespace": "core_customer_preferences_and_consent_revoked_consent_expert_alerts_revoked_1_0_2"
+                },
+                "created": "2022-05-10T12:20:06.829Z"
+ },
+ {
+                "taskId": "99b1be53-91b0-49e8-870e-879b70c07008",
+                "source": {
+                    "type": "DB2",
+                    "namespace": "DXPDRTP.OFP_BILL_DETAILS"
+                },
+                "destination": {
+                    "dataType": "com.deere.enterprise.datalake.enhance.isg_bi_development",
+                    "type": "Schema",
+                    "namespace": "isg_bi_r2_consent_reporting_dev_01_01_03"
+                },
+                "created": "2022-05-09T12:20:06.829Z"
+ }
+]

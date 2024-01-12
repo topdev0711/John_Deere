@@ -1,0 +1,888 @@
+{
+  "remediations": [
+    {
+      "PutRequest": {
+        "Item": {
+          "name": {
+            "S": "View1"
+          },
+          "approvals": {
+            "L": [
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "mm12161"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1"
+                      },
+                      "name": {
+                        "S": "Financial Services"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "APPROVED"
+                  },
+                  "updatedAt": {
+                    "S": "2021-05-14T13:54:59.771Z"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "dp11317"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_CHANNEL@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a7b76f9e-8ff4-4171-9050-3706f1f12188"
+                      },
+                      "name": {
+                        "S": "Channel"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_CHANNEL"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "PENDING"
+                  },
+                  "updatedAt": {
+                    "S": "2021-05-14T13:54:59.771Z"
+                  }
+                }
+              }
+            ]
+          },
+          "status": {
+            "S": "PENDING"
+          },
+          "createdAt": {
+            "S": "2021-05-14T13:54:59.771Z"
+          },
+          "createdBy": {
+            "S": "dp11317"
+          },
+          "updatedAt": {
+            "S": "2021-05-14T13:54:59.771Z"
+          },
+          "updatedBy": {
+            "S": "dp11317"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "name": {
+            "S": "View2"
+          },
+          "approvals": {
+            "L": [
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "mm12161"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1"
+                      },
+                      "name": {
+                        "S": "Financial Services"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "APPROVED"
+                  },
+                  "updatedAt": {
+                    "S": "2021-05-14T13:54:59.771Z"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "dp11317"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_CHANNEL@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a7b76f9e-8ff4-4171-9050-3706f1f12188"
+                      },
+                      "name": {
+                        "S": "Channel"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_CHANNEL"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "REJECTED"
+                  },
+                  "updatedAt": {
+                    "S": "2021-05-14T13:54:59.771Z"
+                  }
+                }
+              }
+            ]
+          },
+          "status": {
+            "S": "REJECTED"
+          },
+          "createdAt": {
+            "S": "2021-05-14T13:54:59.771Z"
+          },
+          "createdBy": {
+            "S": "dp11317"
+          },
+          "updatedAt": {
+            "S": "2021-05-14T13:54:59.771Z"
+          },
+          "updatedBy": {
+            "S": "dp11317"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "name": {
+            "S": "View3"
+          },
+          "approvals": {
+            "L": [
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "mm12161"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1"
+                      },
+                      "name": {
+                        "S": "Financial Services"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "APPROVED"
+                  },
+                  "updatedAt": {
+                    "S": "2021-05-14T13:54:59.771Z"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "dp11317"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_CHANNEL@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a7b76f9e-8ff4-4171-9050-3706f1f12188"
+                      },
+                      "name": {
+                        "S": "Channel"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_CHANNEL"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "APPROVED"
+                  },
+                  "updatedAt": {
+                    "S": "2021-05-14T13:54:59.771Z"
+                  }
+                }
+              }
+            ]
+          },
+          "status": {
+            "S": "APPROVED"
+          },
+          "createdAt": {
+            "S": "2021-05-14T13:54:59.771Z"
+          },
+          "createdBy": {
+            "S": "dp11317"
+          },
+          "updatedAt": {
+            "S": "2021-05-14T13:54:59.771Z"
+          },
+          "updatedBy": {
+            "S": "dp11317"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "name": {
+            "S": "View5"
+          },
+          "approvals": {
+            "L": [
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "dp11317"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_SYSTEMS@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a521b7d4-642c-4524-9c46-e4fa5e836a17"
+                      },
+                      "name": {
+                        "S": "Systems"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_SYSTEMS"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "PENDING"
+                  },
+                  "updatedAt": {
+                    "S": "2021-06-11T14:54:59.771Z"
+                  }
+                }
+              }
+            ]
+          },
+          "status": {
+            "S": "PENDING"
+          },
+          "createdAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "createdBy": {
+            "S": "dp11317"
+          },
+          "updatedAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "updatedBy": {
+            "S": "dp11317"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "name": {
+            "S": "brian.marvel_raw_cross"
+          },
+          "approvals": {
+            "L": [
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "dp11317"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_SYSTEMS@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a521b7d4-642c-4524-9c46-e4fa5e836a17"
+                      },
+                      "name": {
+                        "S": "Systems"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_SYSTEMS"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "PENDING"
+                  },
+                  "updatedAt": {
+                    "S": "2021-06-11T14:54:59.771Z"
+                  }
+                }
+              }
+            ]
+          },
+          "status": {
+            "S": "PENDING"
+          },
+          "createdAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "createdBy": {
+            "S": "dp11317"
+          },
+          "updatedAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "updatedBy": {
+            "S": "dp11317"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "name": {
+            "S": "brian.marvel_raw_cross_test2"
+          },
+          "approvals": {
+            "L": [
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "dp11317"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_SYSTEMS@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a521b7d4-642c-4524-9c46-e4fa5e836a17"
+                      },
+                      "name": {
+                        "S": "Systems"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_SYSTEMS"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "PENDING"
+                  },
+                  "updatedAt": {
+                    "S": "2021-06-11T14:54:59.771Z"
+                  }
+                }
+              }
+            ]
+          },
+          "status": {
+            "S": "PENDING"
+          },
+          "createdAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "createdBy": {
+            "S": "dp11317"
+          },
+          "updatedAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "updatedBy": {
+            "S": "dp11317"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "name": {
+            "S": "brian.marvel_raw_cross_test3"
+          },
+          "approvals": {
+            "L": [
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "dp11317"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_SYSTEMS@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a521b7d4-642c-4524-9c46-e4fa5e836a17"
+                      },
+                      "name": {
+                        "S": "Systems"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_SYSTEMS"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "APPROVED"
+                  },
+                  "updatedAt": {
+                    "S": "2021-06-11T14:54:59.771Z"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "status": {
+                    "S": "PENDING"
+                  },
+                  "approvedBy": {
+                    "NULL": true
+                  },
+                  "approverEmail": {
+                    "S": "AWS-GIT-DWIS-DEV@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "updatedAt": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a7b76f9e-8ff4-4171-9050-3706f1f12188"
+                      },
+                      "name": {
+                        "S": "Channel"
+                      },
+                      "approver": {
+                        "S": "AWS-GIT-DWIS-DEV"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "status": {
+            "S": "PENDING"
+          },
+          "createdAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "createdBy": {
+            "S": "dp11317"
+          },
+          "updatedAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "updatedBy": {
+            "S": "dp11317"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "name": {
+            "S": "brian.marvel_raw_cross_test4"
+          },
+          "approvals": {
+            "L": [
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "dp11317"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_SYSTEMS@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a521b7d4-642c-4524-9c46-e4fa5e836a17"
+                      },
+                      "name": {
+                        "S": "Systems"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_SYSTEMS"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "PENDING"
+                  },
+                  "updatedAt": {
+                    "S": "2021-06-11T14:54:59.771Z"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "dp11317"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_CHANNEL@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a7b76f9e-8ff4-4171-9050-3706f1f12188"
+                      },
+                      "name": {
+                        "S": "Channel"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_CHANNEL"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "PENDING"
+                  },
+                  "updatedAt": {
+                    "S": "2021-05-14T13:54:59.771Z"
+                  }
+                }
+              }
+            ]
+          },
+          "status": {
+            "S": "PENDING"
+          },
+          "createdAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "createdBy": {
+            "S": "dp11317"
+          },
+          "updatedAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "updatedBy": {
+            "S": "dp11317"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "name": {
+            "S": "brian.marvel_raw_cross_test5"
+          },
+          "approvals": {
+            "L": [
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "dp11317"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_SYSTEMS@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a521b7d4-642c-4524-9c46-e4fa5e836a17"
+                      },
+                      "name": {
+                        "S": "Systems"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_SYSTEMS"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "APPROVED"
+                  },
+                  "updatedAt": {
+                    "S": "2021-06-11T14:54:59.771Z"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "dp11317"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_CHANNEL@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a7b76f9e-8ff4-4171-9050-3706f1f12188"
+                      },
+                      "name": {
+                        "S": "Channel"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_CHANNEL"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "PENDING"
+                  },
+                  "updatedAt": {
+                    "S": "2021-05-14T13:54:59.771Z"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "mm12161"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_PARTS@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "subCommunity": {
+                    "M": {
+                      "id": {
+                        "S": "2f71b2d2-f3d6-48a1-8bf7-d07ad7bd5f59"
+                      },
+                      "name": {
+                        "S": "Operations"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_PARTS_OPERATIONS"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "APPROVED"
+                  },
+                  "updatedAt": {
+                    "S": "2021-05-14T13:54:59.771Z"
+                  }
+                }
+              }
+            ]
+          },
+          "status": {
+            "S": "PENDING"
+          },
+          "createdAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "createdBy": {
+            "S": "dp11317"
+          },
+          "updatedAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "updatedBy": {
+            "S": "dp11317"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "name": {
+            "S": "brian.marvel_raw_cross_test7"
+          },
+          "approvals": {
+            "L": [
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "dp11317"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_SYSTEMS@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a521b7d4-642c-4524-9c46-e4fa5e836a17"
+                      },
+                      "name": {
+                        "S": "Systems"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_SYSTEMS"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "REJECTED"
+                  },
+                  "updatedAt": {
+                    "S": "2021-06-11T14:54:59.771Z"
+                  }
+                }
+              }
+            ]
+          },
+          "status": {
+            "S": "REJECTED"
+          },
+          "createdAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "createdBy": {
+            "S": "dp11317"
+          },
+          "updatedAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "updatedBy": {
+            "S": "dp11317"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "name": {
+            "S": "brian.marvel_raw_cross_test6"
+          },
+          "approvals": {
+            "L": [
+              {
+                "M": {
+                  "approvedBy": {
+                    "S": "dp11317"
+                  },
+                  "approverEmail": {
+                    "S": "G90_COLLIBRA_APPROVER_SYSTEMS@JohnDeere.com"
+                  },
+                  "comment": {
+                    "NULL": true
+                  },
+                  "community": {
+                    "M": {
+                      "id": {
+                        "S": "a521b7d4-642c-4524-9c46-e4fa5e836a17"
+                      },
+                      "name": {
+                        "S": "Systems"
+                      },
+                      "approver": {
+                        "S": "G90_COLLIBRA_APPROVER_SYSTEMS"
+                      }
+                    }
+                  },
+                  "status": {
+                    "S": "APPROVED"
+                  },
+                  "updatedAt": {
+                    "S": "2021-06-11T14:54:59.771Z"
+                  }
+                }
+              }
+            ]
+          },
+          "status": {
+            "S": "APPROVED"
+          },
+          "createdAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "createdBy": {
+            "S": "dp11317"
+          },
+          "updatedAt": {
+            "S": "2021-06-11T14:54:59.771Z"
+          },
+          "updatedBy": {
+            "S": "dp11317"
+          }
+        }
+      }
+    }
+  ]
+}

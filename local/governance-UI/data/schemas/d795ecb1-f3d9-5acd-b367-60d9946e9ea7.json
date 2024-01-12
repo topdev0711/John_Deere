@@ -1,0 +1,182 @@
+{
+  "id": "d795ecb1-f3d9-5acd-b367-60d9946e9ea7",
+  "name": "export1_csv",
+  "version": "1",
+  "discovered": "2020-09-25T18:01:29.000Z",
+  "testing": true,
+  "partitionedBy": [],
+  "documentation": "None",
+  "description": "Discovered schema",
+  "glueTables": [
+    {
+      "Name": "export1_csv",
+      "DatabaseName": "devl_raw_demo_marvel",
+      "Owner": "owner",
+      "CreateTime": "2020-09-25T18:01:29.000Z",
+      "UpdateTime": "2020-09-25T18:01:29.000Z",
+      "LastAccessTime": "2020-09-25T18:01:29.000Z",
+      "Retention": 0,
+      "StorageDescriptor": {
+        "Location": "s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/export1.csv",
+        "InputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+        "OutputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": {
+          "SerializationLibrary": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+          "Parameters": {
+            "field.delim": ","
+          }
+        },
+        "BucketColumns": [],
+        "SortColumns": [],
+        "StoredAsSubDirectories": false
+      },
+      "TableType": "EXTERNAL_TABLE",
+      "Parameters": {
+        "CrawlerSchemaDeserializerVersion": "1.0",
+        "CrawlerSchemaSerializerVersion": "1.0",
+        "UPDATED_BY_CRAWLER": "devl_raw_demo_marvel",
+        "areColumnsQuoted": "false",
+        "averageRecordSize": "65",
+        "classification": "csv",
+        "columnsOrdered": "true",
+        "compressionType": "none",
+        "delimiter": ",",
+        "exclusions": "[\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/[_.*]*\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/[_.*]**\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/[_.*]*\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/[_.*]**\"]",
+        "recordCount": "708",
+        "sizeKey": "46040",
+        "skip.header.line.count": "1",
+        "typeOfData": "file"
+      },
+      "CreatedBy": "arn:aws:sts::078228365593:assumed-role/edl-glue-role/AWS-Crawler",
+      "IsRegisteredWithLakeFormation": false,
+      "CatalogId": "078228365593"
+    },
+    {
+      "Name": "export1_csv_7525b1f6d852aa74c9f9c6ce6ada2db4",
+      "DatabaseName": "devl_raw_demo_marvel",
+      "Owner": "owner",
+      "CreateTime": "2020-09-25T18:01:31.000Z",
+      "UpdateTime": "2020-09-25T18:01:31.000Z",
+      "LastAccessTime": "2020-09-25T18:01:31.000Z",
+      "Retention": 0,
+      "StorageDescriptor": {
+        "Location": "s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/myRootFolder/myNestedFolder/filesUploadTest/export1.csv",
+        "InputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+        "OutputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+        "Compressed": false,
+        "NumberOfBuckets": -1,
+        "SerdeInfo": {
+          "SerializationLibrary": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+          "Parameters": {
+            "field.delim": ","
+          }
+        },
+        "BucketColumns": [],
+        "SortColumns": [],
+        "StoredAsSubDirectories": false
+      },
+      "TableType": "EXTERNAL_TABLE",
+      "Parameters": {
+        "CrawlerSchemaDeserializerVersion": "1.0",
+        "CrawlerSchemaSerializerVersion": "1.0",
+        "UPDATED_BY_CRAWLER": "devl_raw_demo_marvel",
+        "areColumnsQuoted": "false",
+        "averageRecordSize": "65",
+        "classification": "csv",
+        "columnsOrdered": "true",
+        "compressionType": "none",
+        "delimiter": ",",
+        "exclusions": "[\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/[_.*]*\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/[_.*]**\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/*.{zip,rdf,dat,gvi,log,dtc,jpg,metadata,can,txt,7z,pickle,bag,png,asc,json}\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/[_.*]*\",\"s3://jd-us01-edl-devl-raw-fff3b8e47a0fef170a07b381c4b2d8d3/**/[_.*]**\"]",
+        "recordCount": "708",
+        "sizeKey": "46040",
+        "skip.header.line.count": "1",
+        "typeOfData": "file"
+      },
+      "CreatedBy": "arn:aws:sts::078228365593:assumed-role/edl-glue-role/AWS-Crawler",
+      "IsRegisteredWithLakeFormation": false,
+      "CatalogId": "078228365593"
+    }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "alignment",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "intelligence",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "strength",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "speed",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "durability",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "power",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "combat",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "total",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "extracttime",
+      "attribute": "None",
+      "datatype": "long",
+      "description": "None",
+      "nullable": true
+    },
+    {
+      "name": "deleted",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "nullable": true
+    }
+  ],
+  "datasetId": "4024a647-1767-321f-9456-26b6fef2399f"
+}

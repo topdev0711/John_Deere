@@ -1,0 +1,15 @@
+[
+    {
+        "label": "AWS Postgres",
+        "enginevalue": "postgres",
+        "engineName": "postgresql"
+    },
+    {
+        "label": "AWS Microsoft SQL",
+        "enginevalue": "sqlserver"
+    },
+    {
+        "label": "AWS MYSQL",
+        "enginevalue": "mysql"
+    }
+]

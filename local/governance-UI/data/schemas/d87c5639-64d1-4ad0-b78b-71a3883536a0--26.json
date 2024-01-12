@@ -1,0 +1,511 @@
+{
+  "id": "d87c5639-64d1-4ad0-b78b-71a3883536a0--26",
+  "name": "Channel Master Acct Detail  FullLoad",
+  "version": "1.0.0",
+  "description": "None",
+  "documentation": "None",
+  "partitionedBy": [
+      "edl_ingest_time"
+  ],
+  "testing": true,
+  "fields": [
+      {
+          "name": "mru",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "acct_id",
+          "attribute": "id",
+          "datatype": "string",
+          "description": "None",
+          "nullable": false
+      },
+      {
+          "name": "acct_key",
+          "attribute": "None",
+          "datatype": "int",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "start_dt",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "end_dt",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "busn_end_dt",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "acct_nm",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "acct_typ_id",
+          "attribute": "None",
+          "datatype": "int",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "acct_typ_nm",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "acct_class",
+          "attribute": "None",
+          "datatype": "int",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "acct_category",
+          "attribute": "None",
+          "datatype": "int",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "acct_category_nm",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "sales_division",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "sales_territory",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "sales_division_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "sales_div_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "sales_territory_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "sales_terr_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "parts_division",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "parts_territory",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "parts_division_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "parts_div_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "parts_territory_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "parts_terr_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "service_division",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "service_territory",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "serv_division_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "serv_div_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "serv_territory_dsc",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "serv_terr_mgr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "group1_lead",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "group2_lead",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "group3_lead",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "location_lead",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "group6_lead",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "mktg_area_id",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "p_str_addr_1",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "p_str_addr_2",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "p_city",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "p_st_abbr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "p_pstl_cd",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "p_country",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "f_str_addr_1",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "f_str_addr_2",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "f_city",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "f_st_abbr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "f_pstl_cd",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "f_country",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "m_str_addr_1",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "m_str_addr_2",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "m_city",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "m_st_abbr",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "m_pstl_cd",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "m_country",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "business_phone",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "mailing_phone",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "financial_phone",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "customer_to_acct_email",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "deere_to_acct_email",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "acct_geo_gom_region_nm",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "latitude",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "longitude",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "sales_ind",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "parts_ind",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "service_ind",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "sales_region_cd",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "sales_region_nm",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "mru_sbu",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "dlr_owner_no",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "laad_acct",
+          "attribute": "None",
+          "datatype": "string",
+          "description": "None",
+          "nullable": true
+      },
+      {
+          "name": "edl_ingest_time",
+          "attribute": "extract time",
+          "datatype": "long",
+          "description": "None",
+          "nullable": false
+      }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.core.channel.master.AcctDetail.channel_master_acct_detail_fullload"
+}

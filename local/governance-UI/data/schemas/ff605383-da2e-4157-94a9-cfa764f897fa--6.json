@@ -1,0 +1,19 @@
+{
+  "id": "ff605383-da2e-4157-94a9-cfa764f897fa--6",
+  "name": "SmokeTest",
+  "version": "2.0.0",
+  "description": "Smoke/Regression/Monitoring",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "test",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.smoketest"
+}

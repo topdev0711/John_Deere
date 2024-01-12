@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  metricslocalstack:
+    image: localstack/localstack
+    container_name: gov-ui-metrics-localstack
+    environment:
+      SERVICES: dynamodb, secretsmanager
+      EDGE_PORT: 4567
+      DOCKER_HOST: unix:///var/run/docker.sock
+      LAMBDA_DOCKER_NETWORK: edl-data-metrics_default
+      COLLIBRA_DQ_USERNAME: ${COLLIBRA_DQ_USERNAME}
+      COLLIBRA_DQ_PASSWORD: ${COLLIBRA_DQ_PASSWORD}
+    ports:
+      - 4567:4567
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./local/edl-data-metrics/init-aws.sh:/etc/localstack/init/ready.d/init-aws.sh"
+      - "./local/edl-data-metrics:/local/metrics"
+
+  app:
+    image: 305463345279.dkr.ecr.us-east-1.amazonaws.com/edl-data-metrics:prod
+    depends_on:
+      - metricslocalstack
+    ports:
+      - 8081:8081
+    environment:
+      loglevel: info
+      env: local
+      APP_ENV: local
+      DATA_DIR: ${DATA_DIR- }
+      COLLIBRA_DQ_USERNAME: ${COLLIBRA_DQ_USERNAME}
+      COLLIBRA_DQ_PASSWORD: ${COLLIBRA_DQ_PASSWORD}

@@ -1,0 +1,33 @@
+{
+  "id": "659aed8a-4317-4177-aef5-8a866c80ac0e--2",
+  "name": "dhams_enhance_test_workflow_listener_new_schema",
+  "version": "1",
+  "description": "test duplicate table name",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "duplicate_name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.dhams_enhance_test_workflow_listener_new_schema"
+}

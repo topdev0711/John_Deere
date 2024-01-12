@@ -1,0 +1,163 @@
+{
+  "environmentName": "com.deere.enterprise.datalake.enhance.training_los_angeles_crime",
+  "testing": false,
+  "partitionedBy": [],
+  "id": "52192c1b-9e12-3fb3-9eeb-e39d248bda2c",
+  "documentation": "None",
+  "description": "None",
+  "version": "1.0.0",
+  "name": "Training Los Angeles Crime",
+  "fields": [
+    {
+      "attribute": "id",
+      "datatype": "string",
+      "description": "None",
+      "name": "id",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "None",
+      "name": "dateReported",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "None",
+      "name": "dateOccurred",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "None",
+      "name": "timeOccurred",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "areaID",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "areaName",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "reportingDistrict",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "crimeCode",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "crimeCodeDescription",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "victimAge",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "victimSex",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "victimDescent",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "premiseCode",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "premiseDescription",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "weaponUsed",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "status",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "address",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "decimal",
+      "description": "None",
+      "name": "locationLatitude",
+      "nullable": true,
+      "scale": 18,
+      "precision": 38
+    },
+    {
+      "attribute": "None",
+      "datatype": "decimal",
+      "description": "None",
+      "name": "locationLongitude",
+      "nullable": true,
+      "scale": 18,
+      "precision": 38
+    },
+    {
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "None",
+      "name": "ingest_ts",
+      "nullable": false
+    },
+    {
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "None",
+      "name": "delete_ind",
+      "nullable": false
+    }
+  ]
+}

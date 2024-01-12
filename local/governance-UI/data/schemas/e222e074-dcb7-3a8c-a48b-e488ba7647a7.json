@@ -1,0 +1,175 @@
+{
+  "environmentName": "com.deere.enterprise.datalake.enhance.training_chicago_crime",
+  "testing": false,
+  "partitionedBy": [
+    "year"
+  ],
+  "id": "e222e074-dcb7-3a8c-a48b-e488ba7647a7",
+  "documentation": "None",
+  "description": "None",
+  "version": "1.0.0",
+  "name": "Training Chicago Crime",
+  "fields": [
+    {
+      "attribute": "id",
+      "datatype": "int",
+      "description": "None",
+      "name": "id",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "caseNumber",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "block",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "iucr",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "primaryType",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "description",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "locationDescription",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "boolean",
+      "description": "None",
+      "name": "arrest",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "boolean",
+      "description": "None",
+      "name": "domestic",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "district",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "ward",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "communityArea",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "fbiCode",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "xCoordinate",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "yCoordinate",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "int",
+      "description": "None",
+      "name": "year",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "updatedOn",
+      "nullable": false
+    },
+    {
+      "attribute": "None",
+      "datatype": "double",
+      "description": "None",
+      "name": "latitude",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "double",
+      "description": "None",
+      "name": "longitude",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "string",
+      "description": "None",
+      "name": "location",
+      "nullable": true
+    },
+    {
+      "attribute": "None",
+      "datatype": "timestamp",
+      "description": "None",
+      "name": "date",
+      "nullable": false
+    },
+    {
+      "attribute": "extract time",
+      "datatype": "long",
+      "description": "None",
+      "name": "ingest_ts",
+      "nullable": false
+    },
+    {
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "None",
+      "name": "delete_ind",
+      "nullable": false
+    }
+  ]
+}

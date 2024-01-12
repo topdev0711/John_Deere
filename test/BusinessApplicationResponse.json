@@ -1,0 +1,93 @@
+[
+  {
+    "name": "accenture_clone_and_test_tool_saas",
+    "displayName": "Accenture Clone and Test Tool - SaaS",
+    "productName": "global_payroll",
+    "apmAppNumber": "APM0020499",
+    "installStatus": "In Production"
+  },
+  {
+    "name": "edl_data_catalog",
+    "displayName": "EDL Data Catalog",
+    "productName": "enterprise_data_lake",
+    "apmAppNumber": "APM0021978",
+    "installStatus": "In Production"
+  },
+  {
+    "name": "precision_ag_analytics_warehouse_paaw",
+    "displayName": "Precision Ag Analytics Warehouse (PAAW)",
+    "productName": "isg_digital_analytics",
+    "apmAppNumber": "APM0018797",
+    "installStatus": "In Production"
+  },
+  {
+    "name": "onecloud_platform_application",
+    "displayName": "OneCloud Platform Application",
+    "productName": "onecloud_finops_management",
+    "apmAppNumber": "APM0018696",
+    "installStatus": "In Production"
+  },
+  {
+    "name": "enterprise_data_lake_edl",
+    "displayName": "Enterprise Data Lake EDL",
+    "productName": "enterprise_data_lake",
+    "apmAppNumber": "APM0021416",
+    "installStatus": "In Production"
+  },
+  {
+    "name": "accenture_audit_compliance_tool_onprem",
+    "displayName": "Accenture Audit Compliance Tool - OnPrem",
+    "productName": "global_payroll",
+    "apmAppNumber": "APM0020498",
+    "installStatus": "In Production"
+  },
+  {
+    "name": "1000md",
+    "displayName": "1000MD",
+    "productName": "mcad_visualization",
+    "apmAppNumber": "APM0020199",
+    "installStatus": "In Production"
+  },
+  {
+    "name": "1b_cps",
+    "displayName": "1B CPS",
+    "productName": "export_order",
+    "apmAppNumber": "APM0018094",
+    "installStatus": "In Production"
+  },
+  {
+    "name": "jdsn_price_change_approval",
+    "displayName": " JDSN Price Change Approval",
+    "productName": "cost_management",
+    "apmAppNumber": "APM0020086",
+    "installStatus": "In Production"
+  },
+  {
+    "name": "architecture_security",
+    "displayName": "Architecture Security",
+    "productName": "isg_architecture_support",
+    "apmAppNumber": "APM0018969",
+    "installStatus": "In Production"
+  },
+  {
+    "name": "aws_authentication_token_api",
+    "displayName": "AWS Authentication Token API",
+    "productName": "enterprise_data_lake",
+    "apmAppNumber": "APM0021418",
+    "installStatus": "In Production"
+  },
+  {
+    "name": "enterprise_data_lake_app",
+    "displayName": "Enterprise Data Lake App",
+    "productName": "enterprise_data_lake",
+    "apmAppNumber": "APM0022192",
+    "installStatus": "In Production"
+  },
+  {
+    "name": "esri_services",
+    "displayName": "ESRI Services",
+    "productName": "enterprise_data_lake",
+    "apmAppNumber": "APM0021421",
+    "installStatus": "In Production"
+  }
+]

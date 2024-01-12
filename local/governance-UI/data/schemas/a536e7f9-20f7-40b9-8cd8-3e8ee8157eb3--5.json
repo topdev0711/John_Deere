@@ -1,0 +1,26 @@
+{
+  "id": "a536e7f9-20f7-40b9-8cd8-3e8ee8157eb3--5",
+  "name": "Performance Testing Schema 2",
+  "version": "1.0.0",
+  "description": "Performance Testing 2",
+  "documentation": "Performance Testing 2 Schema",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "Id",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "Name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.performance_testing_schema_2"
+}

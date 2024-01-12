@@ -1,0 +1,131 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: DocumentDb persistence layer for enterprise data governance center records.
+Parameters:
+  PreferredMaintenanceWindow:
+    Type: String
+    Description: ""
+    Default: "sat:21:00-sat:21:30"
+Resources:
+  jdCatalogDb{{ cacheSuffix }}:
+    Type: "AWS::EC2::SecurityGroup"
+    Properties:
+      GroupName: JDCatalogDocDb
+      GroupDescription: "DocDb Security Group"
+      VpcId: {{ VpcId }}
+      SecurityGroupIngress:
+      - IpProtocol: tcp
+        FromPort: '27017'
+        ToPort: '27017'
+        CidrIp: {{ VpcCidr }}
+
+  catalogDbSecret:
+    Type: AWS::SecretsManager::Secret
+    Properties:
+      Name: AE/jdDataCatalogSecret
+      Description: 'This is the secret for my DocDb instance'
+      GenerateSecretString:
+        SecretStringTemplate: '{"username": "EdlAdmin"}'
+        GenerateStringKey: 'password'
+        PasswordLength: 30
+        ExcludeCharacters: '"@/\'
+      Tags:
+        -
+          Key: component
+          Value: {{ deereTaggingComponent }}
+
+  jdDataCatalogDbSubnetGroup{{ cacheSuffix }}:
+    Type: 'AWS::DocDB::DBSubnetGroup'
+    Properties:
+      DBSubnetGroupName: jdDataCatalogDbSubnetGroup
+      DBSubnetGroupDescription: jdDataCatalogDbSubnetGroup
+      SubnetIds: 
+        - {{ cacheSubnet1 }}
+        - {{ cacheSubnet3 }}
+      Tags:
+        -
+          Key: component
+          Value: {{ deereTaggingComponent }}
+
+  jdDataCatalogDbParameterGroup{{ cacheSuffix }}:
+    Type: AWS::DocDB::DBClusterParameterGroup
+    Properties:
+      Description: DocDB Cluster Parameter Group
+      Family: "docdb4.0"
+      Name: "jd-data-catalog-db-parameter-group"
+      Parameters:
+        audit_logs: disabled
+        tls: enabled
+        profiler: disabled
+      Tags:
+        -
+          Key: component
+          Value: {{ deereTaggingComponent }}
+
+  jdDataCatalogDbInstance{{ cacheSuffix }}:
+    Type: AWS::DocDB::DBInstance
+    DependsOn: 
+      - jdDataCatalogDocDbCluster{{ cacheSuffix }}
+    Properties:
+      AutoMinorVersionUpgrade: true
+      DBClusterIdentifier: jdDataCatalogDocDb
+      DBInstanceClass: {{ dbInstance }}
+      PreferredMaintenanceWindow: 
+        Ref: PreferredMaintenanceWindow
+      Tags:
+        -
+          Key: component
+          Value: {{ deereTaggingComponent }}
+
+  jdDataCatalogDbInstance{{ cacheSuffix }}2:
+    Type: AWS::DocDB::DBInstance
+    DependsOn: 
+      - jdDataCatalogDocDbCluster{{ cacheSuffix }}
+    Properties:
+      AutoMinorVersionUpgrade: true
+      DBClusterIdentifier: jdDataCatalogDocDb
+      DBInstanceClass: {{ dbInstance }}
+      PreferredMaintenanceWindow: 
+        Ref: PreferredMaintenanceWindow
+      Tags:
+        -
+          Key: component
+          Value: {{ deereTaggingComponent }}
+
+  jdDataCatalogDocDbCluster{{ cacheSuffix }}:
+    Type: AWS::DocDB::DBCluster
+    DependsOn:
+      - jdDataCatalogDbSubnetGroup{{ cacheSuffix }}
+      - catalogDbSecret
+      - jdDataCatalogDbParameterGroup{{ cacheSuffix }}
+      - jdCatalogDb{{ cacheSuffix }}
+    Properties: 
+      AvailabilityZones: 
+        - {{ dbAvailabilityZone1 }}
+        - {{ dbAvailabilityZone2 }} 
+      BackupRetentionPeriod: 14
+      DBClusterIdentifier: jdDataCatalogDocDb
+      DBClusterParameterGroupName: 
+        Ref: jdDataCatalogDbParameterGroup{{ cacheSuffix }}
+      DBSubnetGroupName:
+        Ref: jdDataCatalogDbSubnetGroup{{ cacheSuffix }}
+      DeletionProtection: true
+      Port: 27017
+      EngineVersion: 4.0.0
+      MasterUsername: EdlAdmin
+      {% raw %}
+      MasterUserPassword: 
+        Fn::Sub: '{{resolve:secretsmanager:${catalogDbSecret}::password}}' 
+      {% endraw %}
+      PreferredBackupWindow: "20:00-20:30"
+      PreferredMaintenanceWindow: 
+        Ref: PreferredMaintenanceWindow
+      StorageEncrypted: true
+      Tags: 
+        - 
+          Key: component
+          Value: {{ deereTaggingComponent }}
+      VpcSecurityGroupIds: 
+        -
+          Fn::GetAtt:
+            - "jdCatalogDb{{ cacheSuffix }}"
+            - "GroupId"

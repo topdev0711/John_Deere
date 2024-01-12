@@ -1,0 +1,4 @@
+{
+  "RedrivePolicy": "{\"deadLetterTargetArn\":\"arn:aws:sqs:us-east-1:000000000000:jd-catalog-notification-dlq\",\"maxReceiveCount\":\"2\"}",
+  "MessageRetentionPeriod": "259200"
+}

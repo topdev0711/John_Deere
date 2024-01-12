@@ -1,0 +1,10 @@
+.usabilitySpan {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+
+.popoverUsability {
+    borderRadius: 8;
+    height: 180px;
+}

@@ -1,0 +1,79 @@
+{
+  "id": "75903fb1-1689-4cb5-8a9d-d82cd422c7df--3",
+  "name": "Storage Marvel",
+  "version": "1.0.0",
+  "description": "Storage Marvel New Schema Testing Storage Service",
+  "documentation": "",
+  "partitionedBy": [],
+  "updateFrequency": "Never",
+  "testing": false,
+  "fields": [
+    {
+      "name": "Name",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "Alignment",
+      "attribute": "None",
+      "datatype": "string",
+      "nullable": false
+    },
+    {
+      "name": "Intelligence",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Strength",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Speed",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Durability",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Power",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Combat",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "Total",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    },
+    {
+      "name": "ExtractTime",
+      "attribute": "None",
+      "datatype": "long",
+      "nullable": false
+    },
+    {
+      "name": "Deleted",
+      "attribute": "None",
+      "datatype": "int",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.storage_marvel"
+}

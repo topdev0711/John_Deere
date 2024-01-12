@@ -1,0 +1,26 @@
+{
+  "id": "3b759a68-c94f-491d-b221-b4b9817ddf12--1",
+  "name": "TestDatasetScrumSKSchema",
+  "version": "1.0.0",
+  "description": "TestDatasetScrumSKSchema",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "Id",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "Name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.testdatasetscrumskschema"
+}

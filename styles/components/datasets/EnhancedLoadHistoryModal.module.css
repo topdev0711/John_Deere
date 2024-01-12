@@ -1,0 +1,9 @@
+.loadHistoryRow {
+    font-size: 0.75rem;
+}
+
+.loadHistoryTable {
+    padding: 30px;
+    overflow-y: hidden;
+    padding: 37px 52px 63px 33px;
+}

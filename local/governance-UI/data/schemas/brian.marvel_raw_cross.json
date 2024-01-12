@@ -1,0 +1,47 @@
+{
+  "id": "brian.marvel_raw_cross",
+  "name": "brian.marvel_raw_cross",
+  "version": "1.0.0",
+  "description": "this is test type for event testing",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "isDynamic": true,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "this is id filed",
+      "nullable": false
+    },
+    {
+      "name": "updated_ts",
+      "attribute": "extract time",
+      "datatype": "timestamp",
+      "description": "this is last updated timestamp",
+      "nullable": false
+    },
+    {
+      "name": "del_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "delete indicator",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "contains name",
+      "nullable": false
+    },
+    {
+      "name": "address",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "address field",
+      "nullable": false
+    }
+  ]
+}

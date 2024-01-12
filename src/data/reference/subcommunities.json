@@ -1,0 +1,1717 @@
+[
+  {
+    "id": "245e8922-8ea7-4a21-92cc-06e9b3551bdc",
+    "enabled": true,
+    "name": "Competitive Dealers",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL"
+  },
+  {
+    "id": "d127f360-3e52-4175-8e74-c3d81b88aebf",
+    "enabled": true,
+    "name": "Dealer Agreement Types",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL"
+  },
+  {
+    "id": "a3e8b7cc-d34b-4023-84cc-78944c18e444",
+    "enabled": true,
+    "name": "Dealer AOR",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL"
+  },
+  {
+    "id": "b025aaeb-aa2b-4874-a597-511e292c9274",
+    "enabled": true,
+    "name": "Dealer Business System",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL"
+  },
+  {
+    "id": "c98251b1-cffe-4a39-84b5-58bf0e5ebc8c",
+    "enabled": true,
+    "name": "Dealer Functional Areas and Personnel",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL"
+  },
+  {
+    "id": "1271256a-a352-4791-9eda-8debfbf117f2",
+    "enabled": true,
+    "name": "Dealer Hierarchy",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL"
+  },
+  {
+    "id": "f93c04e5-fa71-4f0d-aa8f-95603906e4d2",
+    "enabled": true,
+    "name": "Dealer History",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL"
+  },
+  {
+    "id": "7b4eca97-1017-4351-8e97-d133f5fe386f",
+    "enabled": true,
+    "name": "Dealer Locations",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL"
+  },
+  {
+    "id": "b364d6fa-a4ba-4a55-84b2-3e936171491d",
+    "enabled": true,
+    "name": "Dealer Payers",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL"
+  },
+  {
+    "id": "ba5913d0-ca3b-4f07-9ad2-034ef9f9f486",
+    "enabled": true,
+    "name": "Dealer Profile Administration Data",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL"
+  },
+  {
+    "id": "ab5eb49e-5e59-48b2-8ce2-92d7ad29ef8c",
+    "enabled": true,
+    "name": "Parts and Service Work Orders",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL_PARTS_AND_SERVICE_WORK_ORDERS"
+  },
+  {
+    "id": "d9f241d3-a34b-449e-a6e6-bcf3c3d39020",
+    "enabled": true,
+    "name": "Quote",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL_QUOTE"
+  },
+  {
+    "id": "dc362660-660b-4504-b32f-45ebb03dc133",
+    "enabled": true,
+    "name": "Service Delivery",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL_SERVICE_DELIVERY"
+  },
+  {
+    "id": "f93f3d03-e7b2-41c4-a9dd-2ffaf572b567",
+    "enabled": true,
+    "name": "Reference World Admin",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL"
+  },
+  {
+    "id": "69166b98-9411-4123-aaa3-e766c1e70a77",
+    "enabled": true,
+    "name": "Used Equipment",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL_MACHINEFINDER"
+  },
+  {
+    "id": "b80920af-a362-4e20-8f47-1a02e8800cb1",
+    "enabled": true,
+    "name": "Customer Activity",
+    "communityId": "41f48207-a2ac-4be9-9db9-32f270bd8324",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_CUSTOMER_ACTIVITY"
+  },
+  {
+    "id": "68063f5e-a072-44d6-9527-082143b3cde0",
+    "enabled": true,
+    "name": "Customer Experience",
+    "communityId": "41f48207-a2ac-4be9-9db9-32f270bd8324",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_CUSTOMER_EXPERIENCE"
+  },
+  {
+    "id": "fac279ab-4f3d-4c70-a699-d77e5d179913",
+    "enabled": true,
+    "name": "Customer Identity",
+    "communityId": "41f48207-a2ac-4be9-9db9-32f270bd8324",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_CUSTOMER_IDENTITY"
+  },
+  {
+    "id": "e0aafc2e-1bbc-4832-84a0-221e5b87f0e7",
+    "enabled": true,
+    "name": "Customer Product Support",
+    "communityId": "41f48207-a2ac-4be9-9db9-32f270bd8324",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_CUSTOMER_PRODUCT_SUPPORT"
+  },
+  {
+    "id": "8b2a4adb-152c-4799-adc0-d23d72293828",
+    "enabled": true,
+    "name": "Preferences and Consent",
+    "communityId": "41f48207-a2ac-4be9-9db9-32f270bd8324",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PREFERENCES_AND_CONSENT"
+  },
+  {
+    "id": "f412d327-6da7-4c06-aaf6-e2e012234132",
+    "enabled": true,
+    "name": "Warranty",
+    "communityId": "41f48207-a2ac-4be9-9db9-32f270bd8324",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_WARRANTY"
+  },
+  {
+    "id": "281b8df2-34fa-4a22-aa7a-3cb57082edf5",
+    "enabled": true,
+    "name": "Geopolitical Reference Data",
+    "communityId": "41f48207-a2ac-4be9-9db9-32f270bd8324",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_GEOPOLITICAL_REFERENCE_DATA"
+  },
+  {
+    "id": "d546d1e1-7033-4317-98fb-2eea641e5b3c",
+    "enabled": true,
+    "name": "Agriculture",
+    "communityId": "fea98a5e-a74d-4723-890d-fce912497b8b",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PRODUCTION_AND_MACHINE"
+  },
+  {
+    "id": "d08c1ca6-0f01-4c77-a127-85c844ec5aa2",
+    "enabled": true,
+    "name": "Analytics",
+    "communityId": "fea98a5e-a74d-4723-890d-fce912497b8b",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PRODUCTION_AND_MACHINE"
+  },
+  {
+    "id": "101dd5c3-5db7-42b8-b8b7-31dbc591ab58",
+    "enabled": true,
+    "name": "Construction",
+    "communityId": "fea98a5e-a74d-4723-890d-fce912497b8b",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PRODUCTION_AND_MACHINE"
+  },
+  {
+    "id": "214ad8a9-10ae-422e-a50c-12e5d58ab0cc",
+    "enabled": true,
+    "name": "Environment",
+    "communityId": "fea98a5e-a74d-4723-890d-fce912497b8b",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PRODUCTION_AND_MACHINE"
+  },
+  {
+    "id": "44c0f1f9-fdfb-4d37-8c18-b0bbe7fe1f65",
+    "enabled": true,
+    "name": "Equipment",
+    "communityId": "fea98a5e-a74d-4723-890d-fce912497b8b",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PRODUCTION_AND_MACHINE"
+  },
+  {
+    "id": "4d9047b8-e92c-445a-9f54-c3597264ae0a",
+    "enabled": true,
+    "name": "Forestry",
+    "communityId": "fea98a5e-a74d-4723-890d-fce912497b8b",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PRODUCTION_AND_MACHINE"
+  },
+  {
+    "id": "0e8df197-987a-4e1d-bdb8-c623fd6d2e64",
+    "enabled": true,
+    "name": "Org and User Management",
+    "communityId": "fea98a5e-a74d-4723-890d-fce912497b8b",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PRODUCTION_AND_MACHINE"
+  },
+  {
+    "id": "a6f7ac09-e928-4284-b153-86ce04d6fa1f",
+    "enabled": true,
+    "name": "Turf",
+    "communityId": "fea98a5e-a74d-4723-890d-fce912497b8b",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PRODUCTION_AND_MACHINE"
+  },
+  {
+    "id": "d1f74dd6-a713-4d46-87fa-30efa02ae494",
+    "enabled": true,
+    "name": "Work",
+    "communityId": "fea98a5e-a74d-4723-890d-fce912497b8b",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PRODUCTION_AND_MACHINE"
+  },
+  {
+    "id": "cc24ced4-e9ca-4384-8ac5-cd29306a4fc8",
+    "enabled": true,
+    "name": "Sales",
+    "communityId": "fea98a5e-a74d-4723-890d-fce912497b8b",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PRODUCTION_AND_MACHINE"
+  },
+  {
+    "id": "09a669a2-28ea-449f-9a5a-ffe20d99f3ce",
+    "enabled": true,
+    "name": "System",
+    "communityId": "fea98a5e-a74d-4723-890d-fce912497b8b",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PRODUCTION_AND_MACHINE"
+  },
+  {
+    "id": "87ffe61a-715b-43f3-842f-268243b83934",
+    "enabled": true,
+    "name": "CPAM Reference Data",
+    "communityId": "fea98a5e-a74d-4723-890d-fce912497b8b",
+    "approver": "G90_COLLIBRA_APPROVER_CUSTOMER_PRODUCTION_AND_MACHINE"
+  },
+  {
+    "id": "7963cd0a-1f5b-46b4-a6c9-304ceea01462",
+    "enabled": true,
+    "name": "Harvesting",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_Harvesting"
+  },
+  {
+    "id": "298f029b-14a5-4ae5-b760-cb479074545f",
+    "enabled": true,
+    "name": "Intelligent Solutions Group",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_Intelligent_Solutions_Group"
+  },
+  {
+    "id": "7168fa05-632a-414f-be09-6a2224667ab7",
+    "enabled": true,
+    "name": "JDES",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_JDES"
+  },
+  {
+    "id": "56dde984-5ed9-4cef-8e89-707dbeb70b91",
+    "enabled": true,
+    "name": "JDPS Engine",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_JDPS Engine"
+  },
+  {
+    "id": "aca87944-9c97-4e18-999a-62ad5532b2c4",
+    "enabled": true,
+    "name": "PV and V",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_PV_and_V"
+  },
+  {
+    "id": "113aeaa5-3bca-4185-bbc4-34979e5f3aeb",
+    "enabled": true,
+    "name": "Windchill",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_Windchill"
+  },
+  {
+    "id": "f82d8352-b5aa-473e-8bdc-14ba3be10ab4",
+    "enabled": true,
+    "name": "MBSE",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_MBSE"
+  },
+  {
+    "id": "30ea107c-d4d5-4ec8-8786-b74b270602f5",
+    "enabled": true,
+    "name": "CADSEEK – Modeling",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_CADSEEK _Modeling"
+  },
+  {
+    "id": "a42142f1-7e93-43fc-b21f-39f3db16ebc5",
+    "enabled": true,
+    "name": "Electrical Wire Harness",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_ELECTRICAL_WIRE_HARNESS"
+  },
+  {
+    "id": "c48c79e8-ae88-4153-be91-23bcf25c1e20",
+    "enabled": true,
+    "name": "Agronomy",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_AGRONOMY"
+  },
+  {
+    "id": "98220e8e-8b87-4c86-95ff-1acf49c5f357",
+    "enabled": true,
+    "name": "General Ledger Accounting Data",
+    "communityId": "5da8a31f-6c9b-41e9-879f-6948e65e2430",
+    "approver": "G90_Collibra_Approver_Finance_General_Ledger_Accounting_Data"
+  },
+  {
+    "id": "f02b8ad0-6769-4660-b434-8c6caef5969b",
+    "enabled": true,
+    "name": "Reference Data",
+    "communityId": "5da8a31f-6c9b-41e9-879f-6948e65e2430",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCE"
+  },
+  {
+    "id": "65418417-bcc4-44e0-ae3b-7bfce4a2c123",
+    "enabled": true,
+    "name": "Cost Center Data",
+    "communityId": "5da8a31f-6c9b-41e9-879f-6948e65e2430",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCE_COST_CENTER_DATA"
+  },
+  {
+    "id": "7ef44cd2-ac8a-466b-b099-520d90c0993d",
+    "enabled": true,
+    "name": "Agreement",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_AGREEMENT"
+  },
+  {
+    "id": "c97d460a-4346-4673-8a18-c1e840ac16c5",
+    "enabled": true,
+    "name": "Analytics",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_ANALYTICS"
+  },
+  {
+    "id": "4ef8fa29-23be-484a-b283-653611a82ce7",
+    "enabled": true,
+    "name": "Brazil JDF",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_BRAZIL"
+  },
+  {
+    "id": "9d4bbecf-c6b7-4b62-80ea-fcc652d79493",
+    "enabled": true,
+    "name": "Collateral Equipment",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_COLLATERAL EQUIPMENT"
+  },
+  {
+    "id": "5f6eab69-fdd8-4ef0-8645-3a0c5bf2a031",
+    "enabled": true,
+    "name": "Collections Recovery",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_COLLECTIONS_RECOVERY"
+  },
+  {
+    "id": "b85e8ea0-52a5-47fc-a135-87ce93690ff2",
+    "enabled": true,
+    "name": "Credit Application",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_CREDIT APPLICATION"
+  },
+  {
+    "id": "88456b42-8ec8-43dc-b8b1-6fb2ea82f96e",
+    "enabled": true,
+    "name": "Credit Scoring",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_CREDIT SCORING"
+  },
+  {
+    "id": "0ec25212-d9b0-4094-917a-18be68ff8130",
+    "enabled": true,
+    "name": "Customer",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_CUSTOMER"
+  },
+  {
+    "id": "081b9607-f798-4733-bf85-891f4e9bd2e3",
+    "enabled": true,
+    "name": "Customer Interactions",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_CUSTOMER_INTERACTIONS"
+  },
+  {
+    "id": "6af73e52-66da-4096-890f-62c5980ec36c",
+    "enabled": true,
+    "name": "Marketing Sales",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_MARKETING_SALES"
+  },
+  {
+    "id": "fc20a0d3-02cb-485d-a7dc-8459938c2fb7",
+    "enabled": true,
+    "name": "Merchant Dealer",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_MERCHANT DEALER"
+  },
+  {
+    "id": "66989118-1f46-466a-9e1a-4b1990c5a30b",
+    "enabled": true,
+    "name": "Mexico and Cross Border JDF",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_MEXICO_AND_CROSS_BORDER"
+  },
+  {
+    "id": "ba67a6d1-85e3-4a74-9c2e-0937755852a6",
+    "enabled": true,
+    "name": "Reference Domain",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REFERENCE DOMAIN"
+  },
+  {
+    "id": "4dda721f-5624-4ca9-b481-33a5fb2b59ae",
+    "enabled": true,
+    "name": "Region 3 JDF",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION_3"
+  },
+  {
+    "id": "546b7895-e236-40a6-be0d-bc33a13a50c5",
+    "enabled": true,
+    "name": "Southern Cone JDF",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_SOUTHERN_CONE"
+  },
+  {
+    "id": "8a2092f5-0d75-407a-bdd1-dc2cd6ce1f2f",
+    "enabled": true,
+    "name": "Wholesale",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_WHOLESALE"
+  },
+  {
+    "id": "a99a2853-41e3-4db3-82c1-b0371f6a0f3a",
+    "enabled": true,
+    "name": "AU_NZ_CUSTOMER INTERACTIONS",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_CUST INTERACT_R4_AU_NZ"
+  },
+  {
+    "id": "a3e54c5e-7360-4ba7-a62f-e0498870236a",
+    "enabled": true,
+    "name": "Region 2 Agreement",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION2_AGREEMENT"
+  },
+  {
+    "id": "761f08fc-2eff-4ed7-be14-5208618e0e1b",
+    "enabled": true,
+    "name": "Region 2 Analytics",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION2_ANALYTICS"
+  },
+  {
+    "id": "3b90b57e-0a3c-45cb-ae9b-7f05ceacd92",
+    "enabled": true,
+    "name": "Region 2 Credit Scoring",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION2_CREDIT SCORING"
+  },
+  {
+    "id": "3145fb90-be48-488b-bf67-f3c256e2f9c3",
+    "enabled": true,
+    "name": "Region 2 Collateral Equipment",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION2_COLLATERAL EQUI"
+  },
+  {
+    "id": "9de62828-9616-41e2-a889-e40ed86b3039",
+    "enabled": true,
+    "name": "Region 2 Collections Recovery",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION2_COLL_RECOVERY"
+  },
+  {
+    "id": "75a79ade-5ec6-47e0-8306-8b742853bf8d",
+    "enabled": true,
+    "name": "Region 2 Credit Application",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION2_CREDIT APPLICAT"
+  },
+  {
+    "id": "43efdfa6-2fef-4be7-acf7-fd4678624f49",
+    "enabled": true,
+    "name": "Region 2 Customer",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION2_CUSTOMER"
+  },
+  {
+    "id": "201e997d-edc4-4e61-98d3-81de557acb0a",
+    "enabled": true,
+    "name": "Region 2 Customer Interactions",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION2_CUST INTERACT"
+  },
+  {
+    "id": "5c57ceb1-e55b-488d-abab-22873e409035",
+    "enabled": true,
+    "name": "Region 2 Marketing Sales",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION2_MARKETING_SALES"
+  },
+  {
+    "id": "8f09a34f-3a84-4b48-92ab-f273c0a02c5f",
+    "enabled": true,
+    "name": "Region 2 Merchant Dealer",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION2_MERCHANT DEALER"
+  },
+  {
+    "id": "ab7c9bab-03e4-489d-b209-7b2441dd697f",
+    "enabled": true,
+    "name": "Region 2 Reference Domain",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION2_REF DOMAIN"
+  },
+  {
+    "id": "6eb68f80-07b4-4169-828f-247c184da781",
+    "enabled": true,
+    "name": "Region 2 Wholesale",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION2_WHOLESALE"
+  },
+  {
+    "id": "97f33cbc-f0c2-48d1-bdcb-f28c29e735b2",
+    "enabled": true,
+    "name": "Region 3 Collections Recovery",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION3_COLL_RECOVERY"
+  },
+  {
+    "id": "066c8d22-6d0b-4456-b961-50a9fed36ae9",
+    "enabled": true,
+    "name": "Region 3 Credit Application",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION3_CREDIT_APPLICAT"
+  },
+  {
+    "id": "e0d0ecc2-1e9f-475c-8c9f-3fbfd735e0ea",
+    "enabled": true,
+    "name": "Region 3 Collateral Equipment",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION3_COLLATERAL_EQUI"
+  },
+  {
+    "id": "11f9c825-cb64-4b1e-90d0-cc9f271e17c0",
+    "enabled": true,
+    "name": "Region 3 Analytics",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION3_ANALYTICS"
+  },
+  {
+    "id": "5de94c1f-7b89-474f-ae17-322dd0b03315",
+    "enabled": true,
+    "name": "Region 3 Agreement",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION3_AGREEMENT"
+  },
+  {
+    "id": "39aae630-e487-4a50-9116-eef2e6b70aad",
+    "enabled": true,
+    "name": "Region 3 Credit Scoring",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION3_CREDIT_SCORING"
+  },
+  {
+    "id": "c57b05ca-740f-41a0-ad4f-294b5a871a7e",
+    "enabled": true,
+    "name": "Region 3 Customer Interactions",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION3_CUST_INTERACT"
+  },
+  {
+    "id": "610b1aa6-c40b-488e-b283-17050e7c8b7a",
+    "enabled": true,
+    "name": "Region 3 Customer",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION3_CUSTOMER"
+  },
+  {
+    "id": "d35e4bbc-b9b2-442f-9977-579a37eacd85",
+    "enabled": true,
+    "name": "Region 3 Marketing Sales",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION3_MARKETING_SALES"
+  },
+  {
+    "id": "057c9f30-3ae5-436b-b569-7aafe4fe97f8",
+    "enabled": true,
+    "name": "Region 3 Merchant Dealer",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION3_MERCHANT_DEALER"
+  },
+  {
+    "id": "96242a40-4b7b-4024-8150-6d04d2e94e85",
+    "enabled": true,
+    "name": "Region 3 Wholesale",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION3_WHOLESALE"
+  },
+  {
+    "id": "2e82f3e4-100b-484a-9a44-a4b37afe90ae",
+    "enabled": true,
+    "name": "Region 3 Reference Domain",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_REGION3_REF_DOMAIN"
+  },
+  {
+    "id": "fa0137d6-16e1-4c31-8c76-20126b5085f6",
+    "enabled": true,
+    "name": "Risk Analytics",
+    "communityId": "4d8d917d-5c87-43b7-a495-38c46b6f4ee1",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCIAL_SERVICES_RISK_ANALYTICS"
+  },
+  {
+    "id": "3d5cdc15-a550-4cb5-ba27-9c3af486201a",
+    "enabled": true,
+    "name": "People and Org",
+    "communityId": "fd60bc2c-0cdc-4aae-941e-0245e84a76db",
+    "approver": "G90_COLLIBRA_APPROVER_HUMAN_RESOURCE"
+  },
+  {
+    "id": "d89a4742-a771-48c3-b162-f0dc78d6a1d2",
+    "enabled": true,
+    "name": "Employee Expense Analytics",
+    "communityId": "fd60bc2c-0cdc-4aae-941e-0245e84a76db",
+    "approver": "G90_COLLIBRA_APPROVER_HUMAN_RESOURCE"
+  },
+  {
+    "id": "f5344253-9ee9-49f6-bf40-6f106b21d6c6",
+    "enabled": true,
+    "name": "Diversity and Inclusion",
+    "communityId": "fd60bc2c-0cdc-4aae-941e-0245e84a76db",
+    "approver": "G90_COLLIBRA_APPROVER_HUMAN_RESOURCE_D_and_I"
+  },
+  {
+    "id": "983c2642-3b8f-42f9-a568-4aaa01c78379",
+    "enabled": true,
+    "name": "Workforce CoRE Productivity Data and Reporting",
+    "communityId": "fd60bc2c-0cdc-4aae-941e-0245e84a76db",
+    "approver": "G90_COLLIBRA_APPROVER_HUMAN_RESOURCE_WORKFORCE_DATA"
+  },
+  {
+    "id": "1a7d0316-8951-492d-9f1d-316ea4077390",
+    "enabled": true,
+    "name": "Workforce CIPP Data and Reporting",
+    "communityId": "fd60bc2c-0cdc-4aae-941e-0245e84a76db",
+    "approver": "G90_COLLIBRA_APPROVER_HUMAN_RESOURCE_WORKFORCE_CIPP"
+  },
+  {
+    "id": "bd6f76a8-330d-4196-9700-52add6d98820",
+    "enabled": true,
+    "name": "Workforce Time and Attendance Data and Reporting",
+    "communityId": "fd60bc2c-0cdc-4aae-941e-0245e84a76db",
+    "approver": "G90_COLLIBRA_APPROVER_HUMAN_RESOURCE_WORKFORCE_TIMEATTEND"
+  },
+  {
+    "id": "50ff08bf-498d-4eaa-9834-fc8dae0dc75d",
+    "enabled": true,
+    "name": "Labor Relations Payroll Data and Reporting",
+    "communityId": "fd60bc2c-0cdc-4aae-941e-0245e84a76db",
+    "approver": "G90_COLLIBRA_APPROVER_HUMAN_RESOURCE_WORKFORCE_PAYROLL"
+  },
+  {
+    "id": "5fd76c5a-8d59-4f00-8450-11ee189480bb",
+    "enabled": true,
+    "name": "John Deere University",
+    "communityId": "fd60bc2c-0cdc-4aae-941e-0245e84a76db",
+    "approver": "G90_COLLIBRA_APPROVER_HUMAN_RESOURCE_JD_UNIVERSITY"
+  },
+  {
+    "id": "9bb152b6-1101-4d9f-8dcb-29e475fb483b",
+    "enabled": false,
+    "name": "Configuration",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "352ac42b-c6a5-432b-ae5d-92f6199d201e",
+    "enabled": false,
+    "name": "Demand",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "c556093f-2a28-4c4d-920a-87567856083b",
+    "enabled": false,
+    "name": "Facilities and Real Estate",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "053a325d-c569-4088-bb72-bdb1eb438025",
+    "enabled": false,
+    "name": "Factory",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "bfe4d599-3476-41b6-ab48-06026b49b419",
+    "enabled": true,
+    "name": "Factory Automation",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "ed7bd292-4aa1-48b7-8849-08eb2c11d49e",
+    "enabled": false,
+    "name": "Inventory",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "32b019e8-086c-4972-8c46-0b66c97d8858",
+    "enabled": true,
+    "name": "MAI",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "5d70c46e-fb0c-4a2f-a28b-eb94c1caebee",
+    "enabled": true,
+    "name": "Manufacturing Operations",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_MANUFACTURING_OPERATIONS"
+  },
+  {
+    "id": "70dc9932-bac7-4a3d-9d39-29ef1c2ac55e",
+    "enabled": true,
+    "name": "Manufacturing Processes",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "835958e9-f8c7-4e33-8c02-2d47943c6363",
+    "enabled": true,
+    "name": "Manufacturing Systems",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "d94e7cdd-f472-4428-9f16-939e637c868e",
+    "enabled": false,
+    "name": "Material Flow",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "ca4c7a9f-bb13-453f-a390-835c3453ea94",
+    "enabled": false,
+    "name": "MRP",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "ee7b193c-78af-4129-88dd-6d56191b5df2",
+    "enabled": true,
+    "name": "PDM",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_PDM"
+  },
+  {
+    "id": "8fdb762f-2173-4cac-ab44-fe9c220f741e",
+    "enabled": false,
+    "name": "Planning",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "28f864f5-2dfb-425a-bef6-9e3ca4e52eec",
+    "enabled": true,
+    "name": "Product Identity",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_Product_Identity"
+  },
+  {
+    "id": "b53043f8-56b1-4927-ae37-a9a82723f47e",
+    "enabled": false,
+    "name": "Production Order",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "9956de02-d48b-4030-b516-ce9c2c237270",
+    "enabled": false,
+    "name": "Purchase Order",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "d07f069d-04f8-45cd-956c-f256fcda8829",
+    "enabled": true,
+    "name": "Quality",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "619d4847-29e0-402c-8ab4-341781abf52e",
+    "enabled": true,
+    "name": "SCF Data Reman",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_REMAN"
+  },
+  {
+    "id": "865e9fb1-1e3f-42d4-8191-c88d9979b0f7",
+    "enabled": false,
+    "name": "Schedule Agreement",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "2277203c-5c35-4077-a80e-f916335c05c4",
+    "enabled": true,
+    "name": "Vendor Master",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "d7cb254c-be8d-402c-92f2-f8b35707c6f0",
+    "enabled": true,
+    "name": "Windchill",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING"
+  },
+  {
+    "id": "8dda8e9b-7a2b-4ad8-824a-019c796c4276",
+    "enabled": true,
+    "name": "SCF Data Iberica",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_IBERICA"
+  },
+  {
+    "id": "ec4ac0a9-49f1-4b8b-a288-6cfdc9d5e9a9",
+    "enabled": true,
+    "name": "SCF Data Kemper",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_KEMPER"
+  },
+  {
+    "id": "2a744918-cbd6-4bf4-a7b1-00055cb021dd",
+    "enabled": true,
+    "name": "SCF Data Zweibruecken",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_ZWEIBRUECKEN"
+  },
+  {
+    "id": "03742fa3-4f08-4bfb-9d82-e6cc2e4a12ec",
+    "enabled": true,
+    "name": "SCF Data Bruchsal",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_BRUCHSAL"
+  },
+  {
+    "id": "8613d37b-babc-42c6-aebe-61bf949cd461",
+    "enabled": true,
+    "name": "SCF Data Mannheim",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_MANNHEIM"
+  },
+  {
+    "id": "42f50f1f-1478-48d2-8540-800bfe4ad1cd",
+    "enabled": true,
+    "name": "SCF Data Rosario",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_ROSARIO"
+  },
+  {
+    "id": "152fc057-a71f-414a-9400-5d71663fb2ac",
+    "enabled": true,
+    "name": "A and I Products Parts IT Business Intelligence",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_A_AND_I_PRODUCTS_IT_BI"
+  },
+  {
+    "id": "d2f265ee-046c-4f10-963f-deaca4ce84eb",
+    "enabled": true,
+    "name": "Ecommerce",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_ECOMMERCE"
+  },
+  {
+    "id": "bfe95f82-a608-4d23-b537-794b33aee6d6",
+    "enabled": true,
+    "name": "Ecommerce Parts IT Business Intelligence",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS"
+  },
+  {
+    "id": "22bae80d-89fa-47f2-84d0-bdae11fb9675",
+    "enabled": true,
+    "name": "Finance",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_FINANCE"
+  },
+  {
+    "id": "df02d3ce-8b9f-4ada-bec2-7ccf44abee39",
+    "enabled": true,
+    "name": "Finance Parts IT Business Intelligence",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_FINANCE_IT_BI"
+  },
+  {
+    "id": "585e63ac-3078-4e8f-801c-a7478fa6a0af",
+    "enabled": true,
+    "name": "MDM Corporate Part",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_MDM_CORPORATE_PART"
+  },
+  {
+    "id": "95c2a176-b518-4e21-8f68-b55f0bf6e5a3",
+    "enabled": true,
+    "name": "MDM Marketing Part",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_MDM_MARKETING_PART"
+  },
+  {
+    "id": "bc4c8fed-4ff1-488f-9e5e-95c25f0bff5c",
+    "enabled": true,
+    "name": "MRD",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS"
+  },
+  {
+    "id": "bb43a4aa-43c9-4383-9d58-b79acd4fb766",
+    "enabled": true,
+    "name": "MRD Parts IT Business Intelligence",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS"
+  },
+  {
+    "id": "2f71b2d2-f3d6-48a1-8bf7-d07ad7bd5f59",
+    "enabled": true,
+    "name": "Operations",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_OPERATIONS"
+  },
+  {
+    "id": "b01d5100-331a-4df7-a8dc-aac90f8fa075",
+    "enabled": true,
+    "name": "Operations Parts IT Business Intelligence",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_OPERATIONS_IT_BI"
+  },
+  {
+    "id": "23da5803-4a8d-48f7-a3c6-ecde525d1feb",
+    "enabled": true,
+    "name": "Order Management",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_ORDER_MANAGEMENT"
+  },
+  {
+    "id": "57f07b55-959a-4e3c-a547-a90277bd5bcd",
+    "enabled": true,
+    "name": "Order Management Parts IT Business Intelligence",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_ORDER_MANAGEMENT_IT_BI"
+  },
+  {
+    "id": "13a84f54-a867-44c3-9440-1ac5bf5720bc",
+    "enabled": true,
+    "name": "Packaging Spec Parts IT Business Intelligence",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS"
+  },
+  {
+    "id": "1193c7e0-a09e-4221-b6be-4a10e576f22e",
+    "enabled": true,
+    "name": "Parts IT Business Intelligence",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_IT_BI"
+  },
+  {
+    "id": "f53ed085-2c99-4a1d-b4a4-d1d76e7be24d",
+    "enabled": true,
+    "name": "Parts Pricing Optimization",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS"
+  },
+  {
+    "id": "dc7a4a3d-84ae-4500-93ee-febac4766673",
+    "enabled": true,
+    "name": "Pricing",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_PRICING"
+  },
+  {
+    "id": "5b813acf-3678-49ed-9def-a2e60be5dc56",
+    "enabled": true,
+    "name": "Pricing Parts IT Business Intelligence",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_PRICING_IT_BI"
+  },
+  {
+    "id": "64ae54f0-1e96-434a-9399-44e780ff4fe4",
+    "enabled": true,
+    "name": "Vapormatic",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_VAPORMATIC"
+  },
+  {
+    "id": "3584cc5d-2b8b-478c-b034-0219c1009205",
+    "enabled": true,
+    "name": "Vapormatic Parts IT Business Intelligence",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_VAPORMATIC_IT_BUSINESS_INTELLIGENCE"
+  },
+  {
+    "id": "2f583388-a344-4767-af8f-efd4487d02c1",
+    "enabled": true,
+    "name": "WW Total Fill Parts IT Business Intelligence",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS"
+  },
+  {
+    "id": "2c3affd4-73af-4799-9183-41d3f054a9a7",
+    "enabled": true,
+    "name": "EDG GPP Analytics",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_EDG_GPP_ANALYTICS"
+  },
+  {
+    "id": "763708d7-b8e1-49b6-acb3-511923fdd80c",
+    "enabled": true,
+    "name": "SAP",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_SAP"
+  },
+  {
+    "id": "98083fc2-4dc2-4cb7-a888-5b0f531cb246",
+    "enabled": true,
+    "name": "Forecasting and Estimating",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_FORECASTING_ESTIMATING"
+  },
+  {
+    "id": "32b1147b-3784-41c6-9911-406984cfee83",
+    "enabled": true,
+    "name": "Get the Order",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_GET_THE_ORDER"
+  },
+  {
+    "id": "4b8eff30-5324-454a-a6b7-f74d3da0995e",
+    "enabled": true,
+    "name": "Manage Finished Inventory",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_MANAGE_FINISHED_INVENTORY"
+  },
+  {
+    "id": "54563269-b357-4c06-b2ae-39a5db06ea9e",
+    "enabled": true,
+    "name": "Market Share",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_MARKET_SHARE"
+  },
+  {
+    "id": "5e98e88a-63af-4b18-adb9-468fd54a96ee",
+    "enabled": true,
+    "name": "Master Scheduling",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_MASTER_SCHEDULING"
+  },
+  {
+    "id": "a4ce4c2f-781d-43c0-a328-c4cd8c366d29",
+    "enabled": true,
+    "name": "Order Fulfillment Analytics",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_ORDER_FULFILLMENT_ANALYTIC"
+  },
+  {
+    "id": "35f977b5-d37e-4a4a-b404-5cdac7f6f75a",
+    "enabled": true,
+    "name": "Product Structure and Hierarchy",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_PRODUCT_STRUCTURE_HIERARCH"
+  },
+  {
+    "id": "3a347cb4-0961-4ad8-bd90-bfe8efd2afd4",
+    "enabled": true,
+    "name": "Quote",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING"
+  },
+  {
+    "id": "14e8136d-659b-49ec-9a64-e931dda5b7d1",
+    "enabled": true,
+    "name": "Marketing Order Code Information Published",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_MOCI_PUBLISHED"
+  },
+  {
+    "id": "434714a6-7a63-46a8-bcfa-009f1539686d",
+    "enabled": true,
+    "name": "Marketing Order Code Information Shared",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_MOCI_PRICING_SHARED"
+  },
+  {
+    "id": "40a76bfa-06e9-4c9f-9d73-b0a473dc77b9",
+    "enabled": true,
+    "name": "Marketing Order Code Information Pricing Shared",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_MOCI_PRICING_SHARED"
+  },
+  {
+    "id": "5c550aec-be03-4441-b274-c081d1e6d5f0",
+    "enabled": true,
+    "name": "Reference Data",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_REFERENCE_DATA"
+  },
+  {
+    "id": "c7729413-8b0d-4479-9c95-bf58f58d5889",
+    "enabled": true,
+    "name": "Incentives",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_INCENTIVES"
+  },
+  {
+    "id": "c9525042-c88b-427b-908a-0deb222338ac",
+    "enabled": true,
+    "name": "eCommerce",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_ECOMMERCE"
+  },
+  {
+    "id": "ca6668bb-b9eb-4bdd-ac1d-87f9e32efcba",
+    "enabled": true,
+    "name": "CF Marketing Analytics",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_CF_MARKETING_ANALYTICS"
+  },
+  {
+    "id": "dae6f44b-de25-41ad-a42c-66e20ec0d712",
+    "enabled": true,
+    "name": "OM Equipment",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_EQUIPMENT"
+  },
+  {
+    "id": "a1b14f67-0fcd-4f68-a13a-32051d41899d",
+    "enabled": true,
+    "name": "Compliance and Risk",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "bc575dd9-367f-4413-981f-5c0d955208d0",
+    "enabled": true,
+    "name": "Cost Management",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "63930118-f605-4a94-abb6-e5e764138b47",
+    "enabled": true,
+    "name": "Cost Tracking",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "9e70484a-ad91-4add-92af-9102c5b79e55",
+    "enabled": true,
+    "name": "Data Enablement",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "82e1a676-a534-4d91-ba93-0b27774a96f3",
+    "enabled": true,
+    "name": "Global Trade and Exports",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "0998c725-dd44-4b3e-a5c4-a192efe8e640",
+    "enabled": true,
+    "name": "Global Visibility and Logistics",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER_ORDER_FULFILLMENT_LOGISTICS"
+  },
+  {
+    "id": "54f7b516-afac-47b1-bc27-6aa0f1c5e072",
+    "enabled": true,
+    "name": "Indirect Materials and Services",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "c0a98de7-c8e4-4840-9cbf-e5020b2563ba",
+    "enabled": true,
+    "name": "Logistics Data",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "67f397d7-3b8c-43c3-a555-ad29b2ce040a",
+    "enabled": true,
+    "name": "Material Categorization",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "7a38e5d1-366d-4a5d-a048-bce15c88718f",
+    "enabled": true,
+    "name": "Order Fulfillment",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "6c0256ab-fef6-4a86-a4ee-b84eb9a18fb4",
+    "enabled": true,
+    "name": "Strategic Sourcing",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "aad89b31-dd10-4fd3-96f2-4151b53f3633",
+    "enabled": true,
+    "name": "Supplier Data",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "b069a341-f289-45d2-bad8-3a091ce05628",
+    "enabled": true,
+    "name": "Supplier Payment",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "a8d2eda6-c5e9-4255-a2b6-5b8c93e0326f",
+    "enabled": true,
+    "name": "Supplier Performance Ratings",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "863481dc-5be9-4355-b255-cf3e0e772acd",
+    "enabled": true,
+    "name": "Supplier Quality Audit",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "09df6bac-6873-4caf-bffe-326a10c24621",
+    "enabled": true,
+    "name": "Supplier Risk",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "817d8c05-a822-45a8-902f-7febe84f7f0a",
+    "enabled": true,
+    "name": "Supplier Warranty",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "8ed4ca5f-23b1-4baa-af43-9e32319663c8",
+    "enabled": true,
+    "name": "Transportation Management",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "e1388616-13e5-4a88-b2f9-a6bc0544b8e2",
+    "enabled": true,
+    "name": "Supplier Electronics Obsolescence",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_Collibra_Approver_Supplier_Supplier_Electronics_Obsolescence"
+  },
+  {
+    "id": "7b27cfbb-e246-45d4-ba29-c642431a746c",
+    "enabled": true,
+    "name": "Supplier Parameter Intelligence",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER_PARAMETER_INTELLIGENCE"
+  },
+  {
+    "id": "87997495-5a85-4e55-9cda-28d05442fe5b",
+    "enabled": true,
+    "name": "Informed Buying",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER"
+  },
+  {
+    "id": "27d2e7c6-1b27-4904-80e9-fb11f6c8484a",
+    "enabled": true,
+    "name": "Cloud Financials",
+    "communityId": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+    "approver": "G90_Collibra_Approver_Information_Technology_Cloud_Financials"
+  },
+  {
+    "id": "48112e16-9abf-48ed-ae79-ab43844a32ec",
+    "enabled": true,
+    "name": "Demo",
+    "communityId": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+    "approver": "G90_COLLIBRA_APPROVER_SYSTEMS"
+  },
+  {
+    "id": "53b001e4-b0ac-416d-aebf-a2d91c29ce7d",
+    "enabled": true,
+    "name": "Logs",
+    "communityId": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+    "approver": "G90_COLLIBRA_APPROVER_SYSTEMS"
+  },
+  {
+    "id": "b9677668-3d02-434e-896f-7271b3221cc7",
+    "enabled": true,
+    "name": "Metrics",
+    "communityId": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+    "approver": "G90_COLLIBRA_APPROVER_SYSTEMS"
+  },
+  {
+    "id": "605983c2-8ba2-4e42-8e33-22795fd7f777",
+    "enabled": true,
+    "name": "Security-IAM",
+    "communityId": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+    "approver": "G90_COLLIBRA_APPROVER_SYSTEMS_SECURITY_IAM"
+  },
+  {
+    "id": "611ca9b0-5f33-4522-baca-a4b2fced9878",
+    "enabled": true,
+    "name": "Tech Stack",
+    "communityId": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+    "approver": "G90_COLLIBRA_APPROVER_SYSTEMS_TECH_STACK"
+  },
+  {
+    "id": "742c3258-8ebd-48b8-b3db-eed4814bc4b0",
+    "enabled": true,
+    "name": "Infrastructure and Operations",
+    "communityId": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+    "approver": "G90_COLLIBRA_APPROVER_INFORMATION_TECHNOLOGY_IO"
+  },
+  {
+    "id": "0b3673d5-c1fc-419b-978d-385d7e11638e",
+    "enabled": true,
+    "name": "Highspot Data",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_HIGHSPOT_DATA"
+  },
+  {
+    "id": "e7c40895-875c-4aad-8ff7-192af82f9649",
+    "enabled": true,
+    "name": "Highspot Data R2",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_HIGHSPOT_DATA_R2"
+  },
+  {
+    "id": "8ca546d6-7baf-42bc-b3e1-d068889ce705",
+    "enabled": true,
+    "name": "A and I Products",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_A_AND_I_PRODUCTS"
+  },
+  {
+    "id": "d28ebf5e-84b7-4c6b-a3c7-cee212ddef13",
+    "enabled": true,
+    "name": "Journal Voucher Data",
+    "communityId": "5da8a31f-6c9b-41e9-879f-6948e65e2430",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCE_JOURNAL_VOUCHER_DATA"
+  },
+  {
+    "id": "a64c41fe-8dc7-4ade-9353-09c0b63a17a4",
+    "enabled": true,
+    "name": "Internal Order Data",
+    "communityId": "5da8a31f-6c9b-41e9-879f-6948e65e2430",
+    "approver": "G90_COLLIBRA_APPROVER_FINANCE_INTERNAL_ORDER_DATA"
+  },
+  {
+    "id": "cdb14c0f-8b73-4c61-b02b-cbc36cd1eafc",
+    "enabled": true,
+    "name": "Product Delivery",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_PRODUCT_DELIVERY"
+  },
+  {
+    "id": "665bf594-f2f9-4f21-b3a1-269754b97b3b",
+    "enabled": true,
+    "name": "CAPA",
+    "communityId": "8eeeabc3-f0ad-444f-89ad-71cb2c7c9208",
+    "approver": "G90_COLLIBRA_APPROVER_QUALITY_CAPA"
+  },
+  {
+    "id": "f3a577ec-39b8-4c51-80c3-0c95bebbd250",
+    "enabled": true,
+    "name": "Metrics",
+    "communityId": "8eeeabc3-f0ad-444f-89ad-71cb2c7c9208",
+    "approver": "G90_COLLIBRA_APPROVER_QUALITY_METRICS"
+  },
+  {
+    "id": "df5c756a-f223-4b6d-b01b-78501f5f99a0",
+    "enabled": true,
+    "name": "Metrology",
+    "communityId": "8eeeabc3-f0ad-444f-89ad-71cb2c7c9208",
+    "approver": "G90_COLLIBRA_APPROVER_QUALITY_METROLOGY"
+  },
+  {
+    "id": "05791b92-f9d6-4842-9a15-c91ef9fc2fbc",
+    "enabled": true,
+    "name": "Analytics",
+    "communityId": "8eeeabc3-f0ad-444f-89ad-71cb2c7c9208",
+    "approver": "G90_COLLIBRA_APPROVER_QUALITY_ANALYTICS"
+  },
+  {
+    "id": "1526c9b9-be0d-4917-99a6-158445a4b465",
+    "enabled": true,
+    "name": "Dealer Part Inventory",
+    "communityId": "75b382e2-46b8-4fe8-9300-4ed096586629",
+    "approver": "G90_COLLIBRA_APPROVER_PARTS_DEALER_PART_INVENTORY"
+  },
+  {
+    "id": "a302f4cd-eeb1-4258-89d7-6ab0f81af0e2",
+    "enabled": true,
+    "name": "Technical Proficiency",
+    "communityId": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+    "approver": "G90_COLLIBRA_APPROVER_SYSTEMS_TECHNICAL_PROFICIENCY"
+  },
+  {
+    "id": "4de5304c-d8a6-4b91-b286-d8c9eeab0d9c",
+    "enabled": true,
+    "name": "Supplier Quality",
+    "communityId": "8eeeabc3-f0ad-444f-89ad-71cb2c7c9208",
+    "approver": "G90_COLLIBRA_APPROVER_QUALITY_SUPPLIER_QUALITY"
+  },
+  {
+    "id": "e4072a0c-223d-4abb-8d5b-cc7ec430c219",
+    "enabled": true,
+    "name": "Dealer Financial Analysis Reporting",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL_DEALER_FINANCAL_ANALYSIS_REPORTING"
+  },
+  {
+    "id": "081e45a3-a61b-4c30-b012-41c19b0f1583",
+    "enabled": true,
+    "name": "Dealer Scorecard Reporting",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL_DEALER_SCORECARD_REPORTING"
+  },
+  {
+    "id": "ae49ac23-41cb-41a4-be55-5e036c77d94c",
+    "enabled": true,
+    "name": "Operations Management",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_Operations Management"
+  },
+  {
+    "id": "3b42d62f-241d-44b2-8f93-aec0ee6ca3c2",
+    "enabled": true,
+    "name": "SCF Data Harvester",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_Data_Harvester"
+  },
+  {
+    "id": "d0273afb-80bc-4641-827b-68640adfab2c",
+    "enabled": true,
+    "name": "SCF Data Waterloo",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_Data_Waterloo"
+  },
+  {
+    "id": "cca09164-002d-4df9-a3e0-8055c165a007",
+    "enabled": true,
+    "name": "SCF Data JDPS",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_Data_JDPS"
+  },
+  {
+    "id": "230202a5-6904-4832-83c2-c4ba51dbc8a6",
+    "enabled": true,
+    "name": "SCF Data CF",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_Data_CF"
+  },
+  {
+    "id": "b717a806-ebe7-4462-ac40-20c592d66987",
+    "enabled": true,
+    "name": "SCF Data Montenegro",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_MONTENEGRO"
+  },
+  {
+    "id": "afd1a790-74e9-4279-846b-b6e08549ccf3",
+    "enabled": true,
+    "name": "SCF Data Greeneville",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_GREENEVILLE"
+  },
+  {
+    "id": "a2b685dd-3b8d-4020-8768-d385e4c280c3",
+    "enabled": true,
+    "name": "SCF Data Horicon",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF DATA HORICON"
+  },
+  {
+    "id": "efaec953-2baa-4964-aea8-513ea48f249d",
+    "enabled": true,
+    "name": "SCF Data Horizontina",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF DATA HORIZONTINA"
+  },
+  {
+    "id": "c0e9069f-bf08-4555-a99a-2368565996da",
+    "enabled": true,
+    "name": "SCF Data India",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_INDIA"
+  },
+  {
+    "id": "1caef3d4-095e-4262-94a3-5b5502145bb1",
+    "enabled": true,
+    "name": "Production Systems",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_Production_Systems"
+  },
+  {
+    "id": "c5cbcac9-efa8-455e-9c2b-7f41f179b29b",
+    "enabled": true,
+    "name": "SCF Data Ottumwa",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_JDOW"
+  },
+  {
+    "id": "ac0ea279-4797-4d52-acaa-0e6cc413c541",
+    "enabled": true,
+    "name": "PAG SM SHARED SERVICES",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_ PAG_SM_SHARED_SERVICES"
+  },
+  {
+    "id": "173b2147-a255-4a36-b474-a788130085f5",
+    "enabled": true,
+    "name": "PDX SM SHARED SERVICES",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_ PDX_SM_SHARED_SERVICES"
+  },
+  {
+    "id": "100c114f-d8de-4da9-87e5-54814d129475",
+    "enabled": true,
+    "name": "PA2 SM SHARED SERVICES",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_ PA2_SM_SHARED_SERVICES"
+  },
+  {
+    "id": "e59bba25-3867-4bc0-9c35-d3ef6d39901b",
+    "enabled": true,
+    "name": "PAA SM SHARED SERVICES",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_ PAA_SM_SHARED_SERVICES"
+  },
+  {
+    "id": "c0798535-dcb9-4c32-b145-89f53b38f42a",
+    "enabled": true,
+    "name": "SCF DATA L7",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_L7"
+  },
+  {
+    "id": "8acc2332-ba09-4e54-b538-b90bee47d9c6",
+    "enabled": true,
+    "name": "SCF Data ISG ES",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_ISG_ES"
+  },
+  {
+    "id": "0dffe4aa-c36c-46da-9ab6-61ee6304534e",
+    "enabled": true,
+    "name": "SCF Data Arc Les Gray",
+    "communityId": "40580770-1a17-4210-950c-0c52e75641a5",
+    "approver": "G90_COLLIBRA_APPROVER_MANUFACTURING_SCF_DATA_ARC_LES_GRAY"
+  },
+  {
+    "id": "64eb6461-e1a5-4f1e-aa06-ba6a09141ea0",
+    "enabled": true,
+    "name": "EAW Harvesting",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_EAW_Harvesting"
+  },
+  {
+    "id": "1e48e831-a734-4d62-9060-cad82e462011",
+    "enabled": true,
+    "name": "Order Pricing",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALES_MARKETING_ORDER_PRICING"
+  },
+  {
+    "id": "427aa79b-e78d-4834-b257-ee8c46504532",
+    "enabled": true,
+    "name": "Construction",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_CONSTRUCTION"
+  },
+  {
+    "id": "6fa81cf3-c571-45f3-8a70-093f15ebfbaf",
+    "enabled": true,
+    "name": "EAW Crop Care",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_EAW_Crop_Care"
+  },
+  {
+    "id": "b7392801-50b9-4ef8-84d0-e299e2d0e21c",
+    "enabled": true,
+    "name": "Chemical Compliance",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_CHEMICAL_COMPLIANCE"
+  },
+  {
+    "id": "adae8019-54d6-45dd-bc6d-0e8f6f53b4ec",
+    "enabled": true,
+    "name": "Engineering Reliability",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_RELIABILITY"
+  },
+  {
+    "id": "3a1c9ac6-e8ef-42ca-a565-04245a8b7b5f",
+    "enabled": true,
+    "name": "Software and License Utilization",
+    "communityId": "184641cb-776c-425d-93de-5a739421d63a",
+    "approver": "G90_COLLIBRA_APPROVER_ENGINEERING_SOFTWARE_LICENSE_UTILIZATION"
+  },
+  {
+    "id": "a377cf15-0b09-4238-82d3-e21e36d92045",
+    "enabled": true,
+    "name": "Electronic Data Interchange",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER_EDI"
+  },
+  {
+    "id": "7e1b1d71-2fa6-4d38-b679-d4bb60d7a3f2",
+    "enabled": true,
+    "name": "Aftermarket Insights",
+    "communityId": "a7b76f9e-8ff4-4171-9050-3706f1f12188",
+    "approver": "G90_COLLIBRA_APPROVER_CHANNEL_AFTERMARKET_INSIGHTS"
+  },
+  {
+    "id": "97c4f0c7-626a-437b-89af-ce368d4d82f7",
+    "enabled": true,
+    "name": "Used Equipment",
+    "communityId": "f8365c21-1fbb-4e24-9ee4-98b05c512bd1",
+    "approver": "G90_COLLIBRA_APPROVER_SALESMARKETING_USEDEQUIPMENT"
+  },
+  {
+    "id": "34d754a4-140c-4ea8-a75f-e960cc4f7b93",
+    "enabled": true,
+    "name": "Supplier Steel",
+    "communityId": "2e546443-92a3-4060-9fe7-22c2ec3d51b4",
+    "approver": "G90_COLLIBRA_APPROVER_SUPPLIER_STEEL"
+  },
+  {
+    "id": "caba67e2-f6b5-4787-ae9d-a18a7b579a23",
+    "enabled": true,
+    "name": "Indoor Air Quality",
+    "communityId": "9ad1ea58-b5f0-4c6e-ac6a-f45f56a431f1",
+    "approver": "G90_COLLIBRA_APPROVER_SAFETY_INDOOR_AIR_QUALITY"
+  },
+  {
+    "id": "6fd69270-812c-4358-8204-13b0daf48937",
+    "enabled": true,
+    "name": "SERA",
+    "communityId": "9ad1ea58-b5f0-4c6e-ac6a-f45f56a431f1",
+    "approver": "G90_COLLIBRA_APPROVER_SAFETY_SERA"
+  },
+  {
+    "id": "761c4336-aa76-4171-8a62-84e4fc25f311",
+    "enabled": true,
+    "name": "Matter Management",
+    "communityId": "df367411-effd-4c26-87bd-b71548b88a79",
+    "approver": "G90_Collibra_Approver_Legal_Matter_Management"
+  },
+  {
+    "id": "8085b6f3-eed8-4551-b4d9-f15800341cd5",
+    "enabled": true,
+    "name": "IP Management",
+    "communityId": "df367411-effd-4c26-87bd-b71548b88a79",
+    "approver": "G90_Collibra_Approver_Legal_Intellectual_Property"
+  },
+  {
+    "id": "61f63418-5f97-4a5b-b1f2-131770838353",
+    "enabled": true,
+    "name": "JDPS Portfolio",
+    "communityId": "88888c4d-2ab6-4c76-a8dd-83af2cbb6dc7",
+    "approver": "G90_COLLIBRA_APPROVER_PRODUCTION_SYSTEMS"
+  },
+  {
+    "id": "b02e5316-b0af-4fc4-a68d-08bc530b0b1c",
+    "enabled": true,
+    "name": "Construction and Forestry Portfolio",
+    "communityId": "88888c4d-2ab6-4c76-a8dd-83af2cbb6dc7",
+    "approver": "G90_COLLIBRA_APPROVER_PRODUCTION_SYSTEMS"
+  },
+  {
+    "id": "a1a194bb-988f-497e-a0c8-fd7bc845f726",
+    "enabled": true,
+    "name": "ISG Portfolio",
+    "communityId": "88888c4d-2ab6-4c76-a8dd-83af2cbb6dc7",
+    "approver": "G90_COLLIBRA_APPROVER_PRODUCTION_SYSTEMS"
+  },
+  {
+    "id": "6a38aae7-0fc4-4411-a559-fb20212afa44",
+    "enabled": true,
+    "name": "Ag and Turf Portfolio",
+    "communityId": "88888c4d-2ab6-4c76-a8dd-83af2cbb6dc7",
+    "approver": "G90_COLLIBRA_APPROVER_PRODUCTION_SYSTEMS"
+  }
+]

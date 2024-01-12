@@ -1,0 +1,51 @@
+node_env: production
+env: prod
+account: 305463345279
+region: us-east-1
+
+ApplicationName: JohnDeereDataCatalog
+
+EC2InstanceType: m5.2xlarge
+EC2MinNumberOfInstances: 3
+EC2MaxNumberOfInstances: 6
+
+VpcId: vpc-a91aa4ce
+PrivateSubnets: subnet-11171c67,subnet-3698c31c
+PublicSubnets: subnet-10171c66,subnet-0a98c320
+DeereNetworkSSH: sg-818bc3fa
+certificateID: 28d458e2-81da-4b51-83a1-6fda65b8bfc9
+CName: dataGovernanceCenter
+VpcCidr: 10.212.240.0/21
+
+URLPrefix: data-catalog
+URLSuffix: vpn-prod.us.e03.c01.johndeerecloud.com
+BaseURL: data-catalog.deere.com
+HostedZoneId: ZMDBHYXHNDOVP
+
+discoveredSchemasTable: jd-data-catalog-discovered-schemas
+viewsTable: jd-data-catalog-views
+tablesTable: jd-data-catalog-tables
+announcementsTable: jd-data-catalog-announcements
+remediationsTable: jd-data-catalog-remediations
+applicationsTable: jd-data-catalog-applications
+collibraUserName: govUI_devl
+
+deereTaggingComponent: enterprise-data-governance-center
+
+cacheSuffix: Prod
+cachePrivateSubnet: subnet-11171c67
+cachePublicSubnet: subnet-10171c66
+cacheSubnet1: subnet-11171c67
+cacheSubnet2: subnet-10171c66
+cacheSubnet3: subnet-3698c31c
+cacheSubnet4: subnet-0a98c320
+
+dbInstance: "db.r5.2xlarge"
+dbAvailabilityZone1: us-east-1a
+dbAvailabilityZone2: us-east-1b
+
+#snsName: edgSelfServiceCloudWatchAlarm
+
+#kmsAlias: alias/edg-self-service-key
+
+#ec2KeyName:

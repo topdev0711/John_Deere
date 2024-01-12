@@ -1,0 +1,27 @@
+{
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "title",
+      "AttributeType": "S"
+    },
+    {
+      "AttributeName": "startAt",
+      "AttributeType": "S"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "title",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "startAt",
+      "KeyType": "RANGE"
+    }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 1,
+    "WriteCapacityUnits": 1
+  },
+  "TableName": "announcements"
+}

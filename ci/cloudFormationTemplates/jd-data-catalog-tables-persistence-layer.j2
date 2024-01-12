@@ -1,0 +1,44 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: persistence layer for enterprise data governance center tables
+Resources:
+  viewsPersistence:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+      KeySchema:
+        -
+          AttributeName: "datasetId"
+          KeyType: "HASH" 
+        -
+          AttributeName: "name"
+          KeyType: "RANGE"        
+      AttributeDefinitions:
+        -
+          AttributeName: "datasetId"
+          AttributeType: "S"        
+        -
+          AttributeName: "name"
+          AttributeType: "S"
+      GlobalSecondaryIndexes: 
+        -
+          IndexName: "table-name-index"
+          KeySchema:
+            -
+              AttributeName: "name"
+              KeyType: "HASH"
+          Projection: 
+            ProjectionType: ALL
+      BillingMode: PAY_PER_REQUEST
+      TableName: {{ tablesTable }}
+      SSESpecification:
+          SSEEnabled: true
+      Tags:
+        -
+          Key: Name
+          Value: {{ deereTaggingComponent }}-tablesPersistence
+        -
+          Key: component
+          Value: {{ deereTaggingComponent }}
+      StreamSpecification:
+        StreamViewType: NEW_AND_OLD_IMAGES

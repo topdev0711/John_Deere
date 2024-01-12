@@ -1,0 +1,20 @@
+{
+  "id": "edl.testView4",
+  "name": "edl.testView4",
+  "version": "0",
+  "partitionedBy": [],
+  "testing": true,
+  "discovered": "2019-11-12T02:56:10.710Z",
+  "description": "Test View 4 description",
+  "documentation": "Test View 4 documentation",
+  "fields": [
+    {
+      "name": "field1",
+      "datatype": "int",
+      "nullable": true,
+      "attribute": "None",
+      "description": "Test View 4 field description"
+    }
+  ],
+  "datasetId": "0106a7c0-c212-3a41-9dbd-0a5a38e77d20"
+}

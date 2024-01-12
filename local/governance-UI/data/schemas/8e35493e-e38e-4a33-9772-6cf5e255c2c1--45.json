@@ -1,0 +1,26 @@
+{
+  "id": "8e35493e-e38e-4a33-9772-6cf5e255c2c1--45",
+  "name": "bypassschema",
+  "version": "1.0.0",
+  "description": "by pass test",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": true,
+  "fields": [
+    {
+      "name": "id",
+      "attribute": "None",
+      "datatype": "int",
+      "description": "id",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "name",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.bypassschema"
+}

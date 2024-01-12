@@ -1,0 +1,45 @@
+/*.close-icon {
+    border:1px solid transparent;
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+  outline: 0;
+  cursor: pointer;
+}*/
+.close-icon {
+    display: block;
+    position: absolute;
+    z-index:1;
+    right: 10px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.search-icon {
+    border:1px solid transparent;
+    background-color: transparent;
+    outline: 0;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    left: 25px;
+    position: absolute;
+}
+
+.searchBarEnhanced:not(:valid) ~ .close-icon {
+    display: none;
+}
+
+.searchBarEnhanced {
+    padding-left: 25px;    
+}
+
+#EnhancedSearchBar input[type="text"] {
+    width: 100%;
+}
+
+.search-icon {
+    font-family: FontAwesome;
+}

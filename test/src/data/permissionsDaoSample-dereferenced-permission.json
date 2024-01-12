@@ -1,0 +1,83 @@
+{
+  "_id": "70f1af6b-e0e5-47c0-bf53-64d0816117d3-1",
+  "version": 1,
+  "endDate": "2021-04-09T05:00:00.000Z",
+  "status": "AVAILABLE",
+  "createdAt": "2021-04-01T18:21:53.184Z",
+  "views": [
+    "brian.marvel_raw_cross"
+  ],
+  "updatedBy": "cl98561",
+  "group": "AWS-GIT-DWIS-ADMIN",
+  "createdBy": "cl98561",
+  "name": "Some New Permission",
+  "entitlements": [
+    {
+      "additionalTags": [
+        "test"
+      ],
+      "development": true,
+      "personalInformation": true,
+      "countriesRepresented": [
+        {
+          "id": "4f7f3827-9afc-4589-82e1-3993be6a5686",
+          "name": "AF",
+          "label": "Afghanistan"
+        }
+      ],
+      "id": "cf2b8ac9-1ae6-4257-b399-44a94149d3a0",
+      "community": {
+        "id": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+        "name": "Systems",
+        "label": null
+      },
+      "subCommunity": {
+        "id": "48112e16-9abf-48ed-ae79-ab43844a32ec",
+        "name": "Demo",
+        "label": null
+      },
+      "gicp": {
+        "id": "5f48ffda-9c01-4416-89e9-326d0a7bcd3c",
+        "name": "Confidential",
+        "label": null
+      },
+      "actions": null
+    }
+  ],
+  "businessCase": "test",
+  "roleType": "human",
+  "updatedAt": "2021-04-01T18:21:53.184Z",
+  "startDate": "2021-03-30T05:00:00.000Z",
+  "requestComments": "test",
+  "id": "70f1af6b-e0e5-47c0-bf53-64d0816117d3",
+  "approvals": [
+    {
+      "approvedBy": "cl98561",
+      "comment": null,
+      "approverEmail": "G90_COLLIBRA_APPROVER_SYSTEMS@JohnDeere.com",
+      "community": {
+        "id": "a521b7d4-642c-4524-9c46-e4fa5e836a17",
+        "name": "Systems",
+        "approver": "G90_COLLIBRA_APPROVER_SYSTEMS"
+      },
+      "status": "APPROVED",
+      "updatedAt": "2021-04-01T18:22:41.961Z"
+    },
+    {
+      "approvedBy": "cl98561",
+      "comment": null,
+      "approverEmail": "AWS-GIT-DWIS-ADMIN@JohnDeere.com",
+      "custodian": "AWS-GIT-DWIS-ADMIN",
+      "status": "APPROVED",
+      "updatedAt": "2021-04-01T18:22:41.961Z"
+    },
+    {
+      "approvedBy": "EDL",
+      "details": null,
+      "system": "EDL",
+      "status": "APPROVED",
+      "updatedAt": "2021-04-01T18:22:48.411Z",
+      "reason": null
+    }
+  ]
+}

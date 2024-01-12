@@ -1,0 +1,75 @@
+{
+  "id": "d14a28a4-0330-4c38-91eb-feb343ea09d2--9",
+  "name": "Marketing Pref Cust Groups",
+  "version": "1.0.0",
+  "description": "Marketing Pref Cust Groups",
+  "documentation": "",
+  "partitionedBy": [],
+  "testing": false,
+  "fields": [
+    {
+      "name": "region",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "grouping_nm",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "ent_id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "cmp_ent_id",
+      "attribute": "id",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "curr_lvl",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "prev_lvl",
+      "attribute": "None",
+      "datatype": "string",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "load_date",
+      "attribute": "None",
+      "datatype": "date",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "edl_ts",
+      "attribute": "extract time",
+      "datatype": "timestamp",
+      "description": "",
+      "nullable": false
+    },
+    {
+      "name": "del_ind",
+      "attribute": "delete indicator",
+      "datatype": "int",
+      "description": "",
+      "nullable": false
+    }
+  ],
+  "environmentName": "com.deere.enterprise.datalake.enhance.marketing_pref_cust_groups"
+}

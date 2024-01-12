@@ -1,0 +1,427 @@
+body {
+  max-width: 100%
+}
+
+.dropdown-item a {
+  text-decoration: none
+}
+
+.nav-item a {
+  outline: 0
+}
+
+.nav-link:focus, .nav-link:hover {
+  background-color: #f7f7f7
+}
+
+.nav.nav-pills {
+  background:
+	linear-gradient(white 30%, hsla(0,0%,100%, 0)),
+	linear-gradient(hsla(0,0%,100%,0) 10px, white 70%) bottom,
+	radial-gradient(at top, rgba(0,0,0,0.1), transparent 70%),
+	radial-gradient(at bottom, rgba(0,0,0,0.1), transparent 70%) bottom;
+  background-repeat:no-repeat;
+  background-size: 100% 20px, 100% 20px, 100% 10px, 100% 10px;
+  background-attachment:local, local, scroll, scroll;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+  background-image: none
+}
+
+.card-header-pills, .card-header-tabs {
+  margin: 0
+}
+
+.tab-content>.tab-pane {
+  height: auto;
+  overflow-y: hidden;
+}
+
+.dropdown-toggle.btn-success:focus {
+  box-shadow: none
+}
+
+.card {
+  border: 1px solid rgba(0,0,0,.125);
+  box-shadow: 0 0 0;
+  max-width: 100%;
+}
+
+.list-group-item {
+    background-color: #fff;
+    border-width: 1px;
+    border-color: #ccc;
+    border-right-style: none;
+    border-left-style: none;
+
+}
+
+.tooltip-invalid .tooltip-inner {
+  background-color: #c21020 ;
+  border-radius: 3px
+}
+
+.tooltip-invalid > .arrow:before {
+  border-top-color: #c21020 ;
+}
+
+/* .PENDING, .APPROVED, .REJECTED, .DELETED {
+  background: repeating-linear-gradient(
+    -55deg,
+    #fff,
+    #fff 12px,
+    #f6f6f6 12px,
+    #f6f6f6 15px
+  );
+}
+
+.PENDING-static, .APPROVED-static, .REJECTED-static, .DELETED-static {
+  background: repeating-linear-gradient(
+    -55deg,
+    #fff,
+    #fff 12px,
+    #f6f6f6 12px,
+    #f6f6f6 15px
+  );
+}
+
+.PENDING:hover, .APPROVED:hover, .REJECTED:hover, .DELETED:hover {
+  background: repeating-linear-gradient(
+    -55deg,
+    #ebf2eb,
+    #ebf2eb 12px,
+    #f2f2f2 12px,
+    #f2f2f2 15px
+  );
+} */
+
+.list-group-item:hover {
+    background-color: #f6f6f6;
+    cursor: pointer;
+    border-color: #ccc
+}
+
+.dropdown-toggle:after {
+  display: none !important
+}
+
+.accordion .accordion-header {
+  cursor: pointer;
+}
+
+.accordion-header.invalid {
+  border: 1px solid #c21020;
+  z-index: 9
+}
+
+
+.accordion .accordion-header:hover {
+  background-color: #f0f0f0 !important;
+}
+
+.accordion-header.is-new {
+  background-color: #eaf7e8 !important;
+}
+.accordion-header.is-new:hover {
+  background-color: #e2efe0 !important;
+}
+
+.accordion-header.is-removed {
+  background-color: #fee !important;
+}
+.accordion-header.is-removed:hover {
+  background-color: #f6e5e5 !important;
+}
+
+.accordion-header.is-modified {
+  background-color: #fff7e6 !important;
+}
+.accordion-header.is-modified:hover {
+  background-color: #f9f5ec !important;
+}
+
+a.is-new {
+  background-color: #eaf7e8 !important;
+}
+
+a.is-new:hover {
+  background-color: #e2efe0 !important;
+}
+
+a.is-removed {
+  background-color: #fee !important;
+}
+
+a.is-removed:hover {
+  background-color: #f6e5e5 !important;
+}
+
+a.is-modified {
+  background-color: #fff7e6 !important;
+}
+
+a.is-modified:hover {
+  background-color: #f9f5ec !important;
+}
+
+a.is-new.active, a.is-removed.active, a.is-modified.active {
+  background-color: #367c2b !important;
+  color: #fff !important
+}
+
+.uxf-date-picker-input:disabled {
+  background-color: #eee !important
+}
+
+.uxf-date-picker-input.invalid-datepicker:focus {
+  box-shadow: 0 0 0 .1875rem rgba(194,16,32,.25);
+}
+
+.table-responsive {
+  overflow-x: visible
+}
+
+/**
+Spreadsheet
+*/
+
+.SpreadsheetGridDropdown .SpreadsheetGridDropdown__body {
+  max-height: 10000px;
+}
+
+.SpreadsheetGrid {
+  z-index: 1024
+}
+
+input {
+  font-family: initial;
+}
+
+.SpreadsheetGrid__header .SpreadsheetGrid__headCell {
+  font-size: 13px;
+  width: 16.66%
+}
+
+.SpreadsheetGrid__cell.is-invalid  {
+  border: 1px solid #c21020 !important
+}
+
+.SpreadsheetGrid__cell.SpreadsheetGrid__cell_active {
+  box-shadow: inset 0 0 0 .1275rem rgba(50,127,36,.25);
+}
+
+.SpreadsheetGrid__cell.SpreadsheetGrid__cell_active.is-invalid {
+  box-shadow: inset 0 0 0 .1275rem rgba(194,16,32,.25) !important;
+}
+
+.SpreadsheetGridSelectHeader.SpreadsheetGridSelectHeader_open:after {
+  border-top-color: #367c2b
+}
+
+.SpreadsheetGridSelectItem.SpreadsheetGridSelectItem_selected {
+  background-color: rgba(50,127,36,.25);
+  color: black
+}
+
+.SpreadsheetGrid__header .SpreadsheetGrid__headCell {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  color: #5a5a5a;
+  border-top: 1px solid #ddd;
+  white-space: normal;
+}
+
+.SpreadsheetGrid .SpreadsheetGrid__row {
+  border-bottom: 1px solid #ddd
+}
+
+.SpreadsheetGrid .SpreadsheetGrid__cell:first-child {
+  border-left: 1px solid #ddd
+}
+
+.SpreadsheetGrid .SpreadsheetGrid__cell {
+  border-right: 1px solid #ddd;
+  width: 16.66%
+}
+
+/**
+Markdown formatting
+*/
+.markdown {
+  font-size: 11pt;
+}
+.markdown blockquote, .markdown blockquote p {
+  font-style: italic;
+  color: #666;
+  background-color: #f1f1f1;
+  display: inline;
+}
+.markdown blockquote:before {
+  content: "\" ";
+  font-size: 15pt;
+  font-weight: bold;
+  font-style: normal
+}
+.markdown blockquote:after {
+  content: " \"";
+  font-size: 15pt;
+  font-weight: bold;
+  font-style: normal
+}
+.markdown h1 {
+  font-size: 16pt
+}
+.markdown h2 {
+  font-size: 14pt
+}
+.markdown h3 {
+  font-size: 12pt
+}
+.markdown h4 {
+  font-size: 10pt
+}
+.markdown h5, h6 {
+  font-size: 8pt
+}
+.markdown th {
+  background-color: #f1f1f1;
+}
+.markdown p {
+  margin-bottom: 20px
+}
+.markdown th, .markdown td {
+  border: 1px solid #bbb;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.markdown table {
+  margin-bottom: 20px
+}
+
+.markdown img {
+  max-width: 500px;
+  width: 100%;
+}
+
+/**
+* ----------------------------------------------
+* Accordion
+* ----------------------------------------------
+**/
+
+.accordion {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    /* box-shadow: 0 1px 8px rgba(0,0,0,.175); */
+}
+
+.accordion__item + .accordion__item {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion__button {
+    background-color: #f7f7f7;
+    color: #666;
+    cursor: pointer;
+    padding: 12px;
+    padding-left: 20px;
+    width: 100%;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+}
+
+/* .accordion__button:hover {
+    background-color: #ececec;
+} */
+
+.accordion__button:focus {outline:0;}
+
+.accordion__button:before {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+}
+
+.accordion__panel {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.detail-summary {
+  max-height: 400px;
+  padding-top: 24px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: initial;
+  transition-property: max-height;
+  position: relative;
+}
+
+button:focus {
+  outline: 0px auto -webkit-focus-ring-color;
+}
+
+.detail-summary:after {
+  content: "";
+  position: absolute;
+  top: 80px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255));
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+
+.vis-network:focus {
+  outline: none
+}
+
+.modal-xl-90ht .modal-content {
+  max-height: none;
+  height: 100%;
+}
+
+.modal-xl-90ht .modal-dialog {
+  height: 90%;
+}
+
+.permission-modal-xl-100ht .modal-dialog {
+  height: 90%;
+}
+
+.permission-modal-xl-100ht .modal-content {
+  max-height: none;
+  height: 100%;
+}
+
+.modal-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.group-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.enhanced-schema-list {
+  padding: 0px 40px 40px 40px
+}
